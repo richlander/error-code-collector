@@ -1,0 +1,32 @@
+{
+  "prefix": "CTXOPTGEN",
+  "repo": "extensions",
+  "description": "Contextual options generator diagnostics",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "CTXOPTGEN000",
+      "category": "Analyzer",
+      "name": "CTXOPTGEN000",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN000"
+    },
+    {
+      "id": "CTXOPTGEN001",
+      "category": "Analyzer",
+      "name": "CTXOPTGEN001",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN001"
+    },
+    {
+      "id": "CTXOPTGEN002",
+      "category": "Analyzer",
+      "name": "CTXOPTGEN002",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN002"
+    },
+    {
+      "id": "CTXOPTGEN003",
+      "category": "Analyzer",
+      "name": "CTXOPTGEN003",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN003"
+    }
+  ]
+}

@@ -1,0 +1,1214 @@
+{
+  "prefix": "NETSDK",
+  "repo": "sdk",
+  "description": "SDK build and restore errors",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "NETSDK1001",
+      "category": "Build",
+      "message": "At least one possible target framework must be specified.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1001"
+    },
+    {
+      "id": "NETSDK1002",
+      "category": "Build",
+      "message": "Project \u0027{0}\u0027 targets \u0027{2}\u0027. It cannot be referenced by a project that targets \u0027{1}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1002"
+    },
+    {
+      "id": "NETSDK1003",
+      "category": "Build",
+      "message": "Invalid framework name: \u0027{0}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1003"
+    },
+    {
+      "id": "NETSDK1004",
+      "category": "Build",
+      "message": "Assets file \u0027{0}\u0027 not found. Run a NuGet package restore to generate this file.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1004"
+    },
+    {
+      "id": "NETSDK1005",
+      "category": "Build",
+      "message": "Assets file \u0027{0}\u0027 doesn\u0027t have a target for \u0027{1}\u0027. Ensure that restore has run and that you have included \u0027{2}\u0027 in the TargetFrameworks for your project.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1005"
+    },
+    {
+      "id": "NETSDK1006",
+      "category": "Build",
+      "message": "Assets file path \u0027{0}\u0027 is not rooted. Only full paths are supported.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1006"
+    },
+    {
+      "id": "NETSDK1007",
+      "category": "Build",
+      "message": "Cannot find project info for \u0027{0}\u0027. This can indicate a missing project reference.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1007"
+    },
+    {
+      "id": "NETSDK1008",
+      "category": "Build",
+      "message": "Missing \u0027{0}\u0027 metadata on \u0027{1}\u0027 item \u0027{2}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1008"
+    },
+    {
+      "id": "NETSDK1009",
+      "category": "Build",
+      "message": "Unrecognized preprocessor token \u0027{0}\u0027 in \u0027{1}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1009"
+    },
+    {
+      "id": "NETSDK1010",
+      "category": "Build",
+      "message": "The \u0027{0}\u0027 task must be given a value for parameter \u0027{1}\u0027 in order to consume preprocessed content.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1010"
+    },
+    {
+      "id": "NETSDK1011",
+      "category": "Build",
+      "message": "Assets are consumed from project \u0027{0}\u0027, but no corresponding MSBuild project path was  found in \u0027{1}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1011"
+    },
+    {
+      "id": "NETSDK1012",
+      "category": "Build",
+      "message": "Unexpected file type for \u0027{0}\u0027. Type is both \u0027{1}\u0027 and \u0027{2}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1012"
+    },
+    {
+      "id": "NETSDK1013",
+      "category": "Build",
+      "message": "The TargetFramework value \u0027{0}\u0027 was not recognized. It may be misspelled. If not, then the TargetFrameworkIdentifier and/or TargetFrameworkVersion properties must be specified explicitly.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1013"
+    },
+    {
+      "id": "NETSDK1014",
+      "category": "Build",
+      "message": "Content item for \u0027{0}\u0027 sets \u0027{1}\u0027, but does not provide  \u0027{2}\u0027 or \u0027{3}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1014"
+    },
+    {
+      "id": "NETSDK1015",
+      "category": "Build",
+      "message": "The preprocessor token \u0027{0}\u0027 has been given more than one value. Choosing \u0027{1}\u0027 as the value.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1015"
+    },
+    {
+      "id": "NETSDK1016",
+      "category": "Build",
+      "message": "Unable to find resolved path for \u0027{0}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1016"
+    },
+    {
+      "id": "NETSDK1017",
+      "category": "Build",
+      "message": "Asset preprocessor must be configured before assets are processed.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1017"
+    },
+    {
+      "id": "NETSDK1018",
+      "category": "Build",
+      "message": "Invalid NuGet version string: \u0027{0}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1018"
+    },
+    {
+      "id": "NETSDK1019",
+      "category": "Build",
+      "message": "{0} is an unsupported framework.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1019"
+    },
+    {
+      "id": "NETSDK1020",
+      "category": "Build",
+      "message": "Package Root {0} was incorrectly given for Resolved library {1}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1020"
+    },
+    {
+      "id": "NETSDK1021",
+      "category": "Build",
+      "message": "More than one file found for {0}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1021"
+    },
+    {
+      "id": "NETSDK1022",
+      "category": "Build",
+      "message": "Duplicate \u0027{0}\u0027 items were included. The .NET SDK includes \u0027{0}\u0027 items from your project directory by default. You can either remove these items from your project file, or set the \u0027{1}\u0027 property to \u0027{2}\u0027 if you want to explicitly include them in your project file. For more information, see {4}. The duplicate items were: {3}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1022"
+    },
+    {
+      "id": "NETSDK1023",
+      "category": "Build",
+      "message": "A PackageReference for \u0027{0}\u0027 was included in your project. This package is implicitly referenced by the .NET SDK and you do not typically need to reference it from your project. For more information, see {1}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1023"
+    },
+    {
+      "id": "NETSDK1024",
+      "category": "Build",
+      "message": "Folder \u0027{0}\u0027 already exists either delete it or provide a different ComposeWorkingDir",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1024"
+    },
+    {
+      "id": "NETSDK1025",
+      "category": "Build",
+      "message": "The target manifest {0} provided is of not the correct format",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1025"
+    },
+    {
+      "id": "NETSDK1028",
+      "category": "Build",
+      "message": "Specify a RuntimeIdentifier",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1028"
+    },
+    {
+      "id": "NETSDK1029",
+      "category": "Build",
+      "message": "Unable to use \u0027{0}\u0027 as application host executable as it does not contain the expected placeholder byte sequence \u0027{1}\u0027 that would mark where the application name would be written.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1029"
+    },
+    {
+      "id": "NETSDK1030",
+      "category": "Build",
+      "message": "Given file name \u0027{0}\u0027 is longer than 1024 bytes",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1030"
+    },
+    {
+      "id": "NETSDK1031",
+      "category": "Build",
+      "message": "It is not supported to build or publish a self-contained application without specifying a RuntimeIdentifier. You must either specify a RuntimeIdentifier or set SelfContained to false.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1031"
+    },
+    {
+      "id": "NETSDK1032",
+      "category": "Build",
+      "message": "The RuntimeIdentifier platform \u0027{0}\u0027 and the PlatformTarget \u0027{1}\u0027 must be compatible.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1032"
+    },
+    {
+      "id": "NETSDK1042",
+      "category": "Build",
+      "message": "Could not load PlatformManifest from \u0027{0}\u0027 because it did not exist.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1042"
+    },
+    {
+      "id": "NETSDK1043",
+      "category": "Build",
+      "message": "Error parsing PlatformManifest from \u0027{0}\u0027 line {1}.  Lines must have the format {2}.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1043"
+    },
+    {
+      "id": "NETSDK1044",
+      "category": "Build",
+      "message": "Error parsing PlatformManifest from \u0027{0}\u0027 line {1}.  {2} \u0027{3}\u0027 was invalid.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1044"
+    },
+    {
+      "id": "NETSDK1045",
+      "category": "Build",
+      "message": "The current .NET SDK does not support targeting {0} {1}.  Either target {0} {2} or lower, or use a version of the .NET SDK that supports {0} {1}. Download the .NET SDK from https://aka.ms/dotnet/download",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1045"
+    },
+    {
+      "id": "NETSDK1046",
+      "category": "Build",
+      "message": "The TargetFramework value \u0027{0}\u0027 is not valid. To multi-target, use the \u0027TargetFrameworks\u0027 property instead.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1046"
+    },
+    {
+      "id": "NETSDK1047",
+      "category": "Build",
+      "message": "Assets file \u0027{0}\u0027 doesn\u0027t have a target for \u0027{1}\u0027. Ensure that restore has run and that you have included \u0027{2}\u0027 in the TargetFrameworks for your project. You may also need to include \u0027{3}\u0027 in your project\u0027s RuntimeIdentifiers.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1047"
+    },
+    {
+      "id": "NETSDK1048",
+      "category": "Build",
+      "message": "\u0027AdditionalProbingPaths\u0027 were specified for GenerateRuntimeConfigurationFiles, but are being skipped because \u0027RuntimeConfigDevPath\u0027 is empty.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1048"
+    },
+    {
+      "id": "NETSDK1049",
+      "category": "Build",
+      "message": "Resolved file has a bad image, no metadata, or is otherwise inaccessible. {0} {1}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1049"
+    },
+    {
+      "id": "NETSDK1050",
+      "category": "Build",
+      "message": "The version of Microsoft.NET.Sdk used by this project is insufficient to support references to libraries targeting .NET Standard 1.5 or higher.  Please install version 2.0 or higher of the .NET Core SDK.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1050"
+    },
+    {
+      "id": "NETSDK1051",
+      "category": "Build",
+      "message": "Error parsing FrameworkList from \u0027{0}\u0027.  {1} \u0027{2}\u0027 was invalid.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1051"
+    },
+    {
+      "id": "NETSDK1052",
+      "category": "Build",
+      "message": "Framework list file path \u0027{0}\u0027 is not rooted. Only full paths are supported.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1052"
+    },
+    {
+      "id": "NETSDK1053",
+      "category": "Build",
+      "message": "Pack as tool does not support self contained.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1053"
+    },
+    {
+      "id": "NETSDK1054",
+      "category": "Build",
+      "message": "only supports .NET Core.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1054"
+    },
+    {
+      "id": "NETSDK1055",
+      "category": "Build",
+      "message": "DotnetTool does not support target framework lower than netcoreapp2.1.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1055"
+    },
+    {
+      "id": "NETSDK1056",
+      "category": "Build",
+      "message": "Project is targeting runtime \u0027{0}\u0027 but did not resolve any runtime-specific packages. This runtime may not be supported by the target framework.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1056"
+    },
+    {
+      "id": "NETSDK1057",
+      "category": "Build",
+      "message": "You are using a preview version of .NET. See: https://aka.ms/dotnet-support-policy",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1057"
+    },
+    {
+      "id": "NETSDK1058",
+      "category": "Build",
+      "message": "Invalid value for ItemSpecToUse parameter: \u0027{0}\u0027.  This property must be blank or set to \u0027Left\u0027 or \u0027Right\u0027",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1058"
+    },
+    {
+      "id": "NETSDK1059",
+      "category": "Build",
+      "message": "The tool \u0027{0}\u0027 is now included in the .NET SDK. Information on resolving this warning is available at (https://aka.ms/dotnetclitools-in-box).",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1059"
+    },
+    {
+      "id": "NETSDK1060",
+      "category": "Build",
+      "message": "Error reading assets file: {0}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1060"
+    },
+    {
+      "id": "NETSDK1061",
+      "category": "Build",
+      "message": "The project was restored using {0} version {1}, but with current settings, version {2} would be used instead. To resolve this issue, make sure the same settings are used for restore and for subsequent operations such as build or publish. Typically this issue can occur if the RuntimeIdentifier property is set during build or publish but not during restore. For more information, see https://aka.ms/dotnet-runtime-patch-selection.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1061"
+    },
+    {
+      "id": "NETSDK1063",
+      "category": "Build",
+      "message": "The path to the project assets file was not set. Run a NuGet package restore to generate this file.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1063"
+    },
+    {
+      "id": "NETSDK1064",
+      "category": "Build",
+      "message": "Package {0}, version {1} was not found. It might have been deleted since NuGet restore. Otherwise, NuGet restore might have only partially completed, which might have been due to maximum path length restrictions.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1064"
+    },
+    {
+      "id": "NETSDK1065",
+      "category": "Build",
+      "message": "Cannot find app host for {0}. {0} could be an invalid runtime identifier (RID). For more information about RID, see https://aka.ms/rid-catalog.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1065"
+    },
+    {
+      "id": "NETSDK1067",
+      "category": "Build",
+      "message": "Self-contained applications are required to use the application host. Either set SelfContained to false or set UseAppHost to true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1067"
+    },
+    {
+      "id": "NETSDK1068",
+      "category": "Build",
+      "message": "The framework-dependent application host requires a target framework of at least \u0027netcoreapp2.1\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1068"
+    },
+    {
+      "id": "NETSDK1069",
+      "category": "Build",
+      "message": "This project uses a library that targets .NET Standard 1.5 or higher, and the project targets a version of .NET Framework that doesn\u0027t have built-in support for that version of .NET Standard. Visit https://aka.ms/net-standard-known-issues for a set of known issues. Consider retargeting to .NET Framework 4.7.2.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1069"
+    },
+    {
+      "id": "NETSDK1070",
+      "category": "Build",
+      "message": "The application configuration file must have root configuration element.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1070"
+    },
+    {
+      "id": "NETSDK1071",
+      "category": "Build",
+      "message": "A PackageReference to \u0027{0}\u0027 specified a Version of \u0060{1}\u0060. Specifying the version of this package is not recommended. For more information, see https://aka.ms/sdkimplicitrefs",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1071"
+    },
+    {
+      "id": "NETSDK1072",
+      "category": "Build",
+      "message": "Unable to use \u0027{0}\u0027 as application host executable because it\u0027s not a Windows executable for the CUI (Console) subsystem.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1072"
+    },
+    {
+      "id": "NETSDK1073",
+      "category": "Build",
+      "message": "The FrameworkReference \u0027{0}\u0027 was not recognized",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1073"
+    },
+    {
+      "id": "NETSDK1074",
+      "category": "Build",
+      "message": "The application host executable will not be customized because adding resources requires that the build be performed on Windows (excluding Nano Server).",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1074"
+    },
+    {
+      "id": "NETSDK1075",
+      "category": "Build",
+      "message": "Update handle is invalid. This instance may not be used for further updates.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1075"
+    },
+    {
+      "id": "NETSDK1076",
+      "category": "Build",
+      "message": "AddResource can only be used with integer resource types.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1076"
+    },
+    {
+      "id": "NETSDK1077",
+      "category": "Build",
+      "message": "Failed to lock resource.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1077"
+    },
+    {
+      "id": "NETSDK1078",
+      "category": "Build",
+      "message": "Unable to use \u0027{0}\u0027 as application host executable because it\u0027s not a Windows PE file.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1078"
+    },
+    {
+      "id": "NETSDK1079",
+      "category": "Build",
+      "message": "The Microsoft.AspNetCore.All package is not supported when targeting .NET Core 3.0 or higher.  A FrameworkReference to Microsoft.AspNetCore.App should be used instead, and will be implicitly included by Microsoft.NET.Sdk.Web.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1079"
+    },
+    {
+      "id": "NETSDK1080",
+      "category": "Build",
+      "message": "A PackageReference to Microsoft.AspNetCore.App is not necessary when targeting .NET Core 3.0 or higher. If Microsoft.NET.Sdk.Web is used, the shared framework will be referenced automatically. Otherwise, the PackageReference should be replaced with a FrameworkReference.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1080"
+    },
+    {
+      "id": "NETSDK1081",
+      "category": "Build",
+      "message": "The targeting pack for {0} was not found. You may be able to resolve this by running a NuGet restore on the project.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1081"
+    },
+    {
+      "id": "NETSDK1082",
+      "category": "Build",
+      "message": "There was no runtime pack for {0} available for the specified RuntimeIdentifier \u0027{1}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1082"
+    },
+    {
+      "id": "NETSDK1083",
+      "category": "Build",
+      "message": "The specified RuntimeIdentifier \u0027{0}\u0027 is not recognized. See https://aka.ms/netsdk1083 for more information.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1083"
+    },
+    {
+      "id": "NETSDK1084",
+      "category": "Build",
+      "message": "There is no application host available for the specified RuntimeIdentifier \u0027{0}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1084"
+    },
+    {
+      "id": "NETSDK1085",
+      "category": "Build",
+      "message": "The \u0027NoBuild\u0027 property was set to true but the \u0027Build\u0027 target was invoked.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1085"
+    },
+    {
+      "id": "NETSDK1086",
+      "category": "Build",
+      "message": "A FrameworkReference for \u0027{0}\u0027 was included in the project. This is implicitly referenced by the .NET SDK and you do not typically need to reference it from your project. For more information, see {1}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1086"
+    },
+    {
+      "id": "NETSDK1087",
+      "category": "Build",
+      "message": "Multiple FrameworkReference items for \u0027{0}\u0027 were included in the project.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1087"
+    },
+    {
+      "id": "NETSDK1088",
+      "category": "Build",
+      "message": "The COMVisible class \u0027{0}\u0027 must have a GuidAttribute with the CLSID of the class to be made visible to COM in .NET Core.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1088"
+    },
+    {
+      "id": "NETSDK1089",
+      "category": "Build",
+      "message": "The \u0027{0}\u0027 and \u0027{1}\u0027 types have the same CLSID \u0027{2}\u0027 set in their GuidAttribute. Each COMVisible class needs to have a distinct guid for their CLSID.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1089"
+    },
+    {
+      "id": "NETSDK1090",
+      "category": "Build",
+      "message": "The supplied assembly \u0027{0}\u0027 is not valid. Cannot generate a CLSIDMap from it.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1090"
+    },
+    {
+      "id": "NETSDK1091",
+      "category": "Build",
+      "message": "Unable to find a .NET Core COM host. The .NET Core COM host is only available on .NET Core 3.0 or higher when targeting Windows.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1091"
+    },
+    {
+      "id": "NETSDK1093",
+      "category": "Build",
+      "message": "Project tools (DotnetCliTool) only support targeting .NET Core 2.2 and lower.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1093"
+    },
+    {
+      "id": "NETSDK1094",
+      "category": "Build",
+      "message": "Unable to optimize assemblies for performance: a valid runtime package was not found. Either set the PublishReadyToRun property to false, or use a supported runtime identifier when publishing. When targeting .NET 6 or higher, make sure to restore packages with the PublishReadyToRun property set to true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1094"
+    },
+    {
+      "id": "NETSDK1095",
+      "category": "Build",
+      "message": "Optimizing assemblies for performance is not supported for the selected target platform or architecture. Please verify you are using a supported runtime identifier, or set the PublishReadyToRun property to false.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1095"
+    },
+    {
+      "id": "NETSDK1096",
+      "category": "Build",
+      "message": "Optimizing assemblies for performance failed. You can either exclude the failing assemblies from being optimized, or set the PublishReadyToRun property to false.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1096"
+    },
+    {
+      "id": "NETSDK1097",
+      "category": "Build",
+      "message": "It is not supported to publish an application to a single-file without specifying a RuntimeIdentifier. You must either specify a RuntimeIdentifier or set PublishSingleFile to false.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1097"
+    },
+    {
+      "id": "NETSDK1098",
+      "category": "Build",
+      "message": "Applications published to a single-file are required to use the application host. You must either set PublishSingleFile to false or set UseAppHost to true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1098"
+    },
+    {
+      "id": "NETSDK1099",
+      "category": "Build",
+      "message": "Publishing to a single-file is only supported for executable applications.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1099"
+    },
+    {
+      "id": "NETSDK1100",
+      "category": "Build",
+      "message": "To build a project targeting Windows on this operating system, set the EnableWindowsTargeting property to true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1100"
+    },
+    {
+      "id": "NETSDK1102",
+      "category": "Build",
+      "message": "Optimizing assemblies for size is not supported for the selected publish configuration. Please ensure that you are publishing a self-contained app.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1102"
+    },
+    {
+      "id": "NETSDK1103",
+      "category": "Build",
+      "message": "RollForward setting is only supported on .NET Core 3.0 or higher.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1103"
+    },
+    {
+      "id": "NETSDK1104",
+      "category": "Build",
+      "message": "RollForward value \u0027{0}\u0027 is invalid. Allowed values are {1}.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1104"
+    },
+    {
+      "id": "NETSDK1105",
+      "category": "Build",
+      "message": "Windows desktop applications are only supported on .NET Core 3.0 or higher.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1105"
+    },
+    {
+      "id": "NETSDK1106",
+      "category": "Build",
+      "message": "Microsoft.NET.Sdk.WindowsDesktop requires \u0027UseWpf\u0027 or \u0027UseWindowsForms\u0027 to be set to \u0027true\u0027",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1106"
+    },
+    {
+      "id": "NETSDK1107",
+      "category": "Build",
+      "message": "Microsoft.NET.Sdk.WindowsDesktop is required to build Windows desktop applications. \u0027UseWpf\u0027 and \u0027UseWindowsForms\u0027 are not supported by the current SDK.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1107"
+    },
+    {
+      "id": "NETSDK1109",
+      "category": "Build",
+      "message": "Runtime list file \u0027{0}\u0027 was not found. Report this error to the .NET team here: https://aka.ms/dotnet-sdk-issue.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1109"
+    },
+    {
+      "id": "NETSDK1110",
+      "category": "Build",
+      "message": "More than one asset in the runtime pack has the same destination sub-path of \u0027{0}\u0027. Report this error to the .NET team here: https://aka.ms/dotnet-sdk-issue.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1110"
+    },
+    {
+      "id": "NETSDK1111",
+      "category": "Build",
+      "message": "Failed to delete output apphost: {0}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1111"
+    },
+    {
+      "id": "NETSDK1112",
+      "category": "Build",
+      "message": "The runtime pack for {0} was not downloaded. Try running a NuGet restore with the RuntimeIdentifier \u0027{1}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1112"
+    },
+    {
+      "id": "NETSDK1113",
+      "category": "Build",
+      "message": "Failed to create apphost (attempt {0} out of {1}): {2}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1113"
+    },
+    {
+      "id": "NETSDK1114",
+      "category": "Build",
+      "message": "Unable to find a .NET Core IJW host. The .NET Core IJW host is only available on .NET Core 3.1 or higher when targeting Windows.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1114"
+    },
+    {
+      "id": "NETSDK1115",
+      "category": "Build",
+      "message": "The current .NET SDK does not support .NET Framework without using .NET SDK Defaults. It is likely due to a mismatch between C\u002B\u002B/CLI project CLRSupport property and TargetFramework.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1115"
+    },
+    {
+      "id": "NETSDK1116",
+      "category": "Build",
+      "message": "C\u002B\u002B/CLI projects targeting .NET Core must be dynamic libraries.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1116"
+    },
+    {
+      "id": "NETSDK1117",
+      "category": "Build",
+      "message": "Does not support publish of C\u002B\u002B/CLI project targeting dotnet core.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1117"
+    },
+    {
+      "id": "NETSDK1118",
+      "category": "Build",
+      "message": "C\u002B\u002B/CLI projects targeting .NET Core cannot be packed.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1118"
+    },
+    {
+      "id": "NETSDK1119",
+      "category": "Build",
+      "message": "C\u002B\u002B/CLI projects targeting .NET Core cannot use EnableComHosting=true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1119"
+    },
+    {
+      "id": "NETSDK1120",
+      "category": "Build",
+      "message": "C\u002B\u002B/CLI projects targeting .NET Core require a target framework of at least \u0027netcoreapp3.1\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1120"
+    },
+    {
+      "id": "NETSDK1121",
+      "category": "Build",
+      "message": "C\u002B\u002B/CLI projects targeting .NET Core cannot use SelfContained=true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1121"
+    },
+    {
+      "id": "NETSDK1122",
+      "category": "Build",
+      "message": "ReadyToRun compilation will be skipped because it is only supported for .NET Core 3.0 or higher.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1122"
+    },
+    {
+      "id": "NETSDK1123",
+      "category": "Build",
+      "message": "Publishing an application to a single-file requires .NET Core 3.0 or higher.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1123"
+    },
+    {
+      "id": "NETSDK1124",
+      "category": "Build",
+      "message": "Trimming assemblies requires .NET Core 3.0 or higher.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1124"
+    },
+    {
+      "id": "NETSDK1125",
+      "category": "Build",
+      "message": "Publishing to a single-file is only supported for netcoreapp target.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1125"
+    },
+    {
+      "id": "NETSDK1126",
+      "category": "Build",
+      "message": "Publishing ReadyToRun using Crossgen2 is only supported for self-contained applications.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1126"
+    },
+    {
+      "id": "NETSDK1127",
+      "category": "Build",
+      "message": "The targeting pack {0} is not installed. Please restore and try again.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1127"
+    },
+    {
+      "id": "NETSDK1128",
+      "category": "Build",
+      "message": "COM hosting does not support self-contained deployments.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1128"
+    },
+    {
+      "id": "NETSDK1129",
+      "category": "Build",
+      "message": "The \u0027Publish\u0027 target is not supported without specifying a target framework. The current project targets multiple frameworks, you must specify one of the following frameworks in order to publish: {0}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1129"
+    },
+    {
+      "id": "NETSDK1130",
+      "category": "Build",
+      "message": "{1} cannot be referenced. Referencing a Windows Metadata component directly when targeting .NET 5 or higher is not supported. For more information, see https://aka.ms/netsdk1130",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1130"
+    },
+    {
+      "id": "NETSDK1131",
+      "category": "Build",
+      "message": "Producing a managed Windows Metadata component with WinMDExp is not supported when targeting {0}.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1131"
+    },
+    {
+      "id": "NETSDK1132",
+      "category": "Build",
+      "message": "No runtime pack information was available for {0}.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1132"
+    },
+    {
+      "id": "NETSDK1134",
+      "category": "Build",
+      "message": "Building a solution with a specific RuntimeIdentifier is not supported. If you would like to publish for a single RID, specify the RID at the individual project level instead.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1134"
+    },
+    {
+      "id": "NETSDK1135",
+      "category": "Build",
+      "message": "SupportedOSPlatformVersion {0} cannot be higher than TargetPlatformVersion {1}.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1135"
+    },
+    {
+      "id": "NETSDK1136",
+      "category": "Build",
+      "message": "The target platform must be set to Windows (usually by including \u0027-windows\u0027 in the TargetFramework property) when using Windows Forms or WPF, or referencing projects or packages that do so.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1136"
+    },
+    {
+      "id": "NETSDK1137",
+      "category": "Build",
+      "message": "It is no longer necessary to use the Microsoft.NET.Sdk.WindowsDesktop SDK. Consider changing the Sdk attribute of the root Project element to \u0027Microsoft.NET.Sdk\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1137"
+    },
+    {
+      "id": "NETSDK1138",
+      "category": "Build",
+      "message": "The target framework \u0027{0}\u0027 is out of support and will not receive security updates in the future. Please refer to {1} for more information about the support policy.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1138"
+    },
+    {
+      "id": "NETSDK1139",
+      "category": "Build",
+      "message": "The target platform identifier {0} was not recognized.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1139"
+    },
+    {
+      "id": "NETSDK1141",
+      "category": "Build",
+      "message": "Unable to resolve the .NET SDK version as specified in the global.json located at {0}.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1141"
+    },
+    {
+      "id": "NETSDK1142",
+      "category": "Build",
+      "message": "Including symbols in a single file bundle is not supported when publishing for .NET5 or higher.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1142"
+    },
+    {
+      "id": "NETSDK1143",
+      "category": "Build",
+      "message": "Including all content in a single file bundle also includes native libraries. If IncludeAllContentForSelfExtract is true, IncludeNativeLibrariesForSelfExtract must not be false.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1143"
+    },
+    {
+      "id": "NETSDK1144",
+      "category": "Build",
+      "message": "Optimizing assemblies for size failed.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1144"
+    },
+    {
+      "id": "NETSDK1145",
+      "category": "Build",
+      "message": "The {0} pack is not installed and NuGet package restore is not supported. Upgrade Visual Studio, remove global.json if it specifies a certain SDK version, and uninstall the newer SDK. For more options visit   https://aka.ms/targeting-apphost-pack-missing  Pack Type:{0}, Pack directory: {1}, targetframework: {2}, Pack PackageId: {3}, Pack Package Version: {4}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1145"
+    },
+    {
+      "id": "NETSDK1146",
+      "category": "Build",
+      "message": "PackAsTool does not support TargetPlatformIdentifier being set. For example, TargetFramework cannot be net5.0-windows, only net5.0. PackAsTool also does not support UseWPF or UseWindowsForms when targeting .NET 5 and higher.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1146"
+    },
+    {
+      "id": "NETSDK1148",
+      "category": "Build",
+      "message": "A referenced assembly was compiled using a newer version of Microsoft.Windows.SDK.NET.dll. Please update to a newer .NET SDK in order to reference this assembly.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1148"
+    },
+    {
+      "id": "NETSDK1149",
+      "category": "Build",
+      "message": "{0} cannot be referenced because it uses built-in support for WinRT, which is no longer supported in .NET 5 and higher.  An updated version of the component supporting .NET 5 is needed. For more information, see https://aka.ms/netsdk1149",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1149"
+    },
+    {
+      "id": "NETSDK1150",
+      "category": "Build",
+      "message": "The referenced project \u0027{0}\u0027 is a non self-contained executable.  A non self-contained executable cannot be referenced by a self-contained executable.  For more information, see https://aka.ms/netsdk1150",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1150"
+    },
+    {
+      "id": "NETSDK1151",
+      "category": "Build",
+      "message": "The referenced project \u0027{0}\u0027 is a self-contained executable.  A self-contained executable cannot be referenced by a non self-contained executable.  For more information, see https://aka.ms/netsdk1151",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1151"
+    },
+    {
+      "id": "NETSDK1152",
+      "category": "Build",
+      "message": "Found multiple publish output files with the same relative path: {0}.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1152"
+    },
+    {
+      "id": "NETSDK1153",
+      "category": "Build",
+      "message": "CrossgenTool not specified in PDB compilation mode.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1153"
+    },
+    {
+      "id": "NETSDK1154",
+      "category": "Build",
+      "message": "Crossgen2Tool must be specified when UseCrossgen2 is set to true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1154"
+    },
+    {
+      "id": "NETSDK1155",
+      "category": "Build",
+      "message": "Crossgen2Tool executable \u0027{0}\u0027 not found.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1155"
+    },
+    {
+      "id": "NETSDK1156",
+      "category": "Build",
+      "message": ".NET host executable \u0027{0}\u0027 not found.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1156"
+    },
+    {
+      "id": "NETSDK1157",
+      "category": "Build",
+      "message": "JIT library \u0027{0}\u0027 not found.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1157"
+    },
+    {
+      "id": "NETSDK1158",
+      "category": "Build",
+      "message": "Required \u0027{0}\u0027 metadata missing on Crossgen2Tool item.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1158"
+    },
+    {
+      "id": "NETSDK1159",
+      "category": "Build",
+      "message": "CrossgenTool must be specified when UseCrossgen2 is set to false.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1159"
+    },
+    {
+      "id": "NETSDK1160",
+      "category": "Build",
+      "message": "CrossgenTool executable \u0027{0}\u0027 not found.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1160"
+    },
+    {
+      "id": "NETSDK1161",
+      "category": "Build",
+      "message": "DiaSymReader library \u0027{0}\u0027 not found.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1161"
+    },
+    {
+      "id": "NETSDK1162",
+      "category": "Build",
+      "message": "PDB generation: R2R executable \u0027{0}\u0027 not found.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1162"
+    },
+    {
+      "id": "NETSDK1163",
+      "category": "Build",
+      "message": "Input assembly \u0027{0}\u0027 not found.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1163"
+    },
+    {
+      "id": "NETSDK1164",
+      "category": "Build",
+      "message": "Missing output PDB path in PDB generation mode (OutputPDBImage metadata).",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1164"
+    },
+    {
+      "id": "NETSDK1165",
+      "category": "Build",
+      "message": "Missing output R2R image path (OutputR2RImage metadata).",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1165"
+    },
+    {
+      "id": "NETSDK1166",
+      "category": "Build",
+      "message": "Cannot emit symbols when publishing for .NET 5 with Crossgen2 using composite mode.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1166"
+    },
+    {
+      "id": "NETSDK1167",
+      "category": "Build",
+      "message": "Compression in a single file bundle is only supported when publishing for .NET6 or higher.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1167"
+    },
+    {
+      "id": "NETSDK1168",
+      "category": "Build",
+      "message": "WPF is not supported or recommended with trimming enabled. Please go to https://aka.ms/dotnet-illink/wpf for more details.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1168"
+    },
+    {
+      "id": "NETSDK1169",
+      "category": "Build",
+      "message": "The same resource ID {0} was specified for two type libraries \u0027{1}\u0027 and \u0027{2}\u0027. Duplicate type library IDs are not allowed.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1169"
+    },
+    {
+      "id": "NETSDK1170",
+      "category": "Build",
+      "message": "The provided type library ID \u0027{0}\u0027 for type library \u0027{1}\u0027 is invalid. The ID must be a positive integer less than 65536.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1170"
+    },
+    {
+      "id": "NETSDK1171",
+      "category": "Build",
+      "message": "An integer ID less than 65536 must be provided for type library \u0027{0}\u0027 because more than one type library is specified.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1171"
+    },
+    {
+      "id": "NETSDK1172",
+      "category": "Build",
+      "message": "The provided type library \u0027{0}\u0027 does not exist.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1172"
+    },
+    {
+      "id": "NETSDK1173",
+      "category": "Build",
+      "message": "The provided type library \u0027{0}\u0027 is in an invalid format.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1173"
+    },
+    {
+      "id": "NETSDK1174",
+      "category": "Build",
+      "message": "Placeholder",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1174"
+    },
+    {
+      "id": "NETSDK1175",
+      "category": "Build",
+      "message": "Windows Forms is not supported or recommended with trimming enabled. Please go to https://aka.ms/dotnet-illink/windows-forms for more details.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1175"
+    },
+    {
+      "id": "NETSDK1176",
+      "category": "Build",
+      "message": "Compression in a single file bundle is only supported when publishing a self-contained application.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1176"
+    },
+    {
+      "id": "NETSDK1177",
+      "category": "Build",
+      "message": "Failed to sign apphost with error code {1}: {0}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1177"
+    },
+    {
+      "id": "NETSDK1179",
+      "category": "Build",
+      "message": "One of \u0027--self-contained\u0027 or \u0027--no-self-contained\u0027 options are required when \u0027--runtime\u0027 is used.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1179"
+    },
+    {
+      "id": "NETSDK1181",
+      "category": "Build",
+      "message": "Error getting pack version: Pack \u0027{0}\u0027 was not present in workload manifests.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1181"
+    },
+    {
+      "id": "NETSDK1184",
+      "category": "Build",
+      "message": "The Targeting Pack for FrameworkReference \u0027{0}\u0027 was not available. This may be because DisableTransitiveFrameworkReferenceDownloads was set to true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1184"
+    },
+    {
+      "id": "NETSDK1185",
+      "category": "Build",
+      "message": "The Runtime Pack for FrameworkReference \u0027{0}\u0027 was not available. This may be because DisableTransitiveFrameworkReferenceDownloads was set to true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1185"
+    },
+    {
+      "id": "NETSDK1186",
+      "category": "Build",
+      "message": "This project depends on Maui Essentials through a project or NuGet package reference, but doesn\u0027t declare that dependency explicitly. To build this project, you must set the UseMauiEssentials property to true (and install the Maui workload if necessary).",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1186"
+    },
+    {
+      "id": "NETSDK1187",
+      "category": "Build",
+      "message": "Package {0} {1} has a resource with the locale \u0027{2}\u0027. This locale has been normalized to the standard format \u0027{3}\u0027 to prevent casing issues in the build. Consider notifying the package author about this casing issue.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1187"
+    },
+    {
+      "id": "NETSDK1188",
+      "category": "Build",
+      "message": "Package {0} {1} has a resource with the locale \u0027{2}\u0027. This locale is not recognized by .NET. Consider notifying the package author that it appears to be using an invalid locale.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1188"
+    },
+    {
+      "id": "NETSDK1189",
+      "category": "Build",
+      "message": "Prefer32Bit is not supported and has no effect for netcoreapp target.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1189"
+    },
+    {
+      "id": "NETSDK1191",
+      "category": "Build",
+      "message": "A runtime identifier for the property \u0027{0}\u0027 couldn\u0027t be inferred. Specify a rid explicitly.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1191"
+    },
+    {
+      "id": "NETSDK1193",
+      "category": "Build",
+      "message": "If PublishSelfContained is set, it must be either true or false. The value given was \u0027{0}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1193"
+    },
+    {
+      "id": "NETSDK1194",
+      "category": "Build",
+      "message": "The \u0022--output\u0022 option isn\u0027t supported when building a solution. Specifying a solution-level output path results in all projects copying outputs to the same directory, which can lead to inconsistent builds.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1194"
+    },
+    {
+      "id": "NETSDK1195",
+      "category": "Build",
+      "message": "Trimming, or code compatibility analysis for trimming, single-file deployment, or ahead-of-time compilation is not supported for the target framework. For more information, see https://aka.ms/netsdk1195",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1195"
+    },
+    {
+      "id": "NETSDK1196",
+      "category": "Build",
+      "message": "The SDK does not support ahead-of-time compilation. Set the PublishAot property to false.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1196"
+    },
+    {
+      "id": "NETSDK1198",
+      "category": "Build",
+      "message": "A publish profile with the name \u0027{0}\u0027 was not found in the project. Set the PublishProfile property to a valid file name.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1198"
+    },
+    {
+      "id": "NETSDK1199",
+      "category": "Build",
+      "message": "The ArtifactsPath and UseArtifactsOutput properties cannot be set in a project file, due to MSBuild ordering constraints. They must be set in a Directory.Build.props file or from the command line. See https://aka.ms/netsdk1199 for more information.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1199"
+    },
+    {
+      "id": "NETSDK1200",
+      "category": "Build",
+      "message": "If UseArtifactsPath is set to true and ArtifactsPath is not set, there must be a Directory.Build.props file in order to determine where the artifacts folder should be located.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1200"
+    },
+    {
+      "id": "NETSDK1201",
+      "category": "Build",
+      "message": "For projects targeting .NET 8.0 and higher, specifying a RuntimeIdentifier will no longer produce a self contained app by default. To continue building self-contained apps, set the SelfContained property to true or use the --self-contained argument.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1201"
+    },
+    {
+      "id": "NETSDK1202",
+      "category": "Build",
+      "message": "The workload \u0027{0}\u0027 is out of support and will not receive security updates in the future. Please refer to {1} for more information about the support policy.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1202"
+    },
+    {
+      "id": "NETSDK1203",
+      "category": "Build",
+      "message": "Ahead-of-time compilation is not supported for the target runtime identifier \u0027{0}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1203"
+    },
+    {
+      "id": "NETSDK1204",
+      "category": "Build",
+      "message": "Ahead-of-time compilation is not supported on the current platform \u0027{0}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1204"
+    },
+    {
+      "id": "NETSDK1205",
+      "category": "Build",
+      "message": "The Microsoft.Net.Compilers.Toolset.Framework package should not be set directly. Set the property \u0027BuildWithNetFrameworkHostedCompiler\u0027 to \u0027true\u0027 instead if you need it.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1205"
+    },
+    {
+      "id": "NETSDK1206",
+      "category": "Build",
+      "message": "Found version-specific or distribution-specific runtime identifier(s): {0}. Affected libraries: {1}. In .NET 8.0 and higher, assets for version-specific and distribution-specific runtime identifiers will not be found by default. See https://aka.ms/dotnet/rid-usage for details.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1206"
+    },
+    {
+      "id": "NETSDK1207",
+      "category": "Build",
+      "message": "Ahead-of-time compilation is not supported for the target framework.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1207"
+    },
+    {
+      "id": "NETSDK1208",
+      "category": "Build",
+      "message": "The target platform identifier {0} was not recognized. This is because MSBuildEnableWorkloadResolver is set to false which disables .NET SDK Workloads which is required for this identifer. Unset this environment variable or MSBuild property to enable workloads.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1208"
+    },
+    {
+      "id": "NETSDK1209",
+      "category": "Build",
+      "message": "The current Visual Studio version does not support targeting {0} {1}.  Either target {0} {2} or lower, or use Visual Studio version {3} or higher",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1209"
+    },
+    {
+      "id": "NETSDK1215",
+      "category": "Build",
+      "message": "Targeting .NET Standard prior to 2.0 is no longer recommended. See {0} for more details.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1215"
+    },
+    {
+      "id": "NETSDK1216",
+      "category": "Build",
+      "message": "Package Microsoft.Net.Sdk.Compilers.Toolset is not downloaded but it is needed because your MSBuild and SDK versions are mismatched. Ensure version {0} of the package is available in your NuGet source feeds and then run NuGet package restore from Visual Studio or MSBuild.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1216"
+    },
+    {
+      "id": "NETSDK1217",
+      "category": "Build",
+      "message": "Invalid value in AppHostDotNetSearch: \u0027{0}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1217"
+    },
+    {
+      "id": "NETSDK1218",
+      "category": "Build",
+      "message": "This project has a transitive dependency on the full Windows SDK projections (including Windows.UI.Xaml.* types), but does not specify the UseUwp property. That must be enabled to ensure that .NET types are projected and marshalled correctly for interop scenarios with these XAML types.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1218"
+    },
+    {
+      "id": "NETSDK1220",
+      "category": "Build",
+      "message": "UseUwp and all associated functionality require using a TFM of \u0027net8.0-windows\u0027 or greater.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1220"
+    },
+    {
+      "id": "NETSDK1221",
+      "category": "Build",
+      "message": "NuGetPackageRoot property is empty so package Microsoft.Net.Sdk.Compilers.Toolset cannot be used but it is recommended because your MSBuild and SDK versions are mismatched. Ensure you are building with \u0027/restore /t:Build\u0027 and not \u0027/t:Restore;Build\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1221"
+    },
+    {
+      "id": "NETSDK1222",
+      "category": "Build",
+      "message": "PreferNativeArm64 applies only to .NET Framework targets. It is not supported and has no effect for when targeting .NET Core.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1222"
+    },
+    {
+      "id": "NETSDK1224",
+      "category": "Build",
+      "message": "ASP.NET Core framework assets are not supported for the target framework.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1224"
+    },
+    {
+      "id": "NETSDK1225",
+      "category": "Build",
+      "message": "Native compilation is not supported when invoking the Publish target directly. Try running dotnet publish.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1225"
+    },
+    {
+      "id": "NETSDK1226",
+      "category": "Build",
+      "message": "Prune Package data not found {0} {1} {2}.  To ignore this error, set the AllowMissingPrunePackageData to true.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1226"
+    },
+    {
+      "id": "NETSDK1227",
+      "category": "Build",
+      "message": "Unsupported ToolCommandRunner value: {0}",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1227"
+    },
+    {
+      "id": "NETSDK1228",
+      "category": "Build",
+      "message": "This project depends on the Aspire Workload which has been deprecated. Aspire now ships via NuGet packages and no longer requires a workload. Please visit {0} for upgrade guidance.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1228"
+    },
+    {
+      "id": "NETSDK1229",
+      "category": "Build",
+      "message": "Targeting a Windows SDK version with \u00271\u0027 as the revision number will reference CsWinRT 3.0, which is currently in preview. The current project is targeting the Windows SDK version \u0027{0}\u0027. If this is not intended, change the revision number to \u00270\u0027 to use CsWinRT 2.x instead.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1229"
+    },
+    {
+      "id": "NETSDK1230",
+      "category": "Build",
+      "message": "The {0} and {1} properties cannot both be specified. Remove one or the other.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1230"
+    },
+    {
+      "id": "NETSDK1231",
+      "category": "Build",
+      "message": "File \u0027{0}\u0027 does not exist. Please ensure the runtime graph path exists.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1231"
+    },
+    {
+      "id": "NETSDK1232",
+      "category": "Build",
+      "message": "Unable to find a matching RID for \u0027{0}\u0027 from among [{1}] in graph \u0027{2}\u0027.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1232"
+    },
+    {
+      "id": "NETSDK1233",
+      "category": "Build",
+      "message": "Targeting .NET 10.0 or higher in Visual Studio 2022 17.14 is not supported.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1233"
+    },
+    {
+      "id": "NETSDK1234",
+      "category": "Build",
+      "message": "RoslynCompilerType \u0027Framework\u0027 is deprecated and will be removed in a future version. Please refer to {0} for more information.",
+      "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/netsdk1234"
+    }
+  ]
+}

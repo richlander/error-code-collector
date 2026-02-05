@@ -1,0 +1,28 @@
+{
+  "prefix": "API",
+  "repo": "aspnetcore",
+  "description": "MVC API analyzers",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "API1000",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "API1001",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "API1002",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "API1003",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    }
+  ]
+}

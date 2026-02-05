@@ -1,0 +1,80 @@
+{
+  "prefix": "EXTEXP",
+  "repo": "extensions",
+  "description": "Extensions experimental APIs",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "EXTEXP0001",
+      "category": "Experimental",
+      "name": "Resilience",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0001"
+    },
+    {
+      "id": "EXTEXP0002",
+      "category": "Experimental",
+      "name": "Compliance",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0002"
+    },
+    {
+      "id": "EXTEXP0003",
+      "category": "Experimental",
+      "name": "Telemetry",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0003"
+    },
+    {
+      "id": "EXTEXP0004",
+      "category": "Experimental",
+      "name": "TimeProvider",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0004"
+    },
+    {
+      "id": "EXTEXP0006",
+      "category": "Experimental",
+      "name": "AsyncState",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0006"
+    },
+    {
+      "id": "EXTEXP0007",
+      "category": "Experimental",
+      "name": "HealthChecks",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0007"
+    },
+    {
+      "id": "EXTEXP0008",
+      "category": "Experimental",
+      "name": "ResourceMonitoring",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0008"
+    },
+    {
+      "id": "EXTEXP0009",
+      "category": "Experimental",
+      "name": "Hosting",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0009"
+    },
+    {
+      "id": "EXTEXP0010",
+      "category": "Experimental",
+      "name": "ObjectPool",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0010"
+    },
+    {
+      "id": "EXTEXP0011",
+      "category": "Experimental",
+      "name": "DocumentDb",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0011"
+    },
+    {
+      "id": "EXTEXP0012",
+      "category": "Experimental",
+      "name": "AutoActivation",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0012"
+    },
+    {
+      "id": "EXTEXP0013",
+      "category": "Experimental",
+      "name": "HttpLogging",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0013"
+    }
+  ]
+}

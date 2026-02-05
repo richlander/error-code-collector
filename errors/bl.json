@@ -1,0 +1,58 @@
+{
+  "prefix": "BL",
+  "repo": "aspnetcore",
+  "description": "Blazor component diagnostics",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "BL0001",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "BL0002",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "BL0003",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "BL0004",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "BL0005",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "BL0006",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "BL0007",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "BL0008",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "BL0009",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "BL0010",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    }
+  ]
+}

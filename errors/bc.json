@@ -1,0 +1,86 @@
+{
+  "prefix": "BC",
+  "repo": "msbuild",
+  "description": "MSBuild BuildCheck diagnostics",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "BC0101",
+      "category": "BuildCheck",
+      "name": "Shared output path.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0101"
+    },
+    {
+      "id": "BC0102",
+      "category": "BuildCheck",
+      "name": "Double writes.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0102"
+    },
+    {
+      "id": "BC0103",
+      "category": "BuildCheck",
+      "name": "Used environment variable.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0103"
+    },
+    {
+      "id": "BC0104",
+      "category": "BuildCheck",
+      "name": "ProjectReference is preferred to Reference.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0104"
+    },
+    {
+      "id": "BC0105",
+      "category": "BuildCheck",
+      "name": "EmbeddedResource should specify Culture metadata.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0105"
+    },
+    {
+      "id": "BC0106",
+      "category": "BuildCheck",
+      "name": "CopyToOutputDirectory=\u0027Always\u0027 should be avoided.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0106"
+    },
+    {
+      "id": "BC0107",
+      "category": "BuildCheck",
+      "name": "TargetFramework and TargetFrameworks specified together.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0107"
+    },
+    {
+      "id": "BC0108",
+      "category": "BuildCheck",
+      "name": "TargetFramework or TargetFrameworks specified in SDK-less project.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0108"
+    },
+    {
+      "id": "BC0201",
+      "category": "BuildCheck",
+      "name": "Usage of undefined property.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0201"
+    },
+    {
+      "id": "BC0202",
+      "category": "BuildCheck",
+      "name": "Property first declared after it was used.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0202"
+    },
+    {
+      "id": "BC0203",
+      "category": "BuildCheck",
+      "name": "Property declared but never used.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0203"
+    },
+    {
+      "id": "BC0301",
+      "category": "BuildCheck",
+      "name": "Building from Downloads folder.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0301"
+    },
+    {
+      "id": "BC0302",
+      "category": "BuildCheck",
+      "name": "Building using the Exec task.",
+      "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/bc0302"
+    }
+  ]
+}

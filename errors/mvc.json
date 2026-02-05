@@ -1,0 +1,38 @@
+{
+  "prefix": "MVC",
+  "repo": "aspnetcore",
+  "description": "MVC analyzers",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "MVC1000",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "MVC1001",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "MVC1002",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "MVC1003",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "MVC1004",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "MVC1006",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    }
+  ]
+}

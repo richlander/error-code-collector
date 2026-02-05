@@ -1,0 +1,20 @@
+{
+  "prefix": "EXTOBS",
+  "repo": "extensions",
+  "description": "Extensions obsoletions",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "EXTOBS0001",
+      "category": "Obsoletion",
+      "name": "NonObservableResourceMonitoringApiDiagId",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTOBS0001"
+    },
+    {
+      "id": "EXTOBS0002",
+      "category": "Obsoletion",
+      "name": "ObsoleteTelemetryApiDiagId",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/EXTOBS0002"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "prefix": "SSG",
+  "repo": "aspnetcore",
+  "description": "SignalR Source Generator diagnostics",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "SSG0000",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0001",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0002",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0003",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0004",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0005",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0006",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0007",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0008",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0009",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0100",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0102",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0103",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0104",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0105",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0106",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0107",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0108",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0109",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    },
+    {
+      "id": "SSG0110",
+      "category": "Analyzer",
+      "helpUrl": "https://aka.ms/aspnet/analyzers"
+    }
+  ]
+}

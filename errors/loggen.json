@@ -1,0 +1,242 @@
+{
+  "prefix": "LOGGEN",
+  "repo": "extensions",
+  "description": "LoggerMessage source generator diagnostics",
+  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "diagnostics": [
+    {
+      "id": "LOGGEN000",
+      "category": "Analyzer",
+      "name": "LOGGEN000",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN000"
+    },
+    {
+      "id": "LOGGEN001",
+      "category": "Analyzer",
+      "name": "LOGGEN001",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN001"
+    },
+    {
+      "id": "LOGGEN002",
+      "category": "Analyzer",
+      "name": "LOGGEN002",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN002"
+    },
+    {
+      "id": "LOGGEN003",
+      "category": "Analyzer",
+      "name": "LOGGEN003",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN003"
+    },
+    {
+      "id": "LOGGEN004",
+      "category": "Analyzer",
+      "name": "LOGGEN004",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN004"
+    },
+    {
+      "id": "LOGGEN005",
+      "category": "Analyzer",
+      "name": "LOGGEN005",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN005"
+    },
+    {
+      "id": "LOGGEN006",
+      "category": "Analyzer",
+      "name": "LOGGEN006",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN006"
+    },
+    {
+      "id": "LOGGEN007",
+      "category": "Analyzer",
+      "name": "LOGGEN007",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN007"
+    },
+    {
+      "id": "LOGGEN008",
+      "category": "Analyzer",
+      "name": "LOGGEN008",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN008"
+    },
+    {
+      "id": "LOGGEN009",
+      "category": "Analyzer",
+      "name": "LOGGEN009",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN009"
+    },
+    {
+      "id": "LOGGEN010",
+      "category": "Analyzer",
+      "name": "LOGGEN010",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN010"
+    },
+    {
+      "id": "LOGGEN011",
+      "category": "Analyzer",
+      "name": "LOGGEN011",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN011"
+    },
+    {
+      "id": "LOGGEN012",
+      "category": "Analyzer",
+      "name": "LOGGEN012",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN012"
+    },
+    {
+      "id": "LOGGEN013",
+      "category": "Analyzer",
+      "name": "LOGGEN013",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN013"
+    },
+    {
+      "id": "LOGGEN014",
+      "category": "Analyzer",
+      "name": "LOGGEN014",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN014"
+    },
+    {
+      "id": "LOGGEN015",
+      "category": "Analyzer",
+      "name": "LOGGEN015",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN015"
+    },
+    {
+      "id": "LOGGEN016",
+      "category": "Analyzer",
+      "name": "LOGGEN016",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN016"
+    },
+    {
+      "id": "LOGGEN017",
+      "category": "Analyzer",
+      "name": "LOGGEN017",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN017"
+    },
+    {
+      "id": "LOGGEN018",
+      "category": "Analyzer",
+      "name": "LOGGEN018",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN018"
+    },
+    {
+      "id": "LOGGEN019",
+      "category": "Analyzer",
+      "name": "LOGGEN019",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN019"
+    },
+    {
+      "id": "LOGGEN020",
+      "category": "Analyzer",
+      "name": "LOGGEN020",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN020"
+    },
+    {
+      "id": "LOGGEN021",
+      "category": "Analyzer",
+      "name": "LOGGEN021",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN021"
+    },
+    {
+      "id": "LOGGEN022",
+      "category": "Analyzer",
+      "name": "LOGGEN022",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN022"
+    },
+    {
+      "id": "LOGGEN023",
+      "category": "Analyzer",
+      "name": "LOGGEN023",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN023"
+    },
+    {
+      "id": "LOGGEN024",
+      "category": "Analyzer",
+      "name": "LOGGEN024",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN024"
+    },
+    {
+      "id": "LOGGEN025",
+      "category": "Analyzer",
+      "name": "LOGGEN025",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN025"
+    },
+    {
+      "id": "LOGGEN026",
+      "category": "Analyzer",
+      "name": "LOGGEN026",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN026"
+    },
+    {
+      "id": "LOGGEN027",
+      "category": "Analyzer",
+      "name": "LOGGEN027",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN027"
+    },
+    {
+      "id": "LOGGEN028",
+      "category": "Analyzer",
+      "name": "LOGGEN028",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN028"
+    },
+    {
+      "id": "LOGGEN029",
+      "category": "Analyzer",
+      "name": "LOGGEN029",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN029"
+    },
+    {
+      "id": "LOGGEN030",
+      "category": "Analyzer",
+      "name": "LOGGEN030",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN030"
+    },
+    {
+      "id": "LOGGEN031",
+      "category": "Analyzer",
+      "name": "LOGGEN031",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN031"
+    },
+    {
+      "id": "LOGGEN032",
+      "category": "Analyzer",
+      "name": "LOGGEN032",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN032"
+    },
+    {
+      "id": "LOGGEN033",
+      "category": "Analyzer",
+      "name": "LOGGEN033",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN033"
+    },
+    {
+      "id": "LOGGEN034",
+      "category": "Analyzer",
+      "name": "LOGGEN034",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN034"
+    },
+    {
+      "id": "LOGGEN035",
+      "category": "Analyzer",
+      "name": "LOGGEN035",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN035"
+    },
+    {
+      "id": "LOGGEN036",
+      "category": "Analyzer",
+      "name": "LOGGEN036",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN036"
+    },
+    {
+      "id": "LOGGEN037",
+      "category": "Analyzer",
+      "name": "LOGGEN037",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN037"
+    },
+    {
+      "id": "LOGGEN038",
+      "category": "Analyzer",
+      "name": "LOGGEN038",
+      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/LOGGEN038"
+    }
+  ]
+}
