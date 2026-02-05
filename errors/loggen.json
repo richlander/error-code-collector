@@ -2,266 +2,229 @@
   "prefix": "LOGGEN",
   "repo": "extensions",
   "description": "LoggerMessage source generator diagnostics",
-  "generated_at": "2026-02-05T01:11:25.4036344Z",
+  "generated_at": "2026-02-05T01:53:21.0733703Z",
   "diagnostics": [
     {
       "id": "LOGGEN000",
       "category": "Analyzer",
       "name": "LOGGEN000",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN000",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN000"
     },
     {
       "id": "LOGGEN001",
       "category": "Analyzer",
       "name": "LOGGEN001",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN001",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN001"
     },
     {
       "id": "LOGGEN002",
       "category": "Analyzer",
       "name": "LOGGEN002",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN002",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN002"
     },
     {
       "id": "LOGGEN003",
       "category": "Analyzer",
       "name": "LOGGEN003",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN003",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN003"
     },
     {
       "id": "LOGGEN004",
       "category": "Analyzer",
       "name": "LOGGEN004",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN004",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN004"
     },
     {
       "id": "LOGGEN005",
       "category": "Analyzer",
       "name": "LOGGEN005",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN005",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN005"
     },
     {
       "id": "LOGGEN006",
       "category": "Analyzer",
       "name": "LOGGEN006",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN006",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN006"
     },
     {
       "id": "LOGGEN007",
       "category": "Analyzer",
       "name": "LOGGEN007",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN007",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN007"
     },
     {
       "id": "LOGGEN008",
       "category": "Analyzer",
       "name": "LOGGEN008",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN008",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN008"
     },
     {
       "id": "LOGGEN009",
       "category": "Analyzer",
       "name": "LOGGEN009",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN009",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN009"
     },
     {
       "id": "LOGGEN010",
       "category": "Analyzer",
       "name": "LOGGEN010",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN010",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN010"
     },
     {
       "id": "LOGGEN011",
       "category": "Analyzer",
       "name": "LOGGEN011",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN011",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN011"
     },
     {
       "id": "LOGGEN012",
       "category": "Analyzer",
       "name": "LOGGEN012",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN012",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN012"
     },
     {
       "id": "LOGGEN013",
       "category": "Analyzer",
       "name": "LOGGEN013",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN013",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN013"
     },
     {
       "id": "LOGGEN014",
       "category": "Analyzer",
       "name": "LOGGEN014",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN014",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN014"
     },
     {
       "id": "LOGGEN015",
       "category": "Analyzer",
       "name": "LOGGEN015",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN015",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN015"
     },
     {
       "id": "LOGGEN016",
       "category": "Analyzer",
       "name": "LOGGEN016",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN016",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN016"
     },
     {
       "id": "LOGGEN017",
       "category": "Analyzer",
       "name": "LOGGEN017",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN017",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN017"
     },
     {
       "id": "LOGGEN018",
       "category": "Analyzer",
       "name": "LOGGEN018",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN018",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN018"
     },
     {
       "id": "LOGGEN019",
       "category": "Analyzer",
       "name": "LOGGEN019",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN019",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN019"
     },
     {
       "id": "LOGGEN020",
       "category": "Analyzer",
       "name": "LOGGEN020",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN020",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN020"
     },
     {
       "id": "LOGGEN021",
       "category": "Analyzer",
       "name": "LOGGEN021",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN021",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN021"
     },
     {
       "id": "LOGGEN022",
       "category": "Analyzer",
       "name": "LOGGEN022",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN022",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN022"
     },
     {
       "id": "LOGGEN023",
       "category": "Analyzer",
       "name": "LOGGEN023",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN023",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN023"
     },
     {
       "id": "LOGGEN024",
       "category": "Analyzer",
       "name": "LOGGEN024",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN024",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN024"
     },
     {
       "id": "LOGGEN025",
       "category": "Analyzer",
       "name": "LOGGEN025",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN025",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN025"
     },
     {
       "id": "LOGGEN026",
       "category": "Analyzer",
       "name": "LOGGEN026",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN026",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN026"
     },
     {
       "id": "LOGGEN027",
       "category": "Analyzer",
       "name": "LOGGEN027",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN027",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN027"
     },
     {
       "id": "LOGGEN028",
       "category": "Analyzer",
       "name": "LOGGEN028",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN028",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN028"
     },
     {
       "id": "LOGGEN029",
       "category": "Analyzer",
       "name": "LOGGEN029",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN029",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN029"
     },
     {
       "id": "LOGGEN030",
       "category": "Analyzer",
       "name": "LOGGEN030",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN030",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN030"
     },
     {
       "id": "LOGGEN031",
       "category": "Analyzer",
       "name": "LOGGEN031",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN031",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN031"
     },
     {
       "id": "LOGGEN032",
       "category": "Analyzer",
       "name": "LOGGEN032",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN032",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN032"
     },
     {
       "id": "LOGGEN033",
       "category": "Analyzer",
       "name": "LOGGEN033",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN033",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN033"
     },
     {
       "id": "LOGGEN034",
       "category": "Analyzer",
       "name": "LOGGEN034",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN034",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN034"
     },
     {
       "id": "LOGGEN035",
       "category": "Analyzer",
       "name": "LOGGEN035",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN035",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md#loggermessage"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN035"
     },
     {
       "id": "LOGGEN036",
       "category": "Analyzer",
       "name": "LOGGEN036",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN036",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md#loggermessage"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN036"
     },
     {
       "id": "LOGGEN037",

@@ -2,7 +2,7 @@
   "prefix": "MSB",
   "repo": "msbuild",
   "description": "MSBuild errors and warnings",
-  "generated_at": "2026-02-05T01:11:25.4036344Z",
+  "generated_at": "2026-02-05T01:53:21.0733703Z",
   "diagnostics": [
     {
       "id": "MSB1020",

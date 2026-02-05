@@ -2,35 +2,31 @@
   "prefix": "CTXOPTGEN",
   "repo": "extensions",
   "description": "Contextual options generator diagnostics",
-  "generated_at": "2026-02-05T01:11:25.4036344Z",
+  "generated_at": "2026-02-05T01:53:21.0733703Z",
   "diagnostics": [
     {
       "id": "CTXOPTGEN000",
       "category": "Analyzer",
       "name": "CTXOPTGEN000",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN000",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN000"
     },
     {
       "id": "CTXOPTGEN001",
       "category": "Analyzer",
       "name": "CTXOPTGEN001",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN001",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN001"
     },
     {
       "id": "CTXOPTGEN002",
       "category": "Analyzer",
       "name": "CTXOPTGEN002",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN002",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN002"
     },
     {
       "id": "CTXOPTGEN003",
       "category": "Analyzer",
       "name": "CTXOPTGEN003",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN003",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/CTXOPTGEN003"
     }
   ]
 }

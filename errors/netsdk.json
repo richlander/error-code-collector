@@ -2,7 +2,7 @@
   "prefix": "NETSDK",
   "repo": "sdk",
   "description": "SDK build and restore errors",
-  "generated_at": "2026-02-05T01:14:31.2479441Z",
+  "generated_at": "2026-02-05T01:53:21.0733703Z",
   "diagnostics": [
     {
       "id": "NETSDK1001",

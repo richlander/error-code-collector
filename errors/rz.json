@@ -2,7 +2,7 @@
   "prefix": "RZ",
   "repo": "razor",
   "description": "Razor compiler and analyzer diagnostics",
-  "generated_at": "2026-02-05T01:11:25.4036344Z",
+  "generated_at": "2026-02-05T01:53:21.0733703Z",
   "diagnostics": [
     {
       "id": "RSG001",
@@ -43,8 +43,7 @@
     {
       "id": "RZ0000",
       "category": "General",
-      "name": "Directive_BlockDirectiveCannotBeImported",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz0000"
+      "name": "Directive_BlockDirectiveCannotBeImported"
     },
     {
       "id": "RZ0001",
@@ -57,464 +56,387 @@
     {
       "id": "RZ1000",
       "category": "Parsing",
-      "name": "Parsing_UnterminatedStringLiteral",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1000"
+      "name": "Parsing_UnterminatedStringLiteral"
     },
     {
       "id": "RZ1001",
       "category": "Parsing",
-      "name": "Parsing_BlockCommentNotTerminated",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1001"
+      "name": "Parsing_BlockCommentNotTerminated"
     },
     {
       "id": "RZ1002",
       "category": "Parsing",
-      "name": "Parsing_HelperDirectiveNotAvailable",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1002"
+      "name": "Parsing_HelperDirectiveNotAvailable"
     },
     {
       "id": "RZ1003",
       "category": "Parsing",
-      "name": "Parsing_UnexpectedWhiteSpaceAtStartOfCodeBlock",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1003"
+      "name": "Parsing_UnexpectedWhiteSpaceAtStartOfCodeBlock"
     },
     {
       "id": "RZ1004",
       "category": "Parsing",
-      "name": "Parsing_UnexpectedEndOfFileAtStartOfCodeBlock",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1004"
+      "name": "Parsing_UnexpectedEndOfFileAtStartOfCodeBlock"
     },
     {
       "id": "RZ1005",
       "category": "Parsing",
-      "name": "Parsing_UnexpectedCharacterAtStartOfCodeBlock",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1005"
+      "name": "Parsing_UnexpectedCharacterAtStartOfCodeBlock"
     },
     {
       "id": "RZ1006",
       "category": "Parsing",
-      "name": "Parsing_ExpectedEndOfBlockBeforeEOF",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1006"
+      "name": "Parsing_ExpectedEndOfBlockBeforeEOF"
     },
     {
       "id": "RZ1007",
       "category": "Parsing",
-      "name": "Parsing_ReservedWord",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1007"
+      "name": "Parsing_ReservedWord"
     },
     {
       "id": "RZ1008",
       "category": "Parsing",
-      "name": "Parsing_SingleLineControlFlowStatementsNotAllowed",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1008"
+      "name": "Parsing_SingleLineControlFlowStatementsNotAllowed"
     },
     {
       "id": "RZ1009",
       "category": "Parsing",
-      "name": "Parsing_AtInCodeMustBeFollowedByColonParenOrIdentifierStart",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1009"
+      "name": "Parsing_AtInCodeMustBeFollowedByColonParenOrIdentifierStart"
     },
     {
       "id": "RZ1010",
       "category": "Parsing",
-      "name": "Parsing_UnexpectedNestedCodeBlock",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1010"
+      "name": "Parsing_UnexpectedNestedCodeBlock"
     },
     {
       "id": "RZ1011",
       "category": "Parsing",
-      "name": "Parsing_DirectiveTokensMustBeSeparatedByWhitespace",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1011"
+      "name": "Parsing_DirectiveTokensMustBeSeparatedByWhitespace"
     },
     {
       "id": "RZ1012",
       "category": "Parsing",
-      "name": "Parsing_UnexpectedEOFAfterDirective",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1012"
+      "name": "Parsing_UnexpectedEOFAfterDirective"
     },
     {
       "id": "RZ1013",
       "category": "Parsing",
-      "name": "Parsing_DirectiveExpectsTypeName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1013"
+      "name": "Parsing_DirectiveExpectsTypeName"
     },
     {
       "id": "RZ1014",
       "category": "Parsing",
-      "name": "Parsing_DirectiveExpectsNamespace",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1014"
+      "name": "Parsing_DirectiveExpectsNamespace"
     },
     {
       "id": "RZ1015",
       "category": "Parsing",
-      "name": "Parsing_DirectiveExpectsIdentifier",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1015"
+      "name": "Parsing_DirectiveExpectsIdentifier"
     },
     {
       "id": "RZ1016",
       "category": "Parsing",
-      "name": "Parsing_DirectiveExpectsQuotedStringLiteral",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1016"
+      "name": "Parsing_DirectiveExpectsQuotedStringLiteral"
     },
     {
       "id": "RZ1017",
       "category": "Parsing",
-      "name": "Parsing_UnexpectedDirectiveLiteral",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1017"
+      "name": "Parsing_UnexpectedDirectiveLiteral"
     },
     {
       "id": "RZ1018",
       "category": "Parsing",
-      "name": "Parsing_DirectiveMustHaveValue",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1018"
+      "name": "Parsing_DirectiveMustHaveValue"
     },
     {
       "id": "RZ1019",
       "category": "Parsing",
-      "name": "Parsing_IncompleteQuotesAroundDirective",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1019"
+      "name": "Parsing_IncompleteQuotesAroundDirective"
     },
     {
       "id": "RZ1020",
       "category": "Parsing",
-      "name": "Parsing_InvalidTagHelperPrefixValue",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1020"
+      "name": "Parsing_InvalidTagHelperPrefixValue"
     },
     {
       "id": "RZ1021",
       "category": "Parsing",
-      "name": "Parsing_MarkupBlockMustStartWithTag",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1021"
+      "name": "Parsing_MarkupBlockMustStartWithTag"
     },
     {
       "id": "RZ1022",
       "category": "Parsing",
-      "name": "Parsing_OuterTagMissingName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1022"
+      "name": "Parsing_OuterTagMissingName"
     },
     {
       "id": "RZ1023",
       "category": "Parsing",
-      "name": "Parsing_TextTagCannotContainAttributes",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1023"
+      "name": "Parsing_TextTagCannotContainAttributes"
     },
     {
       "id": "RZ1024",
       "category": "Parsing",
-      "name": "Parsing_UnfinishedTag",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1024"
+      "name": "Parsing_UnfinishedTag"
     },
     {
       "id": "RZ1025",
       "category": "Parsing",
-      "name": "Parsing_MissingEndTag",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1025"
+      "name": "Parsing_MissingEndTag"
     },
     {
       "id": "RZ1026",
       "category": "Parsing",
-      "name": "Parsing_UnexpectedEndTag",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1026"
+      "name": "Parsing_UnexpectedEndTag"
     },
     {
       "id": "RZ1027",
       "category": "Parsing",
-      "name": "Parsing_ExpectedCloseBracketBeforeEOF",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1027"
+      "name": "Parsing_ExpectedCloseBracketBeforeEOF"
     },
     {
       "id": "RZ1028",
       "category": "Parsing",
-      "name": "Parsing_RazorCommentNotTerminated",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1028"
+      "name": "Parsing_RazorCommentNotTerminated"
     },
     {
       "id": "RZ1029",
       "category": "Parsing",
-      "name": "Parsing_TagHelperIndexerAttributeNameMustIncludeKey",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1029"
+      "name": "Parsing_TagHelperIndexerAttributeNameMustIncludeKey"
     },
     {
       "id": "RZ1030",
       "category": "Parsing",
-      "name": "Parsing_TagHelperAttributeListMustBeWellFormed",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1030"
+      "name": "Parsing_TagHelperAttributeListMustBeWellFormed"
     },
     {
       "id": "RZ1031",
       "category": "Parsing",
-      "name": "Parsing_TagHelpersCannotHaveCSharpInTagDeclaration",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1031"
+      "name": "Parsing_TagHelpersCannotHaveCSharpInTagDeclaration"
     },
     {
       "id": "RZ1032",
       "category": "Parsing",
-      "name": "Parsing_TagHelperAttributesMustHaveAName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1032"
+      "name": "Parsing_TagHelperAttributesMustHaveAName"
     },
     {
       "id": "RZ1033",
       "category": "Parsing",
-      "name": "Parsing_TagHelperMustNotHaveAnEndTag",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1033"
+      "name": "Parsing_TagHelperMustNotHaveAnEndTag"
     },
     {
       "id": "RZ1034",
       "category": "Parsing",
-      "name": "Parsing_TagHelperFoundMalformedTagHelper",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1034"
+      "name": "Parsing_TagHelperFoundMalformedTagHelper"
     },
     {
       "id": "RZ1035",
       "category": "Parsing",
-      "name": "Parsing_TagHelperMissingCloseAngle",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1035"
+      "name": "Parsing_TagHelperMissingCloseAngle"
     },
     {
       "id": "RZ1036",
       "category": "Parsing",
-      "name": "Parsing_InvalidTagHelperLookupText",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1036"
+      "name": "Parsing_InvalidTagHelperLookupText"
     },
     {
       "id": "RZ1037",
       "category": "Parsing",
-      "name": "Parsing_DirectiveExpectsCSharpAttribute",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1037"
+      "name": "Parsing_DirectiveExpectsCSharpAttribute"
     },
     {
       "id": "RZ1038",
       "category": "Parsing",
-      "name": "Parsing_DirectiveExpectsBooleanLiteral",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1038"
+      "name": "Parsing_DirectiveExpectsBooleanLiteral"
     },
     {
       "id": "RZ1039",
       "category": "Parsing",
-      "name": "Parsing_GenericTypeParameterIdentifierMismatch",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1039"
+      "name": "Parsing_GenericTypeParameterIdentifierMismatch"
     },
     {
       "id": "RZ1040",
       "category": "Parsing",
-      "name": "Parsing_UnexpectedIdentifier",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1040"
+      "name": "Parsing_UnexpectedIdentifier"
     },
     {
       "id": "RZ1041",
       "category": "Parsing",
-      "name": "Parsing_DirectiveExpectsIdentifierOrExpression",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1041"
+      "name": "Parsing_DirectiveExpectsIdentifierOrExpression"
     },
     {
       "id": "RZ1042",
       "category": "Parsing",
-      "name": "Parsing_VoidElement",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1042"
+      "name": "Parsing_VoidElement"
     },
     {
       "id": "RZ1043",
       "category": "Parsing",
-      "name": "Parsing_PreprocessorDirectivesMustBeAtTheStartOfLine",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1043"
+      "name": "Parsing_PreprocessorDirectivesMustBeAtTheStartOfLine"
     },
     {
       "id": "RZ1044",
       "category": "Parsing",
-      "name": "Parsing_PossibleMisplacedPreprocessorDirective",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1044"
+      "name": "Parsing_PossibleMisplacedPreprocessorDirective"
     },
     {
       "id": "RZ1045",
       "category": "Parsing",
-      "name": "Parsing_DefineAndUndefNotAllowed",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz1045"
+      "name": "Parsing_DefineAndUndefNotAllowed"
     },
     {
       "id": "RZ2000",
       "category": "Semantic",
-      "name": "CodeTarget_UnsupportedExtension",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2000"
+      "name": "CodeTarget_UnsupportedExtension"
     },
     {
       "id": "RZ2001",
       "category": "Semantic",
-      "name": "Parsing_DuplicateDirective",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2001"
+      "name": "Parsing_DuplicateDirective"
     },
     {
       "id": "RZ2002",
       "category": "Semantic",
-      "name": "Parsing_SectionsCannotBeNested",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2002"
+      "name": "Parsing_SectionsCannotBeNested"
     },
     {
       "id": "RZ2003",
       "category": "Semantic",
-      "name": "Parsing_InlineMarkupBlocksCannotBeNested",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2003"
+      "name": "Parsing_InlineMarkupBlocksCannotBeNested"
     },
     {
       "id": "RZ2004",
       "category": "Semantic",
-      "name": "Parsing_NamespaceImportAndTypeAliasCannotExistWithinCodeBlock",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2004"
+      "name": "Parsing_NamespaceImportAndTypeAliasCannotExistWithinCodeBlock"
     },
     {
       "id": "RZ2005",
       "category": "Semantic",
-      "name": "Parsing_DirectiveMustAppearAtStartOfLine",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2005"
+      "name": "Parsing_DirectiveMustAppearAtStartOfLine"
     },
     {
       "id": "RZ2006",
       "category": "Semantic",
-      "name": "TagHelper_CodeBlocksNotSupportedInAttributes",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2006"
+      "name": "TagHelper_CodeBlocksNotSupportedInAttributes"
     },
     {
       "id": "RZ2007",
       "category": "Semantic",
-      "name": "TagHelper_InlineMarkupBlocksNotSupportedInAttributes",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2007"
+      "name": "TagHelper_InlineMarkupBlocksNotSupportedInAttributes"
     },
     {
       "id": "RZ2008",
       "category": "Semantic",
-      "name": "TagHelper_EmptyBoundAttribute",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2008"
+      "name": "TagHelper_EmptyBoundAttribute"
     },
     {
       "id": "RZ2009",
       "category": "Semantic",
-      "name": "TagHelper_CannotHaveNonTagContent",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2009"
+      "name": "TagHelper_CannotHaveNonTagContent"
     },
     {
       "id": "RZ2010",
       "category": "Semantic",
-      "name": "TagHelper_InvalidNestedTag",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2010"
+      "name": "TagHelper_InvalidNestedTag"
     },
     {
       "id": "RZ2011",
       "category": "Semantic",
-      "name": "TagHelper_InconsistentTagStructure",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2011"
+      "name": "TagHelper_InconsistentTagStructure"
     },
     {
       "id": "RZ2012",
       "category": "Semantic",
-      "name": "Component_EditorRequiredParameterNotSpecified",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz2012"
+      "name": "Component_EditorRequiredParameterNotSpecified"
     },
     {
       "id": "RZ3000",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidRestrictedChildNullOrWhitespace",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3000"
+      "name": "TagHelper_InvalidRestrictedChildNullOrWhitespace"
     },
     {
       "id": "RZ3001",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidRestrictedChild",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3001"
+      "name": "TagHelper_InvalidRestrictedChild"
     },
     {
       "id": "RZ3002",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidBoundAttributeNullOrWhitespace",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3002"
+      "name": "TagHelper_InvalidBoundAttributeNullOrWhitespace"
     },
     {
       "id": "RZ3003",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidBoundAttributeName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3003"
+      "name": "TagHelper_InvalidBoundAttributeName"
     },
     {
       "id": "RZ3004",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidBoundAttributeNameStartsWith",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3004"
+      "name": "TagHelper_InvalidBoundAttributeNameStartsWith"
     },
     {
       "id": "RZ3005",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidBoundAttributePrefix",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3005"
+      "name": "TagHelper_InvalidBoundAttributePrefix"
     },
     {
       "id": "RZ3006",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidBoundAttributePrefixStartsWith",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3006"
+      "name": "TagHelper_InvalidBoundAttributePrefixStartsWith"
     },
     {
       "id": "RZ3007",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidTargetedTagNameNullOrWhitespace",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3007"
+      "name": "TagHelper_InvalidTargetedTagNameNullOrWhitespace"
     },
     {
       "id": "RZ3008",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidTargetedTagName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3008"
+      "name": "TagHelper_InvalidTargetedTagName"
     },
     {
       "id": "RZ3009",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidTargetedParentTagNameNullOrWhitespace",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3009"
+      "name": "TagHelper_InvalidTargetedParentTagNameNullOrWhitespace"
     },
     {
       "id": "RZ3010",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidTargetedParentTagName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3010"
+      "name": "TagHelper_InvalidTargetedParentTagName"
     },
     {
       "id": "RZ3011",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidTargetedAttributeNameNullOrWhitespace",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3011"
+      "name": "TagHelper_InvalidTargetedAttributeNameNullOrWhitespace"
     },
     {
       "id": "RZ3012",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidTargetedAttributeName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3012"
+      "name": "TagHelper_InvalidTargetedAttributeName"
     },
     {
       "id": "RZ3013",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidBoundAttributeParameterNullOrWhitespace",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3013"
+      "name": "TagHelper_InvalidBoundAttributeParameterNullOrWhitespace"
     },
     {
       "id": "RZ3014",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidBoundAttributeParameterName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3014"
+      "name": "TagHelper_InvalidBoundAttributeParameterName"
     },
     {
       "id": "RZ3015",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidBoundDirectiveAttributeName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3015"
+      "name": "TagHelper_InvalidBoundDirectiveAttributeName"
     },
     {
       "id": "RZ3016",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidRequiredDirectiveAttributeName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3016"
+      "name": "TagHelper_InvalidRequiredDirectiveAttributeName"
     },
     {
       "id": "RZ3017",
       "category": "SourceGenerator",
-      "name": "TagHelper_InvalidBoundDirectiveAttributePrefix",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3017"
+      "name": "TagHelper_InvalidBoundDirectiveAttributePrefix"
     },
     {
       "id": "RZ3600",
@@ -523,176 +445,147 @@
     {
       "id": "RZ3900",
       "category": "SourceGenerator",
-      "name": "ViewComponent_CannotFindMethod",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3900"
+      "name": "ViewComponent_CannotFindMethod"
     },
     {
       "id": "RZ3901",
       "category": "SourceGenerator",
-      "name": "ViewComponent_AmbiguousMethods",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3901"
+      "name": "ViewComponent_AmbiguousMethods"
     },
     {
       "id": "RZ3902",
       "category": "SourceGenerator",
-      "name": "ViewComponent_AsyncMethod_ShouldReturnTask",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3902"
+      "name": "ViewComponent_AsyncMethod_ShouldReturnTask"
     },
     {
       "id": "RZ3903",
       "category": "SourceGenerator",
-      "name": "ViewComponent_SyncMethod_ShouldReturnValue",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3903"
+      "name": "ViewComponent_SyncMethod_ShouldReturnValue"
     },
     {
       "id": "RZ3904",
       "category": "SourceGenerator",
-      "name": "ViewComponent_SyncMethod_CannotReturnTask",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3904"
+      "name": "ViewComponent_SyncMethod_CannotReturnTask"
     },
     {
       "id": "RZ3905",
       "category": "SourceGenerator",
-      "name": "PageDirective_CannotBeImported",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3905"
+      "name": "PageDirective_CannotBeImported"
     },
     {
       "id": "RZ3906",
       "category": "SourceGenerator",
-      "name": "PageDirective_MustExistAtTheTopOfFile",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz3906"
+      "name": "PageDirective_MustExistAtTheTopOfFile"
     },
     {
       "id": "RZ4000",
       "category": "Unknown",
-      "name": "Rewriter_InsufficientStack",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz4000"
+      "name": "Rewriter_InsufficientStack"
     },
     {
       "id": "RZ5000",
       "category": "Unknown",
-      "name": "CssRewriting_ImportNotAllowed",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz5000"
+      "name": "CssRewriting_ImportNotAllowed"
     },
     {
       "id": "RZ9978",
       "category": "Component",
-      "name": "UnsupportedTagHelperDirective",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9978"
+      "name": "UnsupportedTagHelperDirective"
     },
     {
       "id": "RZ9979",
       "category": "Component",
-      "name": "CodeBlockInAttribute",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9979"
+      "name": "CodeBlockInAttribute"
     },
     {
       "id": "RZ9980",
       "category": "Component",
-      "name": "UnclosedTag",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9980"
+      "name": "UnclosedTag"
     },
     {
       "id": "RZ9981",
       "category": "Component",
-      "name": "UnexpectedClosingTag",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9981"
+      "name": "UnexpectedClosingTag"
     },
     {
       "id": "RZ9983",
       "category": "Component",
-      "name": "UnexpectedClosingTagForVoidElement",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9983"
+      "name": "UnexpectedClosingTagForVoidElement"
     },
     {
       "id": "RZ9984",
       "category": "Component",
-      "name": "InvalidHtmlContent",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9984"
+      "name": "InvalidHtmlContent"
     },
     {
       "id": "RZ9985",
       "category": "Component",
-      "name": "MultipleComponents",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9985"
+      "name": "MultipleComponents"
     },
     {
       "id": "RZ9986",
       "category": "Component",
-      "name": "UnsupportedComplexContent",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9986"
+      "name": "UnsupportedComplexContent"
     },
     {
       "id": "RZ9987",
       "category": "Component",
-      "name": "PageDirective_CannotBeImported",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9987"
+      "name": "PageDirective_CannotBeImported"
     },
     {
       "id": "RZ9988",
       "category": "Component",
-      "name": "PageDirective_MustSpecifyRoute",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9988"
+      "name": "PageDirective_MustSpecifyRoute"
     },
     {
       "id": "RZ9989",
       "category": "Component",
-      "name": "BindAttribute_Duplicates",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9989"
+      "name": "BindAttribute_Duplicates"
     },
     {
       "id": "RZ9990",
       "category": "Component",
-      "name": "EventHandler_Duplicates",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9990"
+      "name": "EventHandler_Duplicates"
     },
     {
       "id": "RZ9991",
       "category": "Component",
-      "name": "BindAttribute_InvalidSyntax",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9991"
+      "name": "BindAttribute_InvalidSyntax"
     },
     {
       "id": "RZ9992",
       "category": "Component",
-      "name": "DisallowedScriptTag",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9992"
+      "name": "DisallowedScriptTag"
     },
     {
       "id": "RZ9994",
       "category": "Component",
-      "name": "TemplateInvalidLocation",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9994"
+      "name": "TemplateInvalidLocation"
     },
     {
       "id": "RZ9995",
       "category": "Component",
-      "name": "ChildContentSetByAttributeAndBody",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9995"
+      "name": "ChildContentSetByAttributeAndBody"
     },
     {
       "id": "RZ9996",
       "category": "Component",
-      "name": "ChildContentMixedWithExplicitChildContent",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9996"
+      "name": "ChildContentMixedWithExplicitChildContent"
     },
     {
       "id": "RZ9997",
       "category": "Component",
-      "name": "ChildContentHasInvalidAttribute",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9997"
+      "name": "ChildContentHasInvalidAttribute"
     },
     {
       "id": "RZ9998",
       "category": "Component",
-      "name": "ChildContentHasInvalidParameter",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9998"
+      "name": "ChildContentHasInvalidParameter"
     },
     {
       "id": "RZ9999",
       "category": "Component",
-      "name": "ChildContentRepeatedParameterName",
-      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/rz9999"
+      "name": "ChildContentRepeatedParameterName"
     },
     {
       "id": "RZD001",

@@ -2,7 +2,7 @@
   "prefix": "BC",
   "repo": "msbuild",
   "description": "MSBuild BuildCheck diagnostics",
-  "generated_at": "2026-02-05T01:11:25.4036344Z",
+  "generated_at": "2026-02-05T01:53:21.0733703Z",
   "diagnostics": [
     {
       "id": "BC0101",

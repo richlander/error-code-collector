@@ -2,7 +2,7 @@
   "prefix": "SSG",
   "repo": "aspnetcore",
   "description": "SignalR Source Generator diagnostics",
-  "generated_at": "2026-02-05T01:17:47.6785822Z",
+  "generated_at": "2026-02-05T01:53:21.0733703Z",
   "diagnostics": [
     {
       "id": "SSG0000",

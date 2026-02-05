@@ -2,25 +2,22 @@
   "prefix": "ASPIRE",
   "repo": "aspire",
   "description": "Aspire hosting and configuration diagnostics",
-  "generated_at": "2026-02-05T01:11:25.4036344Z",
+  "generated_at": "2026-02-05T01:53:21.0733703Z",
   "diagnostics": [
     {
       "id": "ASPIRE006",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE006",
-      "long_url": "https://aspire.dev/diagnostics/aspire006/"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE006"
     },
     {
       "id": "ASPIRE007",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE007",
-      "long_url": "https://aspire.dev/diagnostics/aspire007/"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE007"
     },
     {
       "id": "ASPIRE008",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE008",
-      "long_url": "https://aspire.dev/diagnostics/aspire008/"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE008"
     },
     {
       "id": "ASPIRE009",

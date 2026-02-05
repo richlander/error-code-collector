@@ -2,14 +2,13 @@
   "prefix": "EXTOBS",
   "repo": "extensions",
   "description": "Extensions obsoletions",
-  "generated_at": "2026-02-05T01:11:25.4036344Z",
+  "generated_at": "2026-02-05T01:53:21.0733703Z",
   "diagnostics": [
     {
       "id": "EXTOBS0001",
       "category": "Obsoletion",
       "name": "NonObservableResourceMonitoringApiDiagId",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTOBS0001",
-      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md#Obsoletions"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTOBS0001"
     },
     {
       "id": "EXTOBS0002",
