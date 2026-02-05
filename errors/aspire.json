@@ -2,7 +2,7 @@
   "prefix": "ASPIRE",
   "repo": "aspire",
   "description": "Aspire hosting and configuration diagnostics",
-  "generated_at": "2026-02-05T01:02:13.8054809Z",
+  "generated_at": "2026-02-05T01:11:25.4036344Z",
   "diagnostics": [
     {
       "id": "ASPIRE006",
@@ -25,32 +25,27 @@
     {
       "id": "ASPIRE009",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE009",
-      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE009"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE009"
     },
     {
       "id": "ASPIRE010",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE010",
-      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE010"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE010"
     },
     {
       "id": "ASPIRE011",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE011",
-      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE011"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE011"
     },
     {
       "id": "ASPIRE012",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE012",
-      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE012"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE012"
     },
     {
       "id": "ASPIRE013",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE013",
-      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE013"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE013"
     }
   ]
 }

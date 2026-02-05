@@ -2,127 +2,87 @@
   "prefix": "SSG",
   "repo": "aspnetcore",
   "description": "SignalR Source Generator diagnostics",
-  "generated_at": "2026-02-05T01:02:13.8054809Z",
+  "generated_at": "2026-02-05T01:17:47.6785822Z",
   "diagnostics": [
     {
       "id": "SSG0000",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0001",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0002",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0003",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0004",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0005",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0006",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0007",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0008",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0009",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0100",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0102",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0103",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0104",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0105",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0106",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0107",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0108",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0109",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     },
     {
       "id": "SSG0110",
-      "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "category": "Analyzer"
     }
   ]
 }

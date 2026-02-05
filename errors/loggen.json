@@ -2,7 +2,7 @@
   "prefix": "LOGGEN",
   "repo": "extensions",
   "description": "LoggerMessage source generator diagnostics",
-  "generated_at": "2026-02-05T01:02:13.8054809Z",
+  "generated_at": "2026-02-05T01:11:25.4036344Z",
   "diagnostics": [
     {
       "id": "LOGGEN000",
@@ -267,15 +267,13 @@
       "id": "LOGGEN037",
       "category": "Analyzer",
       "name": "LOGGEN037",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN037",
-      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=dotnet-extensions-warnings/LOGGEN037"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN037"
     },
     {
       "id": "LOGGEN038",
       "category": "Analyzer",
       "name": "LOGGEN038",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN038",
-      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=dotnet-extensions-warnings/LOGGEN038"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/LOGGEN038"
     }
   ]
 }

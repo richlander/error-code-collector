@@ -126,10 +126,13 @@ public class AspNetCoreCollector : ICollector
 
     private static string? GetHelpUrl(string prefix, string id)
     {
+        // Use per-diagnostic URLs where documentation exists
         return prefix switch
         {
+            "ASP" or "BL" or "MVC" => $"https://learn.microsoft.com/aspnet/core/diagnostics/{id.ToLowerInvariant()}",
             "RDG" => $"https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/{id.ToLowerInvariant()}",
-            _ => "https://aka.ms/aspnet/analyzers"
+            "API" => $"https://learn.microsoft.com/aspnet/core/diagnostics/{id.ToLowerInvariant()}",
+            _ => null
         };
     }
 }

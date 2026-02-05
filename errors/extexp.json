@@ -2,7 +2,7 @@
   "prefix": "EXTEXP",
   "repo": "extensions",
   "description": "Extensions experimental APIs",
-  "generated_at": "2026-02-05T01:02:13.8054809Z",
+  "generated_at": "2026-02-05T01:11:25.4036344Z",
   "diagnostics": [
     {
       "id": "EXTEXP0001",
@@ -85,8 +85,7 @@
       "id": "EXTEXP0013",
       "category": "Experimental",
       "name": "HttpLogging",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0013",
-      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=dotnet-extensions-warnings/EXTEXP0013"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0013"
     }
   ]
 }

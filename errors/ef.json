@@ -2,7 +2,7 @@
   "prefix": "EF",
   "repo": "efcore",
   "description": "Entity Framework Core diagnostics",
-  "generated_at": "2026-02-05T01:02:13.8054809Z",
+  "generated_at": "2026-02-05T01:11:25.4036344Z",
   "diagnostics": [
     {
       "id": "EF1000",
@@ -12,85 +12,73 @@
       "id": "EF1001",
       "category": "Analyzer",
       "name": "InternalUsage",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF1002",
       "category": "Analyzer",
       "name": "InterpolatedStringUsageInRawQueries",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF1003",
       "category": "Analyzer",
       "name": "StringConcatenationUsageInRawQueries",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF8001",
       "category": "Obsoletion",
       "name": "OwnedJsonObsolete",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF9001",
       "category": "Experimental",
       "name": "ExperimentalApi",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF9002",
       "category": "Experimental",
       "name": "ProviderExperimentalApi",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF9100",
       "category": "Experimental",
       "name": "PrecompiledQueryExperimental",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF9101",
       "category": "Experimental",
       "name": "MetricsExperimental",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF9102",
       "category": "Experimental",
       "name": "PagingExperimental",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF9103",
       "category": "Experimental",
       "name": "CosmosVectorSearchExperimental",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF9104",
       "category": "Experimental",
       "name": "CosmosFullTextSearchExperimental",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     },
     {
       "id": "EF9105",
       "category": "Experimental",
       "name": "SqlServerVectorSearch",
-      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
-      "long_url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+      "help_url": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
     }
   ]
 }

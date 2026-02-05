@@ -1,0 +1,160 @@
+{
+  "repos": {
+    "roslyn": {
+      "prefixes": {
+        "CS": {
+          "description": "C# compiler errors and warnings",
+          "pattern": "^CS\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/language-reference/compiler-messages/{id}.md"
+        }
+      }
+    },
+    "runtime": {
+      "prefixes": {
+        "SYSLIB": {
+          "description": "Runtime obsoletions, analyzers, and experimental APIs",
+          "pattern": "^SYSLIB\\d{4}$",
+          "helpUrl": "https://aka.ms/dotnet-warnings/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/{id}.md"
+        }
+      }
+    },
+    "sdk": {
+      "prefixes": {
+        "NETSDK": {
+          "description": "SDK build and restore errors",
+          "pattern": "^NETSDK\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/dotnet/core/tools/sdk-errors/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/sdk-errors/{id}.md"
+        },
+        "CA": {
+          "description": "Code analysis quality rules",
+          "pattern": "^CA\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/code-analysis/quality-rules/{id}.md"
+        }
+      }
+    },
+    "aspnetcore": {
+      "prefixes": {
+        "ASP": {
+          "description": "ASP.NET Core framework analyzers",
+          "pattern": "^ASP\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/aspnet/core/diagnostics/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/diagnostics/{id}.md"
+        },
+        "BL": {
+          "description": "Blazor component diagnostics",
+          "pattern": "^BL\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/aspnet/core/diagnostics/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/diagnostics/{id}.md"
+        },
+        "MVC": {
+          "description": "MVC analyzers",
+          "pattern": "^MVC\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/aspnet/core/diagnostics/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/diagnostics/{id}.md"
+        },
+        "API": {
+          "description": "MVC API analyzers",
+          "pattern": "^API\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/aspnet/core/diagnostics/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/diagnostics/{id}.md"
+        },
+        "RDG": {
+          "description": "Request Delegate Generator diagnostics",
+          "pattern": "^RDG\\d{3}$",
+          "helpUrl": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/{id}.md"
+        },
+        "SSG": {
+          "description": "SignalR Source Generator diagnostics",
+          "pattern": "^SSG\\d{4}$",
+          "helpUrl": null,
+          "markdownUrl": null
+        }
+      }
+    },
+    "efcore": {
+      "prefixes": {
+        "EF": {
+          "description": "Entity Framework Core diagnostics",
+          "pattern": "^EF\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes",
+          "markdownUrl": null
+        }
+      }
+    },
+    "aspire": {
+      "prefixes": {
+        "ASPIRE": {
+          "description": "Aspire hosting and configuration diagnostics",
+          "pattern": "^ASPIRE\\d{3}$",
+          "helpUrl": "https://aka.ms/aspire/diagnostics/{id}",
+          "markdownUrl": null
+        }
+      }
+    },
+    "extensions": {
+      "prefixes": {
+        "LOGGEN": {
+          "description": "LoggerMessage source generator diagnostics",
+          "pattern": "^LOGGEN\\d{3}$",
+          "helpUrl": "https://aka.ms/dotnet-extensions-warnings/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md"
+        },
+        "METGEN": {
+          "description": "Metrics source generator diagnostics",
+          "pattern": "^METGEN\\d{3}$",
+          "helpUrl": "https://aka.ms/dotnet-extensions-warnings/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md"
+        },
+        "CTXOPTGEN": {
+          "description": "Contextual options generator diagnostics",
+          "pattern": "^CTXOPTGEN\\d{3}$",
+          "helpUrl": "https://aka.ms/dotnet-extensions-warnings/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md"
+        },
+        "EXTEXP": {
+          "description": "Extensions experimental APIs",
+          "pattern": "^EXTEXP\\d{4}$",
+          "helpUrl": "https://aka.ms/dotnet-extensions-warnings/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md"
+        },
+        "EXTOBS": {
+          "description": "Extensions obsoletions",
+          "pattern": "^EXTOBS\\d{4}$",
+          "helpUrl": "https://aka.ms/dotnet-extensions-warnings/{id}",
+          "markdownUrl": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md"
+        }
+      }
+    },
+    "msbuild": {
+      "prefixes": {
+        "MSB": {
+          "description": "MSBuild errors and warnings",
+          "pattern": "^MSB\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/{id}",
+          "markdownUrl": null
+        },
+        "BC": {
+          "description": "MSBuild BuildCheck diagnostics",
+          "pattern": "^BC\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/visualstudio/msbuild/errors/{id}",
+          "markdownUrl": null
+        }
+      }
+    },
+    "razor": {
+      "prefixes": {
+        "RZ": {
+          "description": "Razor compiler and analyzer diagnostics",
+          "pattern": "^RZ\\d{4}$",
+          "helpUrl": "https://learn.microsoft.com/aspnet/core/diagnostics/{id}",
+          "markdownUrl": null
+        }
+      }
+    }
+  }
+}

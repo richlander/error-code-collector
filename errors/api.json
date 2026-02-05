@@ -2,31 +2,27 @@
   "prefix": "API",
   "repo": "aspnetcore",
   "description": "MVC API analyzers",
-  "generated_at": "2026-02-05T01:02:13.8054809Z",
+  "generated_at": "2026-02-05T01:17:47.6785822Z",
   "diagnostics": [
     {
       "id": "API1000",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/api1000"
     },
     {
       "id": "API1001",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/api1001"
     },
     {
       "id": "API1002",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/api1002"
     },
     {
       "id": "API1003",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspnet/analyzers",
-      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
+      "help_url": "https://learn.microsoft.com/aspnet/core/diagnostics/api1003"
     }
   ]
 }

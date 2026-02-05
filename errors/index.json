@@ -1,35 +1,7 @@
 {
   "version": "1.0",
-  "generated_at": "2026-02-05T01:02:13.8054809Z",
+  "generated_at": "2026-02-05T01:17:47.6785822Z",
   "prefixes": {
-    "CS": {
-      "file": "cs.json",
-      "repo": "roslyn",
-      "pattern": "^CS\\d{4}$",
-      "count": 1969,
-      "description": "C# compiler errors and warnings"
-    },
-    "SYSLIB": {
-      "file": "syslib.json",
-      "repo": "runtime",
-      "pattern": "^SYSLIB\\d{4}$",
-      "count": 170,
-      "description": "Runtime obsoletions, analyzers, and experimental APIs"
-    },
-    "NETSDK": {
-      "file": "netsdk.json",
-      "repo": "sdk",
-      "pattern": "^NETSDK\\d{4}$",
-      "count": 201,
-      "description": "SDK build and restore errors"
-    },
-    "CA": {
-      "file": "ca.json",
-      "repo": "sdk",
-      "pattern": "^CA\\d{4}$",
-      "count": 315,
-      "description": "Code analysis quality rules"
-    },
     "ASP": {
       "file": "asp.json",
       "repo": "aspnetcore",
@@ -71,76 +43,6 @@
       "pattern": "^SSG\\d{4}$",
       "count": 20,
       "description": "SignalR Source Generator diagnostics"
-    },
-    "EF": {
-      "file": "ef.json",
-      "repo": "efcore",
-      "pattern": "^EF\\d{4}$",
-      "count": 13,
-      "description": "Entity Framework Core diagnostics"
-    },
-    "ASPIRE": {
-      "file": "aspire.json",
-      "repo": "aspire",
-      "pattern": "^ASPIRE\\d{3}$",
-      "count": 8,
-      "description": "Aspire hosting and configuration diagnostics"
-    },
-    "LOGGEN": {
-      "file": "loggen.json",
-      "repo": "extensions",
-      "pattern": "^LOGGEN\\d{3}$",
-      "count": 39,
-      "description": "LoggerMessage source generator diagnostics"
-    },
-    "METGEN": {
-      "file": "metgen.json",
-      "repo": "extensions",
-      "pattern": "^METGEN\\d{3}$",
-      "count": 20,
-      "description": "Metrics source generator diagnostics"
-    },
-    "CTXOPTGEN": {
-      "file": "ctxoptgen.json",
-      "repo": "extensions",
-      "pattern": "^CTXOPTGEN\\d{3}$",
-      "count": 4,
-      "description": "Contextual options generator diagnostics"
-    },
-    "EXTEXP": {
-      "file": "extexp.json",
-      "repo": "extensions",
-      "pattern": "^EXTEXP\\d{4}$",
-      "count": 12,
-      "description": "Extensions experimental APIs"
-    },
-    "EXTOBS": {
-      "file": "extobs.json",
-      "repo": "extensions",
-      "pattern": "^EXTOBS\\d{4}$",
-      "count": 2,
-      "description": "Extensions obsoletions"
-    },
-    "MSB": {
-      "file": "msb.json",
-      "repo": "msbuild",
-      "pattern": "^MSB\\d{4}$",
-      "count": 692,
-      "description": "MSBuild errors and warnings"
-    },
-    "BC": {
-      "file": "bc.json",
-      "repo": "msbuild",
-      "pattern": "^BC\\d{4}$",
-      "count": 13,
-      "description": "MSBuild BuildCheck diagnostics"
-    },
-    "RZ": {
-      "file": "rz.json",
-      "repo": "razor",
-      "pattern": "^RZ\\d{4}$",
-      "count": 122,
-      "description": "Razor compiler and analyzer diagnostics"
     }
   }
 }
