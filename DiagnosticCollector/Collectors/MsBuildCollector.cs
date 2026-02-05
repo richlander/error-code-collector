@@ -162,7 +162,7 @@ public class MsBuildCollector : ICollector
                     Id = id,
                     Category = "BuildCheck",
                     Name = name,
-                    HelpUrl = $"https://learn.microsoft.com/visualstudio/msbuild/errors/{id.ToLowerInvariant()}"
+                    HelpUrl = $"https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/{id.ToLowerInvariant()}"
                 });
             }
         }
