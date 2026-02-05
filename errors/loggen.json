@@ -2,7 +2,7 @@
   "prefix": "LOGGEN",
   "repo": "extensions",
   "description": "LoggerMessage source generator diagnostics",
-  "generated_at": "2026-02-05T02:04:58.7803623Z",
+  "generated_at": "2026-02-05T02:14:05.829598Z",
   "diagnostics": [
     {
       "id": "LOGGEN000",

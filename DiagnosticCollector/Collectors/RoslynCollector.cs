@@ -7,21 +7,17 @@ namespace DiagnosticCollector.Collectors;
 public class RoslynCollector : ICollector
 {
     private readonly string _roslynPath;
-    private readonly string? _docsPath;
 
     public RoslynCollector(string roslynPath, string? docsPath = null)
     {
         _roslynPath = roslynPath;
-        _docsPath = docsPath;
+        // docsPath is no longer used - URLs are generated from patterns
     }
 
     public Task<IReadOnlyList<CollectorResult>> CollectAsync()
     {
         var errorCodeFile = Path.Combine(_roslynPath, "src", "Compilers", "CSharp", "Portable", "Errors", "ErrorCode.cs");
         var resourceFile = Path.Combine(_roslynPath, "src", "Compilers", "CSharp", "Portable", "CSharpResources.resx");
-        var docsDir = _docsPath != null 
-            ? Path.Combine(_docsPath, "docs", "csharp", "language-reference", "compiler-messages")
-            : null;
 
         if (!File.Exists(errorCodeFile))
         {
@@ -37,20 +33,11 @@ public class RoslynCollector : ICollector
         var messages = ParseResourceStrings(resourceFile);
         Console.WriteLine($"    Found {messages.Count} message strings");
 
-        HashSet<string>? localDocs = null;
-        if (docsDir != null && Directory.Exists(docsDir))
-        {
-            Console.WriteLine("  Checking local documentation...");
-            localDocs = GetLocalDocs(docsDir);
-            Console.WriteLine($"    Found {localDocs.Count} local doc files");
-        }
-
         var diagnostics = new List<DiagnosticInfo>();
         foreach (var (enumName, (category, number)) in errorCodes.OrderBy(kv => kv.Value.Number))
         {
             var csCode = $"CS{number:D4}";
             messages.TryGetValue(enumName, out var message);
-            var hasLocalDoc = localDocs?.Contains(csCode) ?? false;
 
             var info = new DiagnosticInfo
             {
@@ -58,12 +45,8 @@ public class RoslynCollector : ICollector
                 Category = category,
                 Name = enumName,
                 Message = message,
-                Url = hasLocalDoc 
-                    ? $"https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/language-reference/compiler-messages/{csCode.ToLowerInvariant()}.md"
-                    : null,
-                ErrorUrl = hasLocalDoc 
-                    ? $"https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/{csCode.ToLowerInvariant()}"
-                    : null
+                Url = $"https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/language-reference/compiler-messages/{csCode.ToLowerInvariant()}.md",
+                ErrorUrl = $"https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/{csCode.ToLowerInvariant()}"
             };
 
             diagnostics.Add(info);
@@ -120,16 +103,4 @@ public class RoslynCollector : ICollector
         return result;
     }
 
-    private static HashSet<string> GetLocalDocs(string docsDir)
-    {
-        var result = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-        
-        foreach (var file in Directory.GetFiles(docsDir, "cs*.md"))
-        {
-            var fileName = Path.GetFileNameWithoutExtension(file);
-            result.Add(fileName.ToUpperInvariant());
-        }
-        
-        return result;
-    }
 }

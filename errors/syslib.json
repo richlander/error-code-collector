@@ -2,7 +2,7 @@
   "prefix": "SYSLIB",
   "repo": "runtime",
   "description": "Runtime obsoletions, analyzers, and experimental APIs",
-  "generated_at": "2026-02-05T02:04:58.7803623Z",
+  "generated_at": "2026-02-05T02:14:05.829598Z",
   "diagnostics": [
     {
       "id": "SYSLIB0001",
