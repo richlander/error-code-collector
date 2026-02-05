@@ -18,6 +18,15 @@ class Program
             return;
         }
 
+        // Load config file
+        CollectorConfig? collectorConfig = null;
+        if (config.ConfigPath != null && File.Exists(config.ConfigPath))
+        {
+            var configJson = await File.ReadAllTextAsync(config.ConfigPath);
+            collectorConfig = JsonSerializer.Deserialize<CollectorConfig>(configJson);
+            Console.WriteLine($"Loaded config from {config.ConfigPath}");
+        }
+
         var collectors = new List<ICollector>();
 
         if (config.RoslynPath != null)
@@ -98,6 +107,22 @@ class Program
             {
                 Console.WriteLine($"Resolving URLs for {result.Prefix}...");
                 await resolver.ResolveDiagnosticsAsync(result.Diagnostics);
+            }
+        }
+
+        // Validate markdown URLs exist (check for 404s)
+        if (config.ValidateUrls && collectorConfig != null)
+        {
+            Console.WriteLine("\nValidating markdown URLs...");
+            using var validator = new MarkdownValidator(collectorConfig);
+            foreach (var result in allResults)
+            {
+                await validator.ValidateDiagnosticsAsync(result.Prefix, result.Diagnostics);
+            }
+
+            if (validator.Warnings.Count > 0)
+            {
+                Console.WriteLine($"\n⚠ {validator.Warnings.Count} documentation issues found");
             }
         }
 
@@ -200,6 +225,12 @@ class Program
                 case "--resolve-urls":
                     config.ResolveUrls = true;
                     break;
+                case "--validate-urls":
+                    config.ValidateUrls = true;
+                    break;
+                case "--config":
+                    config.ConfigPath = args[++i];
+                    break;
             }
         }
 
@@ -226,6 +257,8 @@ class Program
               --razor <path>        Path to razor repository
               --docs <path>         Path to docs repository (for Roslyn doc links)
               --resolve-urls        Resolve short URLs to final destinations (slower)
+              --validate-urls       Validate markdown URLs exist (report 404s)
+              --config <path>       Path to config.json file
               --output, -o <path>   Output directory (default: ./errors)
               --help, -h            Show this help
 
@@ -249,6 +282,8 @@ class Config
     public string? MsBuildPath { get; set; }
     public string? RazorPath { get; set; }
     public string? DocsPath { get; set; }
+    public string? ConfigPath { get; set; }
     public string OutputDir { get; set; } = "./errors";
     public bool ResolveUrls { get; set; }
+    public bool ValidateUrls { get; set; }
 }

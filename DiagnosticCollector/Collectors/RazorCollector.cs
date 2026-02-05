@@ -120,8 +120,7 @@ public class RazorCollector : ICollector
             {
                 Id = id,
                 Category = GetCategory(int.Parse(number)),
-                Name = name,
-                HelpUrl = $"https://learn.microsoft.com/aspnet/core/diagnostics/{id.ToLowerInvariant()}"
+                Name = name
             });
         }
 
@@ -135,8 +134,7 @@ public class RazorCollector : ICollector
                 result.Add(new DiagnosticInfo
                 {
                     Id = id,
-                    Category = GetCategory(number),
-                    HelpUrl = $"https://learn.microsoft.com/aspnet/core/diagnostics/{id.ToLowerInvariant()}"
+                    Category = GetCategory(number)
                 });
             }
         }
