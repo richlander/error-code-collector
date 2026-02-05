@@ -2,1897 +2,2212 @@
   "prefix": "CA",
   "repo": "sdk",
   "description": "Code analysis quality rules",
-  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "generated_at": "2026-02-05T01:02:13.8054809Z",
   "diagnostics": [
     {
       "id": "CA1000",
       "category": "Design",
       "name": "DoNotDeclareStaticMembersOnGenericTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1000"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1000",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1000"
     },
     {
       "id": "CA1001",
       "category": "Design",
       "name": "TypesThatOwnDisposableFieldsShouldBeDisposableAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1001"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1001",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1001"
     },
     {
       "id": "CA1002",
       "category": "Design",
       "name": "DoNotExposeGenericLists",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1002"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1002",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1002"
     },
     {
       "id": "CA1003",
       "category": "Design",
       "name": "UseGenericEventHandlerInstancesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1003"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1003",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1003"
     },
     {
       "id": "CA1005",
       "category": "Design",
       "name": "AvoidExcessiveParametersOnGenericTypes",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1005"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1005",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1005"
     },
     {
       "id": "CA1008",
       "category": "Design",
       "name": "EnumsShouldHaveZeroValueAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1008"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1008",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1008"
     },
     {
       "id": "CA1010",
       "category": "Design",
       "name": "CollectionsShouldImplementGenericInterfaceAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1010"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1010",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1010"
     },
     {
       "id": "CA1012",
       "category": "Design",
       "name": "AbstractTypesShouldNotHaveConstructorsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1012"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1012",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1012"
     },
     {
       "id": "CA1014",
       "category": "Design",
       "name": "MarkAssembliesWithAttributesDiagnosticAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1014"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1014",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1014"
     },
     {
       "id": "CA1016",
       "category": "Design",
       "name": "MarkAssembliesWithAttributesDiagnosticAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1016"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1016",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1016"
     },
     {
       "id": "CA1017",
       "category": "Design",
       "name": "MarkAssembliesWithComVisibleAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1017"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1017",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1017"
     },
     {
       "id": "CA1018",
       "category": "Design",
       "name": "MarkAttributesWithAttributeUsageAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1018"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1018",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1018"
     },
     {
       "id": "CA1019",
       "category": "Design",
       "name": "DefineAccessorsForAttributeArgumentsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1019"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1019",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1019"
     },
     {
       "id": "CA1021",
       "category": "Design",
       "name": "AvoidOutParameters",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1021"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1021",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1021"
     },
     {
       "id": "CA1024",
       "category": "Design",
       "name": "UsePropertiesWhereAppropriateAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1024"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1024",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1024"
     },
     {
       "id": "CA1027",
       "category": "Design",
       "name": "EnumWithFlagsAttributeAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1027"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1027",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1027"
     },
     {
       "id": "CA1028",
       "category": "Design",
       "name": "EnumStorageShouldBeInt32Analyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1028"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1028",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1028"
     },
     {
       "id": "CA1030",
       "category": "Design",
       "name": "UseEventsWhereAppropriateAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1030"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1030",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1030"
     },
     {
       "id": "CA1031",
       "category": "Design",
       "name": "DoNotCatchGeneralExceptionTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1031"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1031",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1031"
     },
     {
       "id": "CA1032",
       "category": "Design",
       "name": "ImplementStandardExceptionConstructorsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1032"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1032",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1032"
     },
     {
       "id": "CA1033",
       "category": "Design",
       "name": "InterfaceMethodsShouldBeCallableByChildTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1033"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1033",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1033"
     },
     {
       "id": "CA1034",
       "category": "Design",
       "name": "NestedTypesShouldNotBeVisibleAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1034"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1034",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1034"
     },
     {
       "id": "CA1036",
       "category": "Design",
       "name": "OverrideMethodsOnComparableTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1036"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1036",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1036"
     },
     {
       "id": "CA1040",
       "category": "Design",
       "name": "AvoidEmptyInterfacesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1040"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1040",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1040"
     },
     {
       "id": "CA1041",
       "category": "Design",
       "name": "ProvideObsoleteAttributeMessageAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1041"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1041",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1041"
     },
     {
       "id": "CA1043",
       "category": "Design",
       "name": "UseIntegralOrStringArgumentForIndexersAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1043"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1043",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1043"
     },
     {
       "id": "CA1044",
       "category": "Design",
       "name": "PropertiesShouldNotBeWriteOnlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1044",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1044"
     },
     {
       "id": "CA1045",
       "category": "Design",
       "name": "DoNotPassTypesByReference",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1045"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1045",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1045"
     },
     {
       "id": "CA1046",
       "category": "Design",
       "name": "DoNotOverloadOperatorEqualsOnReferenceTypes",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1046"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1046",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1046"
     },
     {
       "id": "CA1047",
       "category": "Design",
       "name": "DoNotDeclareProtectedMembersInSealedTypes",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1047"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1047",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1047"
     },
     {
       "id": "CA1050",
       "category": "Design",
       "name": "DeclareTypesInNamespacesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1050"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1050",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1050"
     },
     {
       "id": "CA1051",
       "category": "Design",
       "name": "DoNotDeclareVisibleInstanceFieldsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1051"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1051",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1051"
     },
     {
       "id": "CA1052",
       "category": "Design",
       "name": "StaticHolderTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1052"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1052",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1052"
     },
     {
       "id": "CA1054",
       "category": "Design",
       "name": "UriParametersShouldNotBeStringsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1054"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1054",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1054"
     },
     {
       "id": "CA1055",
       "category": "Design",
       "name": "UriReturnValuesShouldNotBeStringsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1055"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1055",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1055"
     },
     {
       "id": "CA1056",
       "category": "Design",
       "name": "UriPropertiesShouldNotBeStringsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1056"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1056",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1056"
     },
     {
       "id": "CA1058",
       "category": "Design",
       "name": "TypesShouldNotExtendCertainBaseTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1058"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1058",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1058"
     },
     {
       "id": "CA1060",
       "category": "Design",
       "name": "MovePInvokesToNativeMethodsClassAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1060"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1060",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1060"
     },
     {
       "id": "CA1061",
       "category": "Design",
       "name": "DoNotHideBaseClassMethodsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1061"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1061",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1061"
     },
     {
       "id": "CA1062",
       "category": "Design",
       "name": "ValidateArgumentsOfPublicMethods",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1062"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1062",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1062"
     },
     {
       "id": "CA1063",
       "category": "Design",
       "name": "ImplementIDisposableCorrectlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1063"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1063",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1063"
     },
     {
       "id": "CA1064",
       "category": "Design",
       "name": "ExceptionsShouldBePublicAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1064"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1064",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1064"
     },
     {
       "id": "CA1065",
       "category": "Design",
       "name": "DoNotRaiseExceptionsInUnexpectedLocationsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1065"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1065",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1065"
     },
     {
       "id": "CA1066",
       "category": "Design",
       "name": "EquatableAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1066"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1066",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1066"
     },
     {
       "id": "CA1067",
       "category": "Design",
       "name": "EquatableAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1067"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1067",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1067"
     },
     {
       "id": "CA1068",
       "category": "Design",
       "name": "CancellationTokenParametersMustComeLastAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1068"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1068",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1068"
     },
     {
       "id": "CA1069",
       "category": "Design",
       "name": "EnumShouldNotHaveDuplicatedValues",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1069"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1069",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1069"
     },
     {
       "id": "CA1070",
       "category": "Design",
       "name": "DoNotDeclareEventFieldsAsVirtual",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1070"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1070",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1070"
     },
     {
       "id": "CA1200",
       "category": "Documentation",
       "name": "AvoidUsingCrefTagsWithAPrefixAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1200"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1200",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1200"
     },
     {
       "id": "CA1303",
       "category": "Globalization",
       "name": "DoNotPassLiteralsAsLocalizedParameters",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1303"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1303",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1303"
     },
     {
       "id": "CA1304",
       "category": "Globalization",
       "name": "SpecifyCultureInfoAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1304"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1304",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1304"
     },
     {
       "id": "CA1305",
       "category": "Globalization",
       "name": "SpecifyIFormatProviderAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1305"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1305",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1305"
     },
     {
       "id": "CA1307",
       "category": "Globalization",
       "name": "SpecifyStringComparisonAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1307"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1307",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1307"
     },
     {
       "id": "CA1308",
       "category": "Globalization",
       "name": "NormalizeStringsToUppercaseAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1308"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1308",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1308"
     },
     {
       "id": "CA1309",
       "category": "Globalization",
       "name": "UseOrdinalStringComparisonAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1309"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1309",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1309"
     },
     {
       "id": "CA1310",
       "category": "Globalization",
       "name": "SpecifyStringComparisonAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1310"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1310",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1310"
     },
     {
       "id": "CA1311",
       "category": "Globalization",
       "name": "SpecifyCultureForToLowerAndToUpper",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1311"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1311",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1311"
     },
     {
       "id": "CA1401",
       "category": "Interoperability",
       "name": "PInvokeDiagnosticAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1401"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1401",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1401"
     },
     {
       "id": "CA1416",
       "category": "Interoperability",
       "name": "PlatformCompatibilityAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1416"
     },
     {
       "id": "CA1417",
       "category": "Interoperability",
       "name": "DoNotUseOutAttributeStringPInvokeParametersAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1417"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1417",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1417"
     },
     {
       "id": "CA1418",
       "category": "Interoperability",
       "name": "UseValidPlatformString",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1418"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1418",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1418"
     },
     {
       "id": "CA1419",
       "category": "Interoperability",
       "name": "ProvidePublicParameterlessSafeHandleConstructor",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1419"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1419",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1419"
     },
     {
       "id": "CA1420",
       "category": "Interoperability",
       "name": "FeatureUnsupportedWhenRuntimeMarshallingDisabled",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1420"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1420",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1420"
     },
     {
       "id": "CA1421",
       "category": "Interoperability",
       "name": "MethodUsesRuntimeMarshallingEvenWhenMarshallingDisabled",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1421"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1421",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1421"
     },
     {
       "id": "CA1422",
       "category": "Interoperability",
       "name": "PlatformCompatibilityAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1422"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1422",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1422"
     },
     {
       "id": "CA1501",
       "category": "Maintainability",
       "name": "CodeMetricsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1501"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1501",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1501"
     },
     {
       "id": "CA1502",
       "category": "Maintainability",
       "name": "CodeMetricsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1502"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1502",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1502"
     },
     {
       "id": "CA1505",
       "category": "Maintainability",
       "name": "CodeMetricsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1505"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1505",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1505"
     },
     {
       "id": "CA1506",
       "category": "Maintainability",
       "name": "CodeMetricsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1506"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1506",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1506"
     },
     {
       "id": "CA1507",
       "category": "Maintainability",
       "name": "UseNameofInPlaceOfStringAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1507"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1507",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1507"
     },
     {
       "id": "CA1508",
       "category": "Maintainability",
       "name": "AvoidDeadConditionalCode",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1508"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1508",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1508"
     },
     {
       "id": "CA1509",
       "category": "Maintainability",
       "name": "CodeMetricsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1509"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1509",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1509"
     },
     {
       "id": "CA1510",
       "category": "Maintainability",
       "name": "UseExceptionThrowHelpers",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1510"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1510",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1510"
     },
     {
       "id": "CA1511",
       "category": "Maintainability",
       "name": "UseExceptionThrowHelpers",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1511"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1511",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1511"
     },
     {
       "id": "CA1512",
       "category": "Maintainability",
       "name": "UseExceptionThrowHelpers",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1512"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1512",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1512"
     },
     {
       "id": "CA1513",
       "category": "Maintainability",
       "name": "UseExceptionThrowHelpers",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1513"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1513",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1513"
     },
     {
       "id": "CA1514",
       "category": "Maintainability",
       "name": "AvoidLengthCheckWhenSlicingToEndAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1514"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1514",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1514"
     },
     {
       "id": "CA1515",
       "category": "Maintainability",
       "name": "MakeTypesInternal",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1515"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1515",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1515"
     },
     {
       "id": "CA1700",
       "category": "Naming",
       "name": "DoNotNameEnumValuesReserved",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1700"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1700",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1700"
     },
     {
       "id": "CA1707",
       "category": "Naming",
       "name": "IdentifiersShouldNotContainUnderscoresAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1707"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1707",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1707"
     },
     {
       "id": "CA1708",
       "category": "Naming",
       "name": "IdentifiersShouldDifferByMoreThanCaseAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1708"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1708",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1708"
     },
     {
       "id": "CA1710",
       "category": "Naming",
       "name": "IdentifiersShouldHaveCorrectSuffixAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1710"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1710",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1710"
     },
     {
       "id": "CA1711",
       "category": "Naming",
       "name": "IdentifiersShouldNotHaveIncorrectSuffixAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1711"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1711",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1711"
     },
     {
       "id": "CA1712",
       "category": "Naming",
       "name": "DoNotPrefixEnumValuesWithTypeNameAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1712"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1712",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1712"
     },
     {
       "id": "CA1713",
       "category": "Naming",
       "name": "EventsShouldNotHaveBeforeOrAfterPrefix",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1713"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1713",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1713"
     },
     {
       "id": "CA1715",
       "category": "Naming",
       "name": "IdentifiersShouldHaveCorrectPrefixAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1715"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1715",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1715"
     },
     {
       "id": "CA1716",
       "category": "Naming",
       "name": "IdentifiersShouldNotMatchKeywordsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1716"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1716",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1716"
     },
     {
       "id": "CA1720",
       "category": "Naming",
       "name": "IdentifiersShouldNotContainTypeNames",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1720"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1720",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1720"
     },
     {
       "id": "CA1721",
       "category": "Naming",
       "name": "PropertyNamesShouldNotMatchGetMethodsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1721"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1721",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1721"
     },
     {
       "id": "CA1724",
       "category": "Naming",
       "name": "TypeNamesShouldNotMatchNamespacesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1724"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1724",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1724"
     },
     {
       "id": "CA1725",
       "category": "Naming",
       "name": "ParameterNamesShouldMatchBaseDeclarationAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1725"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1725",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1725"
     },
     {
       "id": "CA1727",
       "category": "Naming",
       "name": "LoggerMessageDefineAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1727"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1727",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1727"
     },
     {
       "id": "CA1801",
       "category": "Usage",
       "name": "ReviewUnusedParametersAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1801"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1801",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1801"
     },
     {
       "id": "CA1802",
       "category": "Performance",
       "name": "UseLiteralsWhereAppropriateAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1802"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1802",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1802"
     },
     {
       "id": "CA1805",
       "category": "Performance",
       "name": "DoNotInitializeUnnecessarilyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1805"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1805",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1805"
     },
     {
       "id": "CA1806",
       "category": "Performance",
       "name": "DoNotIgnoreMethodResultsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1806"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1806",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1806"
     },
     {
       "id": "CA1810",
       "category": "Performance",
       "name": "InitializeStaticFieldsInlineAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1810"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1810",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1810"
     },
     {
       "id": "CA1812",
       "category": "Performance",
       "name": "AvoidUninstantiatedInternalClassesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1812"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1812",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1812"
     },
     {
       "id": "CA1813",
       "category": "Performance",
       "name": "AvoidUnsealedAttributesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1813"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1813",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1813"
     },
     {
       "id": "CA1814",
       "category": "Performance",
       "name": "PreferJaggedArraysOverMultidimensionalAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1814"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1814",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1814"
     },
     {
       "id": "CA1815",
       "category": "Performance",
       "name": "OverrideEqualsAndOperatorEqualsOnValueTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1815"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1815",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1815"
     },
     {
       "id": "CA1816",
       "category": "Usage",
       "name": "CallGCSuppressFinalizeCorrectlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1816"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1816",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1816"
     },
     {
       "id": "CA1819",
       "category": "Performance",
       "name": "PropertiesShouldNotReturnArraysAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1819"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1819",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1819"
     },
     {
       "id": "CA1820",
       "category": "Performance",
       "name": "TestForEmptyStringsUsingStringLengthAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1820"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1820",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1820"
     },
     {
       "id": "CA1821",
       "category": "Performance",
       "name": "RemoveEmptyFinalizersAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1821"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1821",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1821"
     },
     {
       "id": "CA1822",
       "category": "Performance",
       "name": "MarkMembersAsStaticAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1822"
     },
     {
       "id": "CA1823",
       "category": "Performance",
       "name": "AvoidUnusedPrivateFieldsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1823"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1823",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1823"
     },
     {
       "id": "CA1824",
       "category": "Performance",
       "name": "MarkAssembliesWithNeutralResourcesLanguageAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1824"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1824",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1824"
     },
     {
       "id": "CA1825",
       "category": "Performance",
       "name": "AvoidZeroLengthArrayAllocationsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1825"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1825",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1825"
     },
     {
       "id": "CA1826",
       "category": "Performance",
       "name": "DoNotUseEnumerableMethodsOnIndexableCollectionsInsteadUseTheCollectionDirectlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1826"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1826",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1826"
     },
     {
       "id": "CA1827",
       "category": "Performance",
       "name": "UseCountProperlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1827"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1827",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1827"
     },
     {
       "id": "CA1828",
       "category": "Performance",
       "name": "UseCountProperlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1828"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1828",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1828"
     },
     {
       "id": "CA1829",
       "category": "Performance",
       "name": "UseCountProperlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1829"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1829",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1829"
     },
     {
       "id": "CA1830",
       "category": "Performance",
       "name": "PreferTypedStringBuilderAppendOverloads",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1830"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1830",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1830"
     },
     {
       "id": "CA1831",
       "category": "Performance",
       "name": "UseAsSpanInsteadOfRangeIndexerAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1831"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1831",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1831"
     },
     {
       "id": "CA1832",
       "category": "Performance",
       "name": "UseAsSpanInsteadOfRangeIndexerAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1832"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1832",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1832"
     },
     {
       "id": "CA1833",
       "category": "Performance",
       "name": "UseAsSpanInsteadOfRangeIndexerAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1833"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1833",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1833"
     },
     {
       "id": "CA1834",
       "category": "Performance",
       "name": "PreferConstCharOverConstUnitStringAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1834"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1834",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1834"
     },
     {
       "id": "CA1835",
       "category": "Performance",
       "name": "PreferStreamAsyncMemoryOverloads",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1835"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1835",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1835"
     },
     {
       "id": "CA1836",
       "category": "Performance",
       "name": "UseCountProperlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1836"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1836",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1836"
     },
     {
       "id": "CA1837",
       "category": "Performance",
       "name": "UseEnvironmentProcessId",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1837"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1837",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1837"
     },
     {
       "id": "CA1838",
       "category": "Performance",
       "name": "AvoidStringBuilderPInvokeParametersAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1838"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1838",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1838"
     },
     {
       "id": "CA1839",
       "category": "Performance",
       "name": "UseEnvironmentMembers",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1839"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1839",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1839"
     },
     {
       "id": "CA1840",
       "category": "Performance",
       "name": "UseEnvironmentMembers",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1840"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1840",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1840"
     },
     {
       "id": "CA1841",
       "category": "Performance",
       "name": "PreferDictionaryContainsMethods",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1841"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1841",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1841"
     },
     {
       "id": "CA1842",
       "category": "Performance",
       "name": "DoNotUseWhenAllOrWaitAllWithSingleArgument",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1842"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1842",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1842"
     },
     {
       "id": "CA1843",
       "category": "Performance",
       "name": "DoNotUseWhenAllOrWaitAllWithSingleArgument",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1843"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1843",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1843"
     },
     {
       "id": "CA1844",
       "category": "Performance",
       "name": "ProvideStreamMemoryBasedAsyncOverrides",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1844"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1844",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1844"
     },
     {
       "id": "CA1845",
       "category": "Performance",
       "name": "UseSpanBasedStringConcat",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1845"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1845",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1845"
     },
     {
       "id": "CA1846",
       "category": "Performance",
       "name": "PreferAsSpanOverSubstring",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1846"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1846",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1846"
     },
     {
       "id": "CA1847",
       "category": "Performance",
       "name": "UseStringContainsCharOverloadWithSingleCharactersAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1847"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1847",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1847"
     },
     {
       "id": "CA1848",
       "category": "Performance",
       "name": "LoggerMessageDefineAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1848"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1848",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1848"
     },
     {
       "id": "CA1849",
       "category": "Performance",
       "name": "UseAsyncMethodInAsyncContext",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1849"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1849",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1849"
     },
     {
       "id": "CA1850",
       "category": "Performance",
       "name": "PreferHashDataOverComputeHashAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1850"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1850",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1850"
     },
     {
       "id": "CA1851",
       "category": "Performance",
       "name": "AvoidMultipleEnumerations",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1851"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1851",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1851"
     },
     {
       "id": "CA1852",
       "category": "Performance",
       "name": "SealInternalTypes",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1852"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1852",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1852"
     },
     {
       "id": "CA1853",
       "category": "Performance",
       "name": "DoNotGuardDictionaryRemoveByContainsKey",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1853"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1853",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1853"
     },
     {
       "id": "CA1854",
       "category": "Performance",
       "name": "PreferDictionaryTryGetValueAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1854"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1854",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1854"
     },
     {
       "id": "CA1855",
       "category": "Performance",
       "name": "UseSpanClearInsteadOfFillAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1855"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1855",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1855"
     },
     {
       "id": "CA1856",
       "category": "Performance",
       "name": "ConstantExpectedAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1856"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1856",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1856"
     },
     {
       "id": "CA1857",
       "category": "Performance",
       "name": "ConstantExpectedAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1857"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1857",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1857"
     },
     {
       "id": "CA1858",
       "category": "Performance",
       "name": "UseStartsWithInsteadOfIndexOfComparisonWithZero",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1858"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1858",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1858"
     },
     {
       "id": "CA1859",
       "category": "Performance",
       "name": "UseConcreteTypeAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1859"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1859",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1859"
     },
     {
       "id": "CA1860",
       "category": "Performance",
       "name": "PreferLengthCountIsEmptyOverAnyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1860"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1860",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1860"
     },
     {
       "id": "CA1861",
       "category": "Performance",
       "name": "AvoidConstArrays",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1861"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1861",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1861"
     },
     {
       "id": "CA1862",
       "category": "Performance",
       "name": "RecommendCaseInsensitiveStringComparison",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1862"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1862",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1862"
     },
     {
       "id": "CA1863",
       "category": "Performance",
       "name": "UseCompositeFormatAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1863"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1863",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1863"
     },
     {
       "id": "CA1864",
       "category": "Performance",
       "name": "PreferDictionaryTryAddValueOverGuardedAddAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1864"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1864",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1864"
     },
     {
       "id": "CA1865",
       "category": "Performance",
       "name": "UseStringMethodCharOverloadWithSingleCharacters",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1865"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1865",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1865-ca1867"
     },
     {
       "id": "CA1866",
       "category": "Performance",
       "name": "UseStringMethodCharOverloadWithSingleCharacters",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1866"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1866",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1865-ca1867"
     },
     {
       "id": "CA1867",
       "category": "Performance",
       "name": "UseStringMethodCharOverloadWithSingleCharacters",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1867"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1867",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1865-ca1867"
     },
     {
       "id": "CA1868",
       "category": "Performance",
       "name": "DoNotGuardSetAddOrRemoveByContains",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1868"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1868",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1868"
     },
     {
       "id": "CA1869",
       "category": "Performance",
       "name": "AvoidSingleUseOfLocalJsonSerializerOptions",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1869"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1869",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1869"
     },
     {
       "id": "CA1870",
       "category": "Performance",
       "name": "UseSearchValuesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1870"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1870",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1870"
     },
     {
       "id": "CA1871",
       "category": "Performance",
       "name": "DoNotPassNonNullableValueToArgumentNullExceptionThrowIfNull",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1871"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1871",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1871"
     },
     {
       "id": "CA1872",
       "category": "Performance",
       "name": "PreferConvertToHexStringOverBitConverterAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1872"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1872",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1872"
     },
     {
       "id": "CA2000",
       "category": "Reliability",
       "name": "DisposeObjectsBeforeLosingScope",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2000"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2000",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2000"
     },
     {
       "id": "CA2002",
       "category": "Reliability",
       "name": "DoNotLockOnObjectsWithWeakIdentityAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2002"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2002",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2002"
     },
     {
       "id": "CA2007",
       "category": "Reliability",
       "name": "DoNotDirectlyAwaitATaskAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2007"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2007",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2007"
     },
     {
       "id": "CA2008",
       "category": "Reliability",
       "name": "DoNotCreateTasksWithoutPassingATaskSchedulerAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2008"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2008",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2008"
     },
     {
       "id": "CA2009",
       "category": "Reliability",
       "name": "DoNotCallToImmutableCollectionOnAnImmutableCollectionValueAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2009"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2009",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2009"
     },
     {
       "id": "CA2011",
       "category": "Reliability",
       "name": "AvoidInfiniteRecursion",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2011"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2011",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2011"
     },
     {
       "id": "CA2012",
       "category": "Reliability",
       "name": "UseValueTasksCorrectlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2012"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2012",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2012"
     },
     {
       "id": "CA2013",
       "category": "Reliability",
       "name": "DoNotUseReferenceEqualsWithValueTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2013"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2013",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2013"
     },
     {
       "id": "CA2014",
       "category": "Reliability",
       "name": "CSharpDoNotUseStackallocInLoopsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2014"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2014",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2014"
     },
     {
       "id": "CA2015",
       "category": "Reliability",
       "name": "DoNotDefineFinalizersForTypesDerivedFromMemoryManager",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2015"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2015",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2015"
     },
     {
       "id": "CA2016",
       "category": "Reliability",
       "name": "ForwardCancellationTokenToInvocationsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2016"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2016",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2016"
     },
     {
       "id": "CA2017",
       "category": "Reliability",
       "name": "LoggerMessageDefineAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2017"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2017",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2017"
     },
     {
       "id": "CA2018",
       "category": "Reliability",
       "name": "BufferBlockCopyLengthAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2018"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2018",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2018"
     },
     {
       "id": "CA2019",
       "category": "Reliability",
       "name": "UseThreadStaticCorrectly",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2019"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2019",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2019"
     },
     {
       "id": "CA2020",
       "category": "Reliability",
       "name": "PreventNumericIntPtrUIntPtrBehavioralChanges",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2020"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2020",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2020"
     },
     {
       "id": "CA2021",
       "category": "Reliability",
       "name": "DoNotCallEnumerableCastOrOfTypeWithIncompatibleTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2021"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2021",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2021"
     },
     {
       "id": "CA2022",
       "category": "Reliability",
       "name": "AvoidUnreliableStreamReadAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2022"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2022",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2022"
     },
     {
       "id": "CA2100",
       "category": "Security",
       "name": "ReviewSqlQueriesForSecurityVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2100"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2100",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2100"
     },
     {
       "id": "CA2101",
       "category": "Globalization",
       "name": "PInvokeDiagnosticAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2101"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2101",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2101"
     },
     {
       "id": "CA2109",
       "category": "Security",
       "name": "ReviewVisibleEventHandlersAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2109"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2109",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2109"
     },
     {
       "id": "CA2119",
       "category": "Security",
       "name": "SealMethodsThatSatisfyPrivateInterfacesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2119"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2119",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2119"
     },
     {
       "id": "CA2153",
       "category": "Security",
       "name": "DoNotCatchCorruptedStateExceptionsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2153"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2153",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2153"
     },
     {
       "id": "CA2200",
       "category": "Usage",
       "name": "RethrowToPreserveStackDetailsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2200"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2200",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2200"
     },
     {
       "id": "CA2201",
       "category": "Usage",
       "name": "DoNotRaiseReservedExceptionTypesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2201"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2201",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2201"
     },
     {
       "id": "CA2207",
       "category": "Usage",
       "name": "InitializeStaticFieldsInlineAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2207"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2207",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2207"
     },
     {
       "id": "CA2208",
       "category": "Usage",
       "name": "InstantiateArgumentExceptionsCorrectlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2208"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2208",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2208"
     },
     {
       "id": "CA2211",
       "category": "Usage",
       "name": "NonConstantFieldsShouldNotBeVisibleAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2211"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2211",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2211"
     },
     {
       "id": "CA2213",
       "category": "Usage",
       "name": "DisposableFieldsShouldBeDisposed",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2213"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2213",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2213"
     },
     {
       "id": "CA2214",
       "category": "Usage",
       "name": "DoNotCallOverridableMethodsInConstructorsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2214"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2214",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2214"
     },
     {
       "id": "CA2215",
       "category": "Usage",
       "name": "DisposeMethodsShouldCallBaseClassDispose",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2215"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2215",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2215"
     },
     {
       "id": "CA2216",
       "category": "Usage",
       "name": "DisposableTypesShouldDeclareFinalizerAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2216"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2216",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2216"
     },
     {
       "id": "CA2217",
       "category": "Usage",
       "name": "EnumWithFlagsAttributeAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2217"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2217",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2217"
     },
     {
       "id": "CA2218",
       "category": "Usage",
       "name": "BasicOverrideGetHashCodeOnOverridingEqualsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2218"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2218",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2218"
     },
     {
       "id": "CA2219",
       "category": "Usage",
       "name": "DoNotRaiseExceptionsInExceptionClausesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2219"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2219",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2219"
     },
     {
       "id": "CA2224",
       "category": "Usage",
       "name": "BasicOverrideEqualsOnOverloadingOperatorEqualsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2224"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2224",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2224"
     },
     {
       "id": "CA2225",
       "category": "Usage",
       "name": "OperatorOverloadsHaveNamedAlternatesAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2225"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2225",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2225"
     },
     {
       "id": "CA2226",
       "category": "Usage",
       "name": "OperatorsShouldHaveSymmetricalOverloadsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2226"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2226",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2226"
     },
     {
       "id": "CA2227",
       "category": "Usage",
       "name": "CollectionPropertiesShouldBeReadOnlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2227"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2227",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2227"
     },
     {
       "id": "CA2229",
       "category": "Usage",
       "name": "SerializationRulesDiagnosticAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2229"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2229",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2229"
     },
     {
       "id": "CA2231",
       "category": "Usage",
       "name": "OverloadOperatorEqualsOnOverridingValueTypeEqualsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2231"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2231",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2231"
     },
     {
       "id": "CA2234",
       "category": "Usage",
       "name": "PassSystemUriObjectsInsteadOfStringsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2234"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2234",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2234"
     },
     {
       "id": "CA2235",
       "category": "Usage",
       "name": "SerializationRulesDiagnosticAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2235"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2235",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2235"
     },
     {
       "id": "CA2237",
       "category": "Usage",
       "name": "SerializationRulesDiagnosticAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2237"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2237",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2237"
     },
     {
       "id": "CA2241",
       "category": "Usage",
       "name": "ProvideCorrectArgumentsToFormattingMethodsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2241"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2241",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2241"
     },
     {
       "id": "CA2242",
       "category": "Usage",
       "name": "TestForNaNCorrectlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2242"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2242",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2242"
     },
     {
       "id": "CA2243",
       "category": "Usage",
       "name": "AttributeStringLiteralsShouldParseCorrectlyAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2243"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2243",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2243"
     },
     {
       "id": "CA2244",
       "category": "Usage",
       "name": "AvoidDuplicateElementInitialization",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2244"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2244",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2244"
     },
     {
       "id": "CA2245",
       "category": "Usage",
       "name": "AvoidPropertySelfAssignment",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2245"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2245",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2245"
     },
     {
       "id": "CA2246",
       "category": "Usage",
       "name": "AssigningSymbolAndItsMemberInSameStatement",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2246"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2246",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2246"
     },
     {
       "id": "CA2247",
       "category": "Usage",
       "name": "DoNotCreateTaskCompletionSourceWithWrongArguments",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2247"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2247",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2247"
     },
     {
       "id": "CA2248",
       "category": "Usage",
       "name": "ProvideCorrectArgumentToEnumHasFlag",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2248"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2248",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2248"
     },
     {
       "id": "CA2249",
       "category": "Usage",
       "name": "PreferStringContainsOverIndexOfAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2249"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2249",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2249"
     },
     {
       "id": "CA2250",
       "category": "Usage",
       "name": "UseCancellationTokenThrowIfCancellationRequested",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2250"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2250",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2250"
     },
     {
       "id": "CA2251",
       "category": "Usage",
       "name": "UseStringEqualsOverStringCompare",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2251"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2251",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2251"
     },
     {
       "id": "CA2252",
       "category": "Usage",
       "name": "DetectPreviewFeatureAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2252"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2252",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2252"
     },
     {
       "id": "CA2253",
       "category": "Usage",
       "name": "LoggerMessageDefineAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2253"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2253",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2253"
     },
     {
       "id": "CA2254",
       "category": "Usage",
       "name": "LoggerMessageDefineAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2254"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2254",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2254"
     },
     {
       "id": "CA2255",
       "category": "Usage",
       "name": "ModuleInitializerAttributeShouldNotBeUsedInLibraries",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2255"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2255",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2255"
     },
     {
       "id": "CA2256",
       "category": "Usage",
       "name": "InterfaceMembersMissingImplementation",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2256"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2256",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2256"
     },
     {
       "id": "CA2257",
       "category": "Usage",
       "name": "MembersDeclaredOnImplementationTypeMustBeStatic",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2257"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2257",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2257"
     },
     {
       "id": "CA2258",
       "category": "Usage",
       "name": "DynamicInterfaceCastableImplementationUnsupported",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2258"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2258",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2258"
     },
     {
       "id": "CA2259",
       "category": "Usage",
       "name": "UseThreadStaticCorrectly",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2259"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2259",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2259"
     },
     {
       "id": "CA2260",
       "category": "Usage",
       "name": "ImplementGenericMathInterfacesCorrectly",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2260"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2260",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2260"
     },
     {
       "id": "CA2261",
       "category": "Usage",
       "name": "DoNotUseConfigureAwaitWithSuppressThrowing",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2261"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2261",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2261"
     },
     {
       "id": "CA2262",
       "category": "Usage",
       "name": "ProvideHttpClientHandlerMaxResponseHeaderLengthValueCorrectly",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2262"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2262",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2262"
     },
     {
       "id": "CA2263",
       "category": "Usage",
       "name": "PreferGenericOverloadsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2263"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2263",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2263"
     },
     {
       "id": "CA2264",
       "category": "Usage",
       "name": "DoNotPassNonNullableValueToArgumentNullExceptionThrowIfNull",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2264"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2264",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2264"
     },
     {
       "id": "CA2265",
       "category": "Usage",
       "name": "DoNotCompareSpanToNullAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2265"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2265",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2265"
     },
     {
       "id": "CA2300",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerBinaryFormatterMethods",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2300"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2300",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2300"
     },
     {
       "id": "CA2301",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerBinaryFormatterWithoutBinder",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2301"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2301",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2301"
     },
     {
       "id": "CA2302",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerBinaryFormatterWithoutBinder",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2302"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2302",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2302"
     },
     {
       "id": "CA2305",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerLosFormatter",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2305"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2305",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2305"
     },
     {
       "id": "CA2310",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerNetDataContractSerializerMethods",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2310"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2310",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2310"
     },
     {
       "id": "CA2311",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerNetDataContractSerializerWithoutBinder",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2311"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2311",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2311"
     },
     {
       "id": "CA2312",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerNetDataContractSerializerWithoutBinder",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2312"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2312",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2312"
     },
     {
       "id": "CA2315",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerObjectStateFormatter",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2315"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2315",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2315"
     },
     {
       "id": "CA2321",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerJavaScriptSerializerWithSimpleTypeResolver",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2321"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2321",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2321"
     },
     {
       "id": "CA2322",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerJavaScriptSerializerWithSimpleTypeResolver",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2322"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2322",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2322"
     },
     {
       "id": "CA2326",
       "category": "Security",
       "name": "JsonNetTypeNameHandling",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2326"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2326",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2326"
     },
     {
       "id": "CA2327",
       "category": "Security",
       "name": "DoNotUseInsecureSettingsForJsonNet",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2327"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2327",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2327"
     },
     {
       "id": "CA2328",
       "category": "Security",
       "name": "DoNotUseInsecureSettingsForJsonNet",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2328"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2328",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2328"
     },
     {
       "id": "CA2329",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerJsonNetWithoutBinder",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2329"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2329",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2329"
     },
     {
       "id": "CA2330",
       "category": "Security",
       "name": "DoNotUseInsecureDeserializerJsonNetWithoutBinder",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2330"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2330",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2330"
     },
     {
       "id": "CA2350",
       "category": "Security",
       "name": "DoNotUseDataTableReadXml",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2350"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2350",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2350"
     },
     {
       "id": "CA2351",
       "category": "Security",
       "name": "DoNotUseDataSetReadXml",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2351"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2351",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2351"
     },
     {
       "id": "CA2352",
       "category": "Security",
       "name": "DataSetDataTableInSerializableTypeAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2352"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2352",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2352"
     },
     {
       "id": "CA2353",
       "category": "Security",
       "name": "DataSetDataTableInSerializableTypeAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2353"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2353",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2353"
     },
     {
       "id": "CA2354",
       "category": "Security",
       "name": "DataSetDataTableInIFormatterSerializableObjectGraphAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2354"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2354",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2354"
     },
     {
       "id": "CA2355",
       "category": "Security",
       "name": "DataSetDataTableInSerializableObjectGraphAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2355"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2355",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2355"
     },
     {
       "id": "CA2356",
       "category": "Security",
       "name": "DataSetDataTableInWebSerializableObjectGraphAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2356"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2356",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2356"
     },
     {
       "id": "CA2361",
       "category": "Security",
       "name": "DoNotUseDataSetReadXml",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2361"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2361",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2361"
     },
     {
       "id": "CA2362",
       "category": "Security",
       "name": "DataSetDataTableInSerializableTypeAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2362"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2362",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2362"
     },
     {
       "id": "CA3001",
       "category": "Security",
       "name": "ReviewCodeForSqlInjectionVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3001"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3001",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3001"
     },
     {
       "id": "CA3002",
       "category": "Security",
       "name": "ReviewCodeForXssVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3002"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3002",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3002"
     },
     {
       "id": "CA3003",
       "category": "Security",
       "name": "ReviewCodeForFilePathInjectionVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3003"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3003",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3003"
     },
     {
       "id": "CA3004",
       "category": "Security",
       "name": "ReviewCodeForInformationDisclosureVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3004"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3004",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3004"
     },
     {
       "id": "CA3005",
       "category": "Security",
       "name": "ReviewCodeForLdapInjectionVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3005"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3005",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3005"
     },
     {
       "id": "CA3006",
       "category": "Security",
       "name": "ReviewCodeForCommandExecutionVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3006"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3006",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3006"
     },
     {
       "id": "CA3007",
       "category": "Security",
       "name": "ReviewCodeForOpenRedirectVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3007"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3007",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3007"
     },
     {
       "id": "CA3008",
       "category": "Security",
       "name": "ReviewCodeForXPathInjectionVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3008"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3008",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3008"
     },
     {
       "id": "CA3009",
       "category": "Security",
       "name": "ReviewCodeForXmlInjectionVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3009"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3009",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3009"
     },
     {
       "id": "CA3010",
       "category": "Security",
       "name": "ReviewCodeForXamlInjectionVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3010"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3010",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3010"
     },
     {
       "id": "CA3011",
       "category": "Security",
       "name": "ReviewCodeForDllInjectionVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3011"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3011",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3011"
     },
     {
       "id": "CA3012",
       "category": "Security",
       "name": "ReviewCodeForRegexInjectionVulnerabilities",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3012"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3012",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3012"
     },
     {
       "id": "CA3061",
       "category": "Security",
       "name": "DoNotAddSchemaByURL",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3061"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3061",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3061"
     },
     {
       "id": "CA3075",
       "category": "Security",
       "name": "DoNotUseInsecureDtdProcessingAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3075"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3075",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3075"
     },
     {
       "id": "CA3076",
       "category": "Security",
       "name": "DoNotUseInsecureXSLTScriptExecutionAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3076"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3076",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3076"
     },
     {
       "id": "CA3077",
       "category": "Security",
       "name": "DoNotUseInsecureDtdProcessingInApiDesignAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3077"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3077",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3077"
     },
     {
       "id": "CA3147",
       "category": "Security",
       "name": "MarkVerbHandlersWithValidateAntiforgeryTokenAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3147"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca3147",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3147"
     },
     {
       "id": "CA5350",
       "category": "Security",
       "name": "DoNotUseInsecureCryptographicAlgorithmsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5350"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5350",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5350"
     },
     {
       "id": "CA5351",
       "category": "Security",
       "name": "DoNotUseInsecureCryptographicAlgorithmsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5351"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5351",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5351"
     },
     {
       "id": "CA5358",
       "category": "Security",
       "name": "ApprovedCipherModeAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5358"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5358",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5358"
     },
     {
       "id": "CA5359",
       "category": "Security",
       "name": "DoNotDisableCertificateValidation",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5359"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5359",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5359"
     },
     {
       "id": "CA5360",
       "category": "Security",
       "name": "DoNotCallDangerousMethodsInDeserialization",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5360"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5360",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5360"
     },
     {
       "id": "CA5361",
       "category": "Security",
       "name": "DoNotSetSwitch",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5361"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5361",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5361"
     },
     {
       "id": "CA5362",
       "category": "Security",
       "name": "PotentialReferenceCycleInDeserializedObjectGraph",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5362"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5362",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5362"
     },
     {
       "id": "CA5363",
       "category": "Security",
       "name": "DoNotDisableRequestValidation",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5363"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5363",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5363"
     },
     {
       "id": "CA5364",
       "category": "Security",
       "name": "DoNotUseDeprecatedSecurityProtocols",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5364"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5364",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5364"
     },
     {
       "id": "CA5365",
       "category": "Security",
       "name": "DoNotDisableHTTPHeaderChecking",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5365"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5365",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5365"
     },
     {
       "id": "CA5366",
       "category": "Security",
       "name": "UseXmlReaderForDataSetReadXml",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5366"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5366",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5366"
     },
     {
       "id": "CA5367",
       "category": "Security",
       "name": "DoNotSerializeTypeWithPointerFields",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5367"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5367",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5367"
     },
     {
       "id": "CA5368",
       "category": "Security",
       "name": "SetViewStateUserKey",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5368"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5368",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5368"
     },
     {
       "id": "CA5369",
       "category": "Security",
       "name": "UseXmlReaderForDeserialize",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5369"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5369",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5369"
     },
     {
       "id": "CA5370",
       "category": "Security",
       "name": "UseXmlReaderForValidatingReader",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5370"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5370",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5370"
     },
     {
       "id": "CA5371",
       "category": "Security",
       "name": "UseXmlReaderForSchemaRead",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5371"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5371",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5371"
     },
     {
       "id": "CA5372",
       "category": "Security",
       "name": "UseXmlReaderForXPathDocument",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5372"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5372",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5372"
     },
     {
       "id": "CA5373",
       "category": "Security",
       "name": "DoNotUseObsoleteKDFAlgorithm",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5373"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5373",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5373"
     },
     {
       "id": "CA5374",
       "category": "Security",
       "name": "DoNotUseXslTransform",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5374"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5374",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5374"
     },
     {
       "id": "CA5375",
       "category": "Security",
       "name": "DoNotUseAccountSAS",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5375"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5375",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5375"
     },
     {
       "id": "CA5376",
       "category": "Security",
       "name": "UseSharedAccessProtocolHttpsOnly",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5376"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5376",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5376"
     },
     {
       "id": "CA5377",
       "category": "Security",
       "name": "UseContainerLevelAccessPolicy",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5377"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5377",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5377"
     },
     {
       "id": "CA5378",
       "category": "Security",
       "name": "DoNotSetSwitch",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5378"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5378",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5378"
     },
     {
       "id": "CA5379",
       "category": "Security",
       "name": "DoNotUseWeakKDFAlgorithm",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5379"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5379",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5379"
     },
     {
       "id": "CA5380",
       "category": "Security",
       "name": "DoNotInstallRootCert",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5380"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5380",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5380"
     },
     {
       "id": "CA5381",
       "category": "Security",
       "name": "DoNotInstallRootCert",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5381"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5381",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5381"
     },
     {
       "id": "CA5382",
       "category": "Security",
       "name": "UseSecureCookiesASPNetCore",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5382"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5382",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5382"
     },
     {
       "id": "CA5383",
       "category": "Security",
       "name": "UseSecureCookiesASPNetCore",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5383"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5383",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5383"
     },
     {
       "id": "CA5384",
       "category": "Security",
       "name": "DoNotUseDSA",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5384"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5384",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5384"
     },
     {
       "id": "CA5385",
       "category": "Security",
       "name": "UseRSAWithSufficientKeySize",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5385"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5385",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5385"
     },
     {
       "id": "CA5386",
       "category": "Security",
       "name": "DoNotUseDeprecatedSecurityProtocols",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5386"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5386",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5386"
     },
     {
       "id": "CA5387",
       "category": "Security",
       "name": "DoNotUseWeakKDFInsufficientIterationCount",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5387"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5387",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5387"
     },
     {
       "id": "CA5388",
       "category": "Security",
       "name": "DoNotUseWeakKDFInsufficientIterationCount",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5388"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5388",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5388"
     },
     {
       "id": "CA5389",
       "category": "Security",
       "name": "DoNotAddArchiveItemPathToTheTargetFileSystemPath",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5389"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5389",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5389"
     },
     {
       "id": "CA5390",
       "category": "Security",
       "name": "DoNotHardCodeEncryptionKey",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5390"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5390",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5390"
     },
     {
       "id": "CA5391",
       "category": "Security",
       "name": "UseAutoValidateAntiforgeryToken",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5391"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5391",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5391"
     },
     {
       "id": "CA5392",
       "category": "Security",
       "name": "UseDefaultDllImportSearchPathsAttribute",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5392"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5392",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5392"
     },
     {
       "id": "CA5393",
       "category": "Security",
       "name": "UseDefaultDllImportSearchPathsAttribute",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5393"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5393",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5393"
     },
     {
       "id": "CA5394",
       "category": "Security",
       "name": "DoNotUseInsecureRandomness",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5394"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5394",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5394"
     },
     {
       "id": "CA5395",
       "category": "Security",
       "name": "UseAutoValidateAntiforgeryToken",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5395"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5395",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5395"
     },
     {
       "id": "CA5396",
       "category": "Security",
       "name": "SetHttpOnlyForHttpCookie",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5396"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5396",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5396"
     },
     {
       "id": "CA5397",
       "category": "Security",
       "name": "SslProtocolsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5397"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5397",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5397"
     },
     {
       "id": "CA5398",
       "category": "Security",
       "name": "SslProtocolsAnalyzer",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5398"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5398",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5398"
     },
     {
       "id": "CA5399",
       "category": "Security",
       "name": "DoNotDisableHttpClientCRLCheck",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5399"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5399",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5399"
     },
     {
       "id": "CA5400",
       "category": "Security",
       "name": "DoNotDisableHttpClientCRLCheck",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5400"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5400",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5400"
     },
     {
       "id": "CA5401",
       "category": "Security",
       "name": "DoNotUseCreateEncryptorWithNonDefaultIV",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5401"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5401",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5401"
     },
     {
       "id": "CA5402",
       "category": "Security",
       "name": "DoNotUseCreateEncryptorWithNonDefaultIV",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5402"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5402",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5402"
     },
     {
       "id": "CA5403",
       "category": "Security",
       "name": "DoNotHardCodeCertificate",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5403"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5403",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5403"
     },
     {
       "id": "CA5404",
       "category": "Security",
       "name": "DoNotDisableTokenValidationChecks",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5404"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5404",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5404"
     },
     {
       "id": "CA5405",
       "category": "Security",
       "name": "DoNotAlwaysSkipTokenValidationInDelegates",
-      "helpUrl": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5405"
+      "help_url": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca5405",
+      "long_url": "https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca5405"
     }
   ]
 }

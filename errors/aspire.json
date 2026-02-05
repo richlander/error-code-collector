@@ -2,47 +2,55 @@
   "prefix": "ASPIRE",
   "repo": "aspire",
   "description": "Aspire hosting and configuration diagnostics",
-  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "generated_at": "2026-02-05T01:02:13.8054809Z",
   "diagnostics": [
     {
       "id": "ASPIRE006",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspire/diagnostics/ASPIRE006"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE006",
+      "long_url": "https://aspire.dev/diagnostics/aspire006/"
     },
     {
       "id": "ASPIRE007",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspire/diagnostics/ASPIRE007"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE007",
+      "long_url": "https://aspire.dev/diagnostics/aspire007/"
     },
     {
       "id": "ASPIRE008",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspire/diagnostics/ASPIRE008"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE008",
+      "long_url": "https://aspire.dev/diagnostics/aspire008/"
     },
     {
       "id": "ASPIRE009",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspire/diagnostics/ASPIRE009"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE009",
+      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE009"
     },
     {
       "id": "ASPIRE010",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspire/diagnostics/ASPIRE010"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE010",
+      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE010"
     },
     {
       "id": "ASPIRE011",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspire/diagnostics/ASPIRE011"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE011",
+      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE011"
     },
     {
       "id": "ASPIRE012",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspire/diagnostics/ASPIRE012"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE012",
+      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE012"
     },
     {
       "id": "ASPIRE013",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspire/diagnostics/ASPIRE013"
+      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE013",
+      "long_url": "https://www.bing.com/?ref=aka\u0026shorturl=aspire/diagnostics/ASPIRE013"
     }
   ]
 }

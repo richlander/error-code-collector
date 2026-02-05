@@ -7,4 +7,5 @@ public class DiagnosticInfo
     public string? Name { get; set; }
     public string? Message { get; set; }
     public string? HelpUrl { get; set; }
+    public string? LongUrl { get; set; }
 }

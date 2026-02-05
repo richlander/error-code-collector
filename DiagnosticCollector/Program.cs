@@ -2,6 +2,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using DiagnosticCollector.Collectors;
 using DiagnosticCollector.Models;
+using DiagnosticCollector.Services;
 
 namespace DiagnosticCollector;
 
@@ -89,13 +90,24 @@ class Program
 
         Console.WriteLine($"\nCollected {allResults.Count} prefix groups");
 
+        // Resolve URLs to get final destinations
+        if (config.ResolveUrls)
+        {
+            using var resolver = new UrlResolver();
+            foreach (var result in allResults)
+            {
+                Console.WriteLine($"Resolving URLs for {result.Prefix}...");
+                await resolver.ResolveDiagnosticsAsync(result.Diagnostics);
+            }
+        }
+
         // Ensure output directory exists
         Directory.CreateDirectory(config.OutputDir);
 
         var jsonOptions = new JsonSerializerOptions
         {
             WriteIndented = true,
-            PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull
         };
 
@@ -185,6 +197,9 @@ class Program
                 case "-o":
                     config.OutputDir = args[++i];
                     break;
+                case "--resolve-urls":
+                    config.ResolveUrls = true;
+                    break;
             }
         }
 
@@ -210,7 +225,8 @@ class Program
               --msbuild <path>      Path to msbuild repository
               --razor <path>        Path to razor repository
               --docs <path>         Path to docs repository (for Roslyn doc links)
-              --output, -o <path>   Output directory (default: ./output)
+              --resolve-urls        Resolve short URLs to final destinations (slower)
+              --output, -o <path>   Output directory (default: ./errors)
               --help, -h            Show this help
 
             Examples:
@@ -234,4 +250,5 @@ class Config
     public string? RazorPath { get; set; }
     public string? DocsPath { get; set; }
     public string OutputDir { get; set; } = "./errors";
+    public bool ResolveUrls { get; set; }
 }

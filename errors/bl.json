@@ -2,57 +2,67 @@
   "prefix": "BL",
   "repo": "aspnetcore",
   "description": "Blazor component diagnostics",
-  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "generated_at": "2026-02-05T01:02:13.8054809Z",
   "diagnostics": [
     {
       "id": "BL0001",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     },
     {
       "id": "BL0002",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     },
     {
       "id": "BL0003",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     },
     {
       "id": "BL0004",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     },
     {
       "id": "BL0005",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     },
     {
       "id": "BL0006",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     },
     {
       "id": "BL0007",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     },
     {
       "id": "BL0008",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     },
     {
       "id": "BL0009",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     },
     {
       "id": "BL0010",
       "category": "Analyzer",
-      "helpUrl": "https://aka.ms/aspnet/analyzers"
+      "help_url": "https://aka.ms/aspnet/analyzers",
+      "long_url": "https://learn.microsoft.com/en-us/aspnet/core/diagnostics/code-analysis?view=aspnetcore-10.0"
     }
   ]
 }

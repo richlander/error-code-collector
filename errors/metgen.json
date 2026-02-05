@@ -2,127 +2,147 @@
   "prefix": "METGEN",
   "repo": "extensions",
   "description": "Metrics source generator diagnostics",
-  "generatedAt": "2026-02-05T00:43:11.1410618Z",
+  "generated_at": "2026-02-05T01:02:13.8054809Z",
   "diagnostics": [
     {
       "id": "METGEN000",
       "category": "Analyzer",
       "name": "METGEN000",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN000"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN000",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN001",
       "category": "Analyzer",
       "name": "METGEN001",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN001"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN001",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN002",
       "category": "Analyzer",
       "name": "METGEN002",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN002"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN002",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN003",
       "category": "Analyzer",
       "name": "METGEN003",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN003"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN003",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN004",
       "category": "Analyzer",
       "name": "METGEN004",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN004"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN004",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN005",
       "category": "Analyzer",
       "name": "METGEN005",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN005"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN005",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN006",
       "category": "Analyzer",
       "name": "METGEN006",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN006"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN006",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN007",
       "category": "Analyzer",
       "name": "METGEN007",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN007"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN007",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN008",
       "category": "Analyzer",
       "name": "METGEN008",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN008"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN008",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN009",
       "category": "Analyzer",
       "name": "METGEN009",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN009"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN009",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN010",
       "category": "Analyzer",
       "name": "METGEN010",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN010"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN010",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN011",
       "category": "Analyzer",
       "name": "METGEN011",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN011"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN011",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN012",
       "category": "Analyzer",
       "name": "METGEN012",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN012"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN012",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN013",
       "category": "Analyzer",
       "name": "METGEN013",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN013"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN013",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN014",
       "category": "Analyzer",
       "name": "METGEN014",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN014"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN014",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN015",
       "category": "Analyzer",
       "name": "METGEN015",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN015"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN015",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN016",
       "category": "Analyzer",
       "name": "METGEN016",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN016"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN016",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN017",
       "category": "Analyzer",
       "name": "METGEN017",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN017"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN017",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN018",
       "category": "Analyzer",
       "name": "METGEN018",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN018"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN018",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     },
     {
       "id": "METGEN019",
       "category": "Analyzer",
       "name": "METGEN019",
-      "helpUrl": "https://aka.ms/dotnet-extensions-warnings/METGEN019"
+      "help_url": "https://aka.ms/dotnet-extensions-warnings/METGEN019",
+      "long_url": "https://github.com/dotnet/extensions/blob/main/docs/list-of-diagnostics.md"
     }
   ]
 }
