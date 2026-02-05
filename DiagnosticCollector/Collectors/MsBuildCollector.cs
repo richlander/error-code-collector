@@ -125,7 +125,8 @@ public class MsBuildCollector : ICollector
                         Category = category,
                         Name = name,
                         Message = message.Length > 200 ? message.Substring(0, 200) + "..." : message,
-                        HelpUrl = $"https://learn.microsoft.com/visualstudio/msbuild/errors/{id.ToLowerInvariant()}"
+                        Url = $"https://raw.githubusercontent.com/MicrosoftDocs/visualstudio-docs/main/docs/msbuild/errors/{id.ToLowerInvariant()}.md",
+                        ErrorUrl = $"https://learn.microsoft.com/visualstudio/msbuild/errors/{id.ToLowerInvariant()}"
                     });
                 }
             }
@@ -162,7 +163,8 @@ public class MsBuildCollector : ICollector
                     Id = id,
                     Category = "BuildCheck",
                     Name = name,
-                    HelpUrl = $"https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/{id.ToLowerInvariant()}"
+                    Url = $"https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/{id.ToLowerInvariant()}.md",
+                    ErrorUrl = $"https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/{id.ToLowerInvariant()}"
                 });
             }
         }

@@ -99,17 +99,6 @@ class Program
 
         Console.WriteLine($"\nCollected {allResults.Count} prefix groups");
 
-        // Resolve URLs to get final destinations
-        if (config.ResolveUrls)
-        {
-            using var resolver = new UrlResolver();
-            foreach (var result in allResults)
-            {
-                Console.WriteLine($"Resolving URLs for {result.Prefix}...");
-                await resolver.ResolveDiagnosticsAsync(result.Diagnostics);
-            }
-        }
-
         // Validate markdown URLs exist (check for 404s)
         if (config.ValidateUrls && collectorConfig != null)
         {
@@ -222,9 +211,6 @@ class Program
                 case "-o":
                     config.OutputDir = args[++i];
                     break;
-                case "--resolve-urls":
-                    config.ResolveUrls = true;
-                    break;
                 case "--validate-urls":
                     config.ValidateUrls = true;
                     break;
@@ -256,7 +242,6 @@ class Program
               --msbuild <path>      Path to msbuild repository
               --razor <path>        Path to razor repository
               --docs <path>         Path to docs repository (for Roslyn doc links)
-              --resolve-urls        Resolve short URLs to final destinations (slower)
               --validate-urls       Validate markdown URLs exist (report 404s)
               --config <path>       Path to config.json file
               --output, -o <path>   Output directory (default: ./errors)
@@ -284,6 +269,5 @@ class Config
     public string? DocsPath { get; set; }
     public string? ConfigPath { get; set; }
     public string OutputDir { get; set; } = "./errors";
-    public bool ResolveUrls { get; set; }
     public bool ValidateUrls { get; set; }
 }

@@ -79,7 +79,8 @@ public class SdkCollector : ICollector
                     Id = id,
                     Category = "Build",
                     Message = message,
-                    HelpUrl = $"https://learn.microsoft.com/dotnet/core/tools/sdk-errors/{id.ToLowerInvariant()}"
+                    Url = $"https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/sdk-errors/{id.ToLowerInvariant()}.md",
+                    ErrorUrl = $"https://learn.microsoft.com/dotnet/core/tools/sdk-errors/{id.ToLowerInvariant()}"
                 });
             }
         }
@@ -139,7 +140,8 @@ public class SdkCollector : ICollector
                 Id = id,
                 Category = category,
                 Name = name,
-                HelpUrl = $"https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/{id.ToLowerInvariant()}"
+                Url = $"https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/code-analysis/quality-rules/{id.ToLowerInvariant()}.md",
+                ErrorUrl = $"https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/{id.ToLowerInvariant()}"
             });
         }
 

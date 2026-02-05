@@ -58,7 +58,10 @@ public class RoslynCollector : ICollector
                 Category = category,
                 Name = enumName,
                 Message = message,
-                HelpUrl = hasLocalDoc 
+                Url = hasLocalDoc 
+                    ? $"https://raw.githubusercontent.com/dotnet/docs/main/docs/csharp/language-reference/compiler-messages/{csCode.ToLowerInvariant()}.md"
+                    : null,
+                ErrorUrl = hasLocalDoc 
                     ? $"https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-messages/{csCode.ToLowerInvariant()}"
                     : null
             };

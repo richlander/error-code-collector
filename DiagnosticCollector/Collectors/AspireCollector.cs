@@ -71,7 +71,8 @@ public class AspireCollector : ICollector
             {
                 Id = id,
                 Category = "Analyzer",
-                HelpUrl = $"https://aka.ms/aspire/diagnostics/{id}"
+                Url = $"https://raw.githubusercontent.com/microsoft/aspire.dev/main/src/frontend/src/content/docs/diagnostics/{id.ToLowerInvariant()}.mdx",
+                ErrorUrl = $"https://aka.ms/aspire/diagnostics/{id}"
             });
         }
 

@@ -81,8 +81,8 @@ public class EfCoreCollector : ICollector
             {
                 Id = id,
                 Category = category,
-                Name = name,
-                HelpUrl = $"https://learn.microsoft.com/ef/core/what-is-new/ef-core-9.0/breaking-changes"
+                Name = name
+                // EF Core doesn't have per-diagnostic documentation
             });
         }
 

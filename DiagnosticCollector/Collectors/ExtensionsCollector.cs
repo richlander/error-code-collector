@@ -100,7 +100,8 @@ public class ExtensionsCollector : ICollector
                 Id = id,
                 Name = name,
                 Category = GetCategory(id),
-                HelpUrl = $"https://aka.ms/dotnet-extensions-warnings/{id}"
+                Url = "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+                ErrorUrl = $"https://aka.ms/dotnet-extensions-warnings/{id}"
             });
         }
 
@@ -117,7 +118,8 @@ public class ExtensionsCollector : ICollector
                 Id = id,
                 Name = name,
                 Category = GetCategory(id),
-                HelpUrl = $"https://aka.ms/dotnet-extensions-warnings/{id}"
+                Url = "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+                ErrorUrl = $"https://aka.ms/dotnet-extensions-warnings/{id}"
             });
         }
 
@@ -139,7 +141,8 @@ public class ExtensionsCollector : ICollector
             {
                 Id = id,
                 Category = GetCategory(id),
-                HelpUrl = $"https://aka.ms/dotnet-extensions-warnings/{id}"
+                Url = "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+                ErrorUrl = $"https://aka.ms/dotnet-extensions-warnings/{id}"
             });
         }
 

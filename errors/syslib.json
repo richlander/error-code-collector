@@ -2,1094 +2,1264 @@
   "prefix": "SYSLIB",
   "repo": "runtime",
   "description": "Runtime obsoletions, analyzers, and experimental APIs",
-  "generated_at": "2026-02-05T01:55:36.7284796Z",
+  "generated_at": "2026-02-05T02:04:58.7803623Z",
   "diagnostics": [
     {
       "id": "SYSLIB0001",
       "category": "Obsoletion",
       "name": "SystemTextEncodingUTF7",
       "message": "The UTF-7 encoding is insecure and should not be used. Consider using UTF-8 instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0001"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0001.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0001"
     },
     {
       "id": "SYSLIB0002",
       "category": "Obsoletion",
       "name": "PrincipalPermissionAttribute",
       "message": "PrincipalPermissionAttribute is not honored by the runtime and must not be used.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0002"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0002.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0002"
     },
     {
       "id": "SYSLIB0003",
       "category": "Obsoletion",
       "name": "CodeAccessSecurity",
       "message": "Code Access Security is not supported or honored by the runtime.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0003"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0003.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0003"
     },
     {
       "id": "SYSLIB0004",
       "category": "Obsoletion",
       "name": "ConstrainedExecutionRegion",
       "message": "The Constrained Execution Region (CER) feature is not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0004"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0004.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0004"
     },
     {
       "id": "SYSLIB0005",
       "category": "Obsoletion",
       "name": "GlobalAssemblyCache",
       "message": "The Global Assembly Cache is not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0005"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0005.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0005"
     },
     {
       "id": "SYSLIB0006",
       "category": "Obsoletion",
       "name": "ThreadAbort",
       "message": "Thread.Abort is not supported and throws PlatformNotSupportedException.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0006"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0006.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0006"
     },
     {
       "id": "SYSLIB0007",
       "category": "Obsoletion",
       "name": "DefaultCryptoAlgorithms",
       "message": "The default implementation of this cryptography algorithm is not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0007"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0007.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0007"
     },
     {
       "id": "SYSLIB0008",
       "category": "Obsoletion",
       "name": "CreatePdbGenerator",
       "message": "The CreatePdbGenerator API is not supported and throws PlatformNotSupportedException.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0008"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0008.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0008"
     },
     {
       "id": "SYSLIB0009",
       "category": "Obsoletion",
       "name": "AuthenticationManager",
       "message": "AuthenticationManager is not supported. Methods will no-op or throw PlatformNotSupportedException.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0009"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0009.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0009"
     },
     {
       "id": "SYSLIB0010",
       "category": "Obsoletion",
       "name": "RemotingApis",
       "message": "This Remoting API is not supported and throws PlatformNotSupportedException.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0010"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0010.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0010"
     },
     {
       "id": "SYSLIB0011",
       "category": "Obsoletion",
       "name": "BinaryFormatter",
       "message": "\u0060BinaryFormatter\u0060 serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for recommended alternatives.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0011"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0011.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0011"
     },
     {
       "id": "SYSLIB0012",
       "category": "Obsoletion",
       "name": "CodeBase",
       "message": "Assembly.CodeBase and Assembly.EscapedCodeBase are only included for .NET Framework compatibility. Use Assembly.Location instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0012"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0012.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0012"
     },
     {
       "id": "SYSLIB0013",
       "category": "Obsoletion",
       "name": "EscapeUriString",
       "message": "Uri.EscapeUriString can corrupt the Uri string in some cases. Consider using Uri.EscapeDataString for query string components instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0013"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0013.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0013"
     },
     {
       "id": "SYSLIB0014",
       "category": "Obsoletion",
       "name": "WebRequest",
       "message": "WebRequest, HttpWebRequest, ServicePoint, and WebClient are obsolete. Use HttpClient instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0014"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0014.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0014"
     },
     {
       "id": "SYSLIB0015",
       "category": "Obsoletion",
       "name": "DisablePrivateReflectionAttribute",
       "message": "DisablePrivateReflectionAttribute has no effect in .NET 6.0\u002B.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0015"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0015.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0015"
     },
     {
       "id": "SYSLIB0016",
       "category": "Obsoletion",
       "name": "GetContextInfo",
       "message": "Use the Graphics.GetContextInfo overloads that accept arguments for better performance and fewer allocations.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0016"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0016.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0016"
     },
     {
       "id": "SYSLIB0017",
       "category": "Obsoletion",
       "name": "StrongNameKeyPair",
       "message": "Strong name signing is not supported and throws PlatformNotSupportedException.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0017"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0017.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0017"
     },
     {
       "id": "SYSLIB0018",
       "category": "Obsoletion",
       "name": "ReflectionOnlyLoading",
       "message": "ReflectionOnly loading is not supported and throws PlatformNotSupportedException.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0018"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0018.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0018"
     },
     {
       "id": "SYSLIB0019",
       "category": "Obsoletion",
       "name": "RuntimeEnvironment",
       "message": "RuntimeEnvironment members SystemConfigurationFile, GetRuntimeInterfaceAsIntPtr, and GetRuntimeInterfaceAsObject are not supported and throw PlatformNotSupportedException.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0019"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0019.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0019"
     },
     {
       "id": "SYSLIB0020",
       "category": "Obsoletion",
       "name": "JsonSerializerOptionsIgnoreNullValues",
       "message": "JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0020"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0020.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0020"
     },
     {
       "id": "SYSLIB0021",
       "category": "Obsoletion",
       "name": "DerivedCryptographicTypes",
       "message": "Derived cryptographic types are obsolete. Use the Create method on the base type instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0021"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0021.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0021"
     },
     {
       "id": "SYSLIB0022",
       "category": "Obsoletion",
       "name": "Rijndael",
       "message": "The Rijndael and RijndaelManaged types are obsolete. Use Aes instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0022"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0022.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0022"
     },
     {
       "id": "SYSLIB0023",
       "category": "Obsoletion",
       "name": "RNGCryptoServiceProvider",
       "message": "RNGCryptoServiceProvider is obsolete. To generate a random number, use one of the RandomNumberGenerator static methods instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0023"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0023.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0023"
     },
     {
       "id": "SYSLIB0024",
       "category": "Obsoletion",
       "name": "AppDomainCreateUnload",
       "message": "Creating and unloading AppDomains is not supported and throws an exception.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0024"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0024.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0024"
     },
     {
       "id": "SYSLIB0025",
       "category": "Obsoletion",
       "name": "SuppressIldasmAttribute",
       "message": "SuppressIldasmAttribute has no effect in .NET 6.0\u002B.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0025"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0025.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0025"
     },
     {
       "id": "SYSLIB0026",
       "category": "Obsoletion",
       "name": "X509CertificateImmutable",
       "message": "X509Certificate and X509Certificate2 are immutable. Use X509CertificateLoader to create a new certificate.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0026"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0026.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0026"
     },
     {
       "id": "SYSLIB0027",
       "category": "Obsoletion",
       "name": "PublicKeyProperty",
       "message": "PublicKey.Key is obsolete. Use the appropriate method to get the public key, such as GetRSAPublicKey.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0027"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0027.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0027"
     },
     {
       "id": "SYSLIB0028",
       "category": "Obsoletion",
       "name": "X509CertificatePrivateKey",
       "message": "X509Certificate2.PrivateKey is obsolete. Use the appropriate method to get the private key, such as GetRSAPrivateKey, or use the CopyWithPrivateKey method to create a new instance with a private key.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0028"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0028.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0028"
     },
     {
       "id": "SYSLIB0029",
       "category": "Obsoletion",
       "name": "ProduceLegacyHmacValues",
       "message": "ProduceLegacyHmacValues is obsolete. Producing legacy HMAC values is not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0029"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0029.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0029"
     },
     {
       "id": "SYSLIB0030",
       "category": "Obsoletion",
       "name": "UseManagedSha1",
       "message": "HMACSHA1 always uses the algorithm implementation provided by the platform. Use a constructor without the useManagedSha1 parameter.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0030"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0030.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0030"
     },
     {
       "id": "SYSLIB0031",
       "category": "Obsoletion",
       "name": "CryptoConfigEncodeOID",
       "message": "EncodeOID is obsolete. Use the ASN.1 functionality provided in System.Formats.Asn1.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0031"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0031.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0031"
     },
     {
       "id": "SYSLIB0032",
       "category": "Obsoletion",
       "name": "CorruptedStateRecovery",
       "message": "Recovery from corrupted process state exceptions is not supported; HandleProcessCorruptedStateExceptionsAttribute is ignored.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0032"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0032.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0032"
     },
     {
       "id": "SYSLIB0033",
       "category": "Obsoletion",
       "name": "Rfc2898CryptDeriveKey",
       "message": "Rfc2898DeriveBytes.CryptDeriveKey is obsolete and is not supported. Use PasswordDeriveBytes.CryptDeriveKey instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0033"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0033.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0033"
     },
     {
       "id": "SYSLIB0034",
       "category": "Obsoletion",
       "name": "CmsSignerCspParamsCtor",
       "message": "CmsSigner(CspParameters) is obsolete and is not supported. Use an alternative constructor instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0034"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0034.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0034"
     },
     {
       "id": "SYSLIB0035",
       "category": "Obsoletion",
       "name": "SignerInfoCounterSig",
       "message": "ComputeCounterSignature without specifying a CmsSigner is obsolete and is not supported. Use the overload that accepts a CmsSigner.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0035"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0035.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0035"
     },
     {
       "id": "SYSLIB0036",
       "category": "Obsoletion",
       "name": "RegexCompileToAssembly",
       "message": "Regex.CompileToAssembly is obsolete and not supported. Use the GeneratedRegexAttribute with the regular expression source generator instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0036"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0036.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0036"
     },
     {
       "id": "SYSLIB0037",
       "category": "Obsoletion",
       "name": "AssemblyNameMembers",
       "message": "AssemblyName members HashAlgorithm, ProcessorArchitecture, and VersionCompatibility are obsolete and not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0037"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0037.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0037"
     },
     {
       "id": "SYSLIB0038",
       "category": "Obsoletion",
       "name": "SystemDataSerializationFormatBinary",
       "message": "SerializationFormat.Binary is obsolete and should not be used. See https://aka.ms/serializationformat-binary-obsolete for more information.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0038"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0038.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0038"
     },
     {
       "id": "SYSLIB0039",
       "category": "Obsoletion",
       "name": "TlsVersion10and11",
       "message": "TLS versions 1.0 and 1.1 have known vulnerabilities and are not recommended. Use a newer TLS version instead, or use SslProtocols.None to defer to OS defaults.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0039"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0039.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0039"
     },
     {
       "id": "SYSLIB0040",
       "category": "Obsoletion",
       "name": "EncryptionPolicy",
       "message": "EncryptionPolicy.NoEncryption and AllowEncryption significantly reduce security and should not be used in production code.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0040"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0040.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0040"
     },
     {
       "id": "SYSLIB0041",
       "category": "Obsoletion",
       "message": "The default hash algorithm and iteration counts in Rfc2898DeriveBytes constructors are outdated and insecure. Use a constructor that accepts the hash algorithm and the number of iterations.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0041"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0041.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0041"
     },
     {
       "id": "SYSLIB0042",
       "category": "Obsoletion",
       "name": "EccXmlExportImport",
       "message": "ToXmlString and FromXmlString have no implementation for ECC types, and are obsolete. Use a standard import and export format such as ExportSubjectPublicKeyInfo or ImportSubjectPublicKeyInfo for public keys and ExportPkcs8PrivateKey or ImportPkcs8PrivateKey for private keys.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0042"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0042.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0042"
     },
     {
       "id": "SYSLIB0043",
       "category": "Obsoletion",
       "name": "EcDhPublicKeyBlob",
       "message": "ECDiffieHellmanPublicKey.ToByteArray() and the associated constructor do not have a consistent and interoperable implementation on all platforms. Use ECDiffieHellmanPublicKey.ExportSubjectPublicKeyInfo() instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0043"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0043.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0043"
     },
     {
       "id": "SYSLIB0044",
       "category": "Obsoletion",
       "name": "AssemblyNameCodeBase",
       "message": "AssemblyName.CodeBase and AssemblyName.EscapedCodeBase are obsolete. Using them for loading an assembly is not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0044"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0044.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0044"
     },
     {
       "id": "SYSLIB0045",
       "category": "Obsoletion",
       "name": "CryptoStringFactory",
       "message": "Cryptographic factory methods accepting an algorithm name are obsolete. Use the parameterless Create factory method on the algorithm type instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0045"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0045.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0045"
     },
     {
       "id": "SYSLIB0046",
       "category": "Obsoletion",
       "name": "ControlledExecutionRun",
       "message": "ControlledExecution.Run method may corrupt the process and should not be used in production code.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0046"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0046.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0046"
     },
     {
       "id": "SYSLIB0047",
       "category": "Obsoletion",
       "name": "XmlSecureResolver",
       "message": "XmlSecureResolver is obsolete. Use XmlResolver.ThrowingResolver instead when attempting to forbid XML external entity resolution.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0047"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0047.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0047"
     },
     {
       "id": "SYSLIB0048",
       "category": "Obsoletion",
       "name": "RsaEncryptDecrypt",
       "message": "RSA.EncryptValue and DecryptValue are not supported and throw NotSupportedException. Use RSA.Encrypt and RSA.Decrypt instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0048"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0048.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0048"
     },
     {
       "id": "SYSLIB0049",
       "category": "Obsoletion",
       "name": "JsonSerializerOptionsAddContext",
       "message": "JsonSerializerOptions.AddContext is obsolete. To register a JsonSerializerContext, use either the TypeInfoResolver or TypeInfoResolverChain properties.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0049"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0049.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0049"
     },
     {
       "id": "SYSLIB0050",
       "category": "Obsoletion",
       "name": "LegacyFormatter",
       "message": "Formatter-based serialization is obsolete and should not be used.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0050"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0050.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0050"
     },
     {
       "id": "SYSLIB0051",
       "category": "Obsoletion",
       "name": "LegacyFormatterImpl",
       "message": "This API supports obsolete formatter-based serialization. It should not be called or extended by application code.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0051"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0051.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0051"
     },
     {
       "id": "SYSLIB0052",
       "category": "Obsoletion",
       "name": "RegexExtensibility",
       "message": "This API supports obsolete mechanisms for Regex extensibility. It is not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0052"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0052.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0052"
     },
     {
       "id": "SYSLIB0053",
       "category": "Obsoletion",
       "name": "AesGcmTagConstructor",
       "message": "AesGcm should indicate the required tag size for encryption and decryption. Use a constructor that accepts the tag size.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0053"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0053.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0053"
     },
     {
       "id": "SYSLIB0054",
       "category": "Obsoletion",
       "name": "ThreadVolatileReadWrite",
       "message": "Thread.VolatileRead and Thread.VolatileWrite are obsolete. Use Volatile.Read or Volatile.Write respectively instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0054"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0054.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0054"
     },
     {
       "id": "SYSLIB0055",
       "category": "Obsoletion",
       "name": "ArmIntrinsicPerformsUnsignedOperation",
       "message": "The underlying hardware instruction does not perform a signed saturate narrowing operation, and it always returns an unsigned result. Use the unsigned overload instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0055"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0055.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0055"
     },
     {
       "id": "SYSLIB0056",
       "category": "Obsoletion",
       "name": "LoadFromHashAlgorithm",
       "message": "LoadFrom with a custom AssemblyHashAlgorithm is obsolete. Use overloads without an AssemblyHashAlgorithm.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0056"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0056.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0056"
     },
     {
       "id": "SYSLIB0057",
       "category": "Obsoletion",
       "name": "X509CtorCertDataObsolete",
       "message": "Loading certificate data through the constructor or Import is obsolete. Use X509CertificateLoader instead to load certificates.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0057"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0057.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0057"
     },
     {
       "id": "SYSLIB0058",
       "category": "Obsoletion",
       "name": "TlsCipherAlgorithmEnums",
       "message": "KeyExchangeAlgorithm, KeyExchangeStrength, CipherAlgorithm, CipherStrength, HashAlgorithm and HashStrength properties of SslStream are obsolete. Use NegotiatedCipherSuite instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0058"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0058.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0058"
     },
     {
       "id": "SYSLIB0059",
       "category": "Obsoletion",
       "name": "SystemEventsEventsThreadShutdown",
       "message": "SystemEvents.EventsThreadShutdown callbacks are not run before the process exits. Use AppDomain.ProcessExit instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0059"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0059.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0059"
     },
     {
       "id": "SYSLIB0060",
       "category": "Obsoletion",
       "name": "Rfc2898DeriveBytesCtor",
       "message": "The constructors on Rfc2898DeriveBytes are obsolete. Use the static Pbkdf2 method instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0060"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0060.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0060"
     },
     {
       "id": "SYSLIB0061",
       "category": "Obsoletion",
       "name": "QueryableMinByMaxByTSourceObsolete",
       "message": "The Queryable MinBy and MaxBy taking an IComparer\\\u003CTSource\\\u003E are obsolete. Use the new ones that take an IComparer\\\u003CTKey\\\u003E.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0061"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0061.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0061"
     },
     {
       "id": "SYSLIB0062",
       "category": "Obsoletion",
       "name": "XsltSettingsEnableScript",
       "message": "XSLT Script blocks are not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0062"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0062.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0062"
     },
     {
       "id": "SYSLIB0063",
       "category": "Obsoletion",
       "name": "NamedPipeClientStreamIsConnected",
       "message": "This constructor has been deprecated and argument bool isConnected does not have any effect. Use NamedPipeClientStream(PipeDirection direction, bool isAsync, SafePipeHandle safePipeHandle) instead.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib0063"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib0063.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib0063"
     },
     {
       "id": "SYSLIB1001",
       "category": "Analyzer",
       "message": "Logging method names cannot start with _",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1001"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1001.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1001"
     },
     {
       "id": "SYSLIB1002",
       "category": "Analyzer",
       "message": "Don\u0027t include log level parameters as templates in the logging message",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1002"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1002.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1002"
     },
     {
       "id": "SYSLIB1003",
       "category": "Analyzer",
       "message": "InvalidLoggingMethodParameterNameTitle",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1003"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1003.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1003"
     },
     {
       "id": "SYSLIB1004",
       "category": "Analyzer",
       "message": "Logging class cannot be in nested types",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1004"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1004.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1004"
     },
     {
       "id": "SYSLIB1005",
       "category": "Analyzer",
       "message": "Could not find a required type definition",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1005"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1005.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1005"
     },
     {
       "id": "SYSLIB1006",
       "category": "Analyzer",
       "message": "Multiple logging methods cannot use the same event id within a class",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1006"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1006.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1006"
     },
     {
       "id": "SYSLIB1007",
       "category": "Analyzer",
       "message": "Logging methods must return void",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1007"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1007.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1007"
     },
     {
       "id": "SYSLIB1008",
       "category": "Analyzer",
       "message": "One of the arguments to a logging method must implement the Microsoft.Extensions.Logging.ILogger interface",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1008"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1008.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1008"
     },
     {
       "id": "SYSLIB1009",
       "category": "Analyzer",
       "message": "Logging methods must be static",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1009"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1009.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1009"
     },
     {
       "id": "SYSLIB1010",
       "category": "Analyzer",
       "message": "Logging methods must be partial",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1010"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1010.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1010"
     },
     {
       "id": "SYSLIB1011",
       "category": "Analyzer",
       "message": "Logging methods cannot be generic",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1011"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1011.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1011"
     },
     {
       "id": "SYSLIB1012",
       "category": "Analyzer",
       "message": "Redundant qualifier in logging message",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1012"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1012.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1012"
     },
     {
       "id": "SYSLIB1013",
       "category": "Analyzer",
       "message": "Don\u0027t include exception parameters as templates in the logging message",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1013"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1013.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1013"
     },
     {
       "id": "SYSLIB1014",
       "category": "Analyzer",
       "message": "Logging template has no corresponding method argument",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1014"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1014.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1014"
     },
     {
       "id": "SYSLIB1015",
       "category": "Analyzer",
       "message": "Argument is not referenced from the logging message",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1015"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1015.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1015"
     },
     {
       "id": "SYSLIB1016",
       "category": "Analyzer",
       "message": "Logging methods cannot have a body",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1016"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1016.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1016"
     },
     {
       "id": "SYSLIB1017",
       "category": "Analyzer",
       "message": "A LogLevel value must be supplied in the LoggerMessage attribute or as a parameter to the logging method",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1017"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1017.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1017"
     },
     {
       "id": "SYSLIB1018",
       "category": "Analyzer",
       "message": "Don\u0027t include logger parameters as templates in the logging message",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1018"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1018.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1018"
     },
     {
       "id": "SYSLIB1019",
       "category": "Analyzer",
       "message": "Couldn\u0027t find a field of type Microsoft.Extensions.Logging.ILogger",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1019"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1019.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1019"
     },
     {
       "id": "SYSLIB1020",
       "category": "Analyzer",
       "message": "Found multiple fields of type Microsoft.Extensions.Logging.ILogger",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1020"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1020.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1020"
     },
     {
       "id": "SYSLIB1021",
       "category": "Analyzer",
       "message": "Can\u0027t have the same template with different casing",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1021"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1021.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1021"
     },
     {
       "id": "SYSLIB1022",
       "category": "Analyzer",
       "message": "Logging method contains malformed format strings",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1022"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1022.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1022"
     },
     {
       "id": "SYSLIB1023",
       "category": "Analyzer",
       "message": "Generating more than 6 arguments is not supported",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1023"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1023.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1023"
     },
     {
       "id": "SYSLIB1024",
       "category": "Analyzer",
       "message": "Argument is using the unsupported out parameter modifier",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1024"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1024.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1024"
     },
     {
       "id": "SYSLIB1025",
       "category": "Analyzer",
       "message": "Multiple logging methods cannot use the same event name within a class",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1025"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1025.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1025"
     },
     {
       "id": "SYSLIB1026",
       "category": "Analyzer",
       "message": "C# language version not supported by the logging source generator.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1026"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1026.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1026"
     },
     {
       "id": "SYSLIB1027",
       "category": "Analyzer",
       "message": "Primary constructor parameter of type Microsoft.Extensions.Logging.ILogger is hidden by a field",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1027"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1027.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1027"
     },
     {
       "id": "SYSLIB1030",
       "category": "Analyzer",
       "message": "JsonSourceGenerator did not generate serialization metadata for type",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1030"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1030.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1030"
     },
     {
       "id": "SYSLIB1031",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered a duplicate JsonTypeInfo property name",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1031"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1031.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1031"
     },
     {
       "id": "SYSLIB1032",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered a context class that is not partial",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1032"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1032.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1032"
     },
     {
       "id": "SYSLIB1033",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered a type that has multiple [JsonConstructor] annotations",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1033"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1033.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1033"
     },
     {
       "id": "SYSLIB1034",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered a [JsonStringEnumConverter] annotation",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1034"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1034.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1034"
     },
     {
       "id": "SYSLIB1035",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered a type that has multiple [JsonExtensionData] annotations",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1035"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1035.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1035"
     },
     {
       "id": "SYSLIB1036",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered an invalid [JsonExtensionData] annotation",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1036"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1036.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1036"
     },
     {
       "id": "SYSLIB1037",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered a type with init-only properties for which deserialization is not supported",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1037"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1037.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1037"
     },
     {
       "id": "SYSLIB1038",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered a property annotated with [JsonInclude] that has inaccessible accessors",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1038"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1038.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1038"
     },
     {
       "id": "SYSLIB1039",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered a [JsonDerivedTypeAttribute] annotation with [JsonSourceGenerationMode.Serialization] enabled",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1039"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1039.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1039"
     },
     {
       "id": "SYSLIB1040",
       "category": "Analyzer",
       "message": "Invalid GeneratedRegex attribute",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1040"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1040.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1040"
     },
     {
       "id": "SYSLIB1041",
       "category": "Analyzer",
       "message": "Multiple GeneratedRegex attribute",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1041"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1041.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1041"
     },
     {
       "id": "SYSLIB1042",
       "category": "Analyzer",
       "message": "Invalid GeneratedRegex arguments",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1042"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1042.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1042"
     },
     {
       "id": "SYSLIB1043",
       "category": "Analyzer",
       "message": "GeneratedRegex method must have a valid signature",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1043"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1043.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1043"
     },
     {
       "id": "SYSLIB1044",
       "category": "Analyzer",
       "message": "GeneratedRegex only supports C# 11 and newer",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1044"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1044.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1044"
     },
     {
       "id": "SYSLIB1045",
       "category": "Analyzer",
       "message": "Use \u0027GeneratedRegexAttribute\u0027 to generate the regular expression implementation at compile-time",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1045"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1045.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1045"
     },
     {
       "id": "SYSLIB1050",
       "category": "Analyzer",
       "message": "Invalid LibraryImportAttribute usage",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1050"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1050.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1050"
     },
     {
       "id": "SYSLIB1051",
       "category": "Analyzer",
       "message": "Specified type is not supported by source-generated P/Invokes",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1051"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1051.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1051"
     },
     {
       "id": "SYSLIB1052",
       "category": "Analyzer",
       "message": "Specified configuration is not supported by source-generated P/Invokes",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1052"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1052.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1052"
     },
     {
       "id": "SYSLIB1053",
       "category": "Analyzer",
       "message": "Specified LibraryImportAttribute arguments cannot be forwarded to DllImportAttribute",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1053"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1053.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1053"
     },
     {
       "id": "SYSLIB1054",
       "category": "Analyzer",
       "message": "Use \u0027LibraryImportAttribute\u0027 instead of \u0027DllImportAttribute\u0027 to generate P/Invoke marshalling code at compile time",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1054"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1054.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1054"
     },
     {
       "id": "SYSLIB1055",
       "category": "Analyzer",
       "message": "Invalid CustomMarshallerAttribute usage",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1055"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1055.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1055"
     },
     {
       "id": "SYSLIB1056",
       "category": "Analyzer",
       "message": "Specified native type is invalid",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1056"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1056.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1056"
     },
     {
       "id": "SYSLIB1057",
       "category": "Analyzer",
       "message": "Marshaller type does not have the required shape",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1057"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1057.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1057"
     },
     {
       "id": "SYSLIB1058",
       "category": "Analyzer",
       "message": "Invalid NativeMarshallingAttribute usage",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1058"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1058.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1058"
     },
     {
       "id": "SYSLIB1059",
       "category": "Analyzer",
       "message": "Marshaller type does not support allocating constructor",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1059"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1059.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1059"
     },
     {
       "id": "SYSLIB1060",
       "category": "Analyzer",
       "message": "Specified marshaller type is invalid",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1060"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1060.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1060"
     },
     {
       "id": "SYSLIB1061",
       "category": "Analyzer",
       "message": "Marshaller type has incompatible method signatures",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1061"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1061.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1061"
     },
     {
       "id": "SYSLIB1062",
       "category": "Analyzer",
       "message": "Project must be updated with \u0027\\\u003CAllowUnsafeBlocks\\\u003Etrue\\\u003C/AllowUnsafeBlocks\\\u003E\u0027",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1062"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1062.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1062"
     },
     {
       "id": "SYSLIB1070",
       "category": "Analyzer",
       "message": "Invalid \u0027JSImportAttribute\u0027 usage",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1070"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1070.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1070"
     },
     {
       "id": "SYSLIB1071",
       "category": "Analyzer",
       "message": "Invalid \u0027JSExportAttribute\u0027 usage",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1071"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1071.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1071"
     },
     {
       "id": "SYSLIB1072",
       "category": "Analyzer",
       "message": "Specified type is not supported by source-generated JavaScript interop",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1072"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1072.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1072"
     },
     {
       "id": "SYSLIB1073",
       "category": "Analyzer",
       "message": "Specified configuration is not supported by source-generated JavaScript interop",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1073"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1073.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1073"
     },
     {
       "id": "SYSLIB1074",
       "category": "Analyzer",
       "message": "JSImportAttribute requires unsafe code",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1074"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1074.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1074"
     },
     {
       "id": "SYSLIB1075",
       "category": "Analyzer",
       "message": "JSExportAttribute requires unsafe code",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1075"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1075.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1075"
     },
     {
       "id": "SYSLIB1090",
       "category": "Analyzer",
       "message": "Invalid \u0027GeneratedComInterfaceAttribute\u0027 usage",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1090"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1090.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1090"
     },
     {
       "id": "SYSLIB1091",
       "category": "Analyzer",
       "message": "Method is declared in different partial declaration than the \u0027GeneratedComInterface\u0027 attribute.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1091"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1091.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1091"
     },
     {
       "id": "SYSLIB1092",
       "category": "Analyzer",
       "message": "Usage of \u0027[LibraryImport",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1092"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1092.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1092"
     },
     {
       "id": "SYSLIB1093",
       "category": "Analyzer",
       "message": "Analysis for COM interface generation has failed",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1093"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1093.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1093"
     },
     {
       "id": "SYSLIB1094",
       "category": "Analyzer",
       "message": "The base COM interface failed to generate source. Code will not be generated for this interface.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1094"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1094.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1094"
     },
     {
       "id": "SYSLIB1095",
       "category": "Analyzer",
       "message": "Invalid \u0027GeneratedComClassAttribute\u0027 usage",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1095"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1095.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1095"
     },
     {
       "id": "SYSLIB1096",
       "category": "Analyzer",
       "message": "Use \u0027GeneratedComInterfaceAttribute\u0027 instead of \u0027ComImportAttribute\u0027 to generate COM marshalling code at compile time",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1096"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1096.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1096"
     },
     {
       "id": "SYSLIB1097",
       "category": "Analyzer",
       "message": "This type implements at least one type with the \u0027GeneratedComInterfaceAttribute\u0027 attribute. Add the \u0027GeneratedComClassAttribute\u0027 to enable passing this type to COM and exposing the COM interfaces for the types with the \u0027GeneratedComInterfaceAttribute\u0027 from objects of this type.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1097"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1097.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1097"
     },
     {
       "id": "SYSLIB1098",
       "category": "Analyzer",
       "message": ".NET COM hosting with \u0027EnableComHosting\u0027 only supports built-in COM interop. It does not support source-generated COM interop with \u0027GeneratedComInterfaceAttribute\u0027.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1098"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1098.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1098"
     },
     {
       "id": "SYSLIB1099",
       "category": "Analyzer",
       "message": "COM Interop APIs on \u0027System.Runtime.InteropServices.Marshal\u0027 do not support source-generated COM and will fail at runtime",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1099"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1099.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1099"
     },
     {
       "id": "SYSLIB1100",
       "category": "Analyzer",
       "message": "Configuration binding generator: type is not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1100"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1100.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1100"
     },
     {
       "id": "SYSLIB1101",
       "category": "Analyzer",
       "message": "Configuration binding generator: property on type is not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1101"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1101.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1101"
     },
     {
       "id": "SYSLIB1102",
       "category": "Analyzer",
       "message": "Configuration binding generator: project\u0027s language version must be at least C# 12.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1102"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1102.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1102"
     },
     {
       "id": "SYSLIB1103",
       "category": "Analyzer",
       "message": "Configuration binding generator: value types are invalid inputs to configuration \u0027Bind\u0027 methods.*",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1103"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1103.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1103"
     },
     {
       "id": "SYSLIB1104",
       "category": "Analyzer",
       "message": "Configuration binding generator: Generator cannot determine the target configuration type.*",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1104"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1104.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1104"
     },
     {
       "id": "SYSLIB1201",
       "category": "Analyzer",
       "message": "Options validation generator: Can\u0027t use \u0027ValidateObjectMembersAttribute\u0027 or \u0060ValidateEnumeratedItemsAttribute\u0060 on fields or properties with open generic types.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1201"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1201.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1201"
     },
     {
       "id": "SYSLIB1202",
       "category": "Analyzer",
       "message": "Options validation generator: A member type has no fields or properties to validate.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1202"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1202.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1202"
     },
     {
       "id": "SYSLIB1203",
       "category": "Analyzer",
       "message": "Options validation generator: A type has no fields or properties to validate.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1203"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1203.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1203"
     },
     {
       "id": "SYSLIB1204",
       "category": "Analyzer",
       "message": "Options validation generator: A type annotated with \u0060OptionsValidatorAttribute\u0060 doesn\u0027t implement the necessary interface.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1204"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1204.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1204"
     },
     {
       "id": "SYSLIB1205",
       "category": "Analyzer",
       "message": "Options validation generator: A type already includes an implementation of the \u0027Validate\u0027 method.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1205"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1205.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1205"
     },
     {
       "id": "SYSLIB1206",
       "category": "Analyzer",
       "message": "Options validation generator: Can\u0027t validate private fields or properties.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1206"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1206.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1206"
     },
     {
       "id": "SYSLIB1207",
       "category": "Analyzer",
       "message": "Options validation generator: Member type is not enumerable.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1207"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1207.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1207"
     },
     {
       "id": "SYSLIB1208",
       "category": "Analyzer",
       "message": "Options validation generator: Validators used for transitive or enumerable validation must have a constructor with no parameters.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1208"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1208.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1208"
     },
     {
       "id": "SYSLIB1209",
       "category": "Analyzer",
       "message": "Options validation generator: \u0060OptionsValidatorAttribute\u0060 can\u0027t be applied to a static class.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1209"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1209.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1209"
     },
     {
       "id": "SYSLIB1210",
       "category": "Analyzer",
       "message": "Options validation generator: Null validator type specified for the \u0060ValidateObjectMembersAttribute\u0060 or \u0027ValidateEnumeratedItemsAttribute\u0027 attributes.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1210"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1210.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1210"
     },
     {
       "id": "SYSLIB1211",
       "category": "Analyzer",
       "message": "Options validation generator: Unsupported circular references in model types.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1211"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1211.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1211"
     },
     {
       "id": "SYSLIB1212",
       "category": "Analyzer",
       "message": "Options validation generator: Member potentially missing transitive validation.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1212"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1212.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1212"
     },
     {
       "id": "SYSLIB1213",
       "category": "Analyzer",
       "message": "Options validation generator: Member potentially missing enumerable validation.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1213"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1213.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1213"
     },
     {
       "id": "SYSLIB1214",
       "category": "Analyzer",
       "message": "Options validation generator: Can\u0027t validate constants, static fields or properties.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1214"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1214.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1214"
     },
     {
       "id": "SYSLIB1215",
       "category": "Analyzer",
       "message": "Options validation generator: Validation attribute on the member is inaccessible from the validator type.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1215"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1215.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1215"
     },
     {
       "id": "SYSLIB1216",
       "category": "Analyzer",
       "message": "C# language version not supported by the options validation source generator.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1216"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1216.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1216"
     },
     {
       "id": "SYSLIB1217",
       "category": "Analyzer",
       "message": "The validation attribute is only applicable to properties of type string, array, or ICollection; it cannot be used with other types.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1217"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1217.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1217"
     },
     {
       "id": "SYSLIB1220",
       "category": "Analyzer",
       "message": "JsonSourceGenerator encountered a [JsonConverterAttribute] with an invalid type argument.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1220"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1220.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1220"
     },
     {
       "id": "SYSLIB1221",
       "category": "Analyzer",
       "message": "JsonSourceGenerator does not support this C# language version.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1221"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1221.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1221"
     },
     {
       "id": "SYSLIB1222",
       "category": "Analyzer",
       "message": "Constructor annotated with JsonConstructorAttribute is inaccessible.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1222"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1222.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1222"
     },
     {
       "id": "SYSLIB1223",
       "category": "Analyzer",
       "message": "Attributes deriving from JsonConverterAttribute are not supported by the source generator.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1223"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1223.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1223"
     },
     {
       "id": "SYSLIB1224",
       "category": "Analyzer",
       "message": "Types annotated with JsonSerializableAttribute must be classes deriving from JsonSerializerContext.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1224"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1224.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1224"
     },
     {
       "id": "SYSLIB1225",
       "category": "Analyzer",
       "message": "Type includes ref like property, field or constructor parameter.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1225"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1225.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1225"
     },
     {
       "id": "SYSLIB1230",
       "category": "Analyzer",
       "message": "Deriving from a \u0060GeneratedComInterface\u0060-attributed interface defined in another assembly is not supported.",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib1230"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib1230.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib1230"
     },
     {
       "id": "SYSLIB5001",
       "category": "Experimental",
       "name": "TensorT",
       "message": ".NET 9",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib5001"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib5001.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib5001"
     },
     {
       "id": "SYSLIB5002",
       "category": "Experimental",
       "name": "SystemColors",
       "message": ".NET 9",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib5002"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib5002.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib5002"
     },
     {
       "id": "SYSLIB5003",
       "category": "Experimental",
       "name": "ArmSve",
       "message": ".NET 9",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib5003"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib5003.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib5003"
     },
     {
       "id": "SYSLIB5004",
       "category": "Experimental",
       "name": "X86BaseDivRem",
       "message": ".NET 9",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib5004"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib5004.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib5004"
     },
     {
       "id": "SYSLIB5005",
       "category": "Experimental",
       "message": ".NET 9",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib5005"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib5005.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib5005"
     },
     {
       "id": "SYSLIB5006",
       "category": "Experimental",
       "name": "PostQuantumCryptography",
       "message": ".NET 10",
-      "help_url": "https://aka.ms/dotnet-warnings/syslib5006"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/syslib5006.md",
+      "error_url": "https://aka.ms/dotnet-warnings/syslib5006"
     }
   ]
 }

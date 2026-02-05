@@ -22,8 +22,8 @@ public class PrefixConfig
     [JsonPropertyName("pattern")]
     public string? Pattern { get; set; }
 
-    [JsonPropertyName("helpUrl")]
-    public string? HelpUrl { get; set; }
+    [JsonPropertyName("errorUrl")]
+    public string? ErrorUrl { get; set; }
 
     [JsonPropertyName("markdownUrl")]
     public string? MarkdownUrl { get; set; }
@@ -31,9 +31,9 @@ public class PrefixConfig
     [JsonPropertyName("indexUrl")]
     public string? IndexUrl { get; set; }
 
-    public string GetHelpUrl(string id) =>
-        HelpUrl?.Replace("{id}", id.ToLowerInvariant()) ?? "";
+    public string? GetErrorUrl(string id) =>
+        ErrorUrl?.Replace("{id}", id.ToLowerInvariant());
 
-    public string? GetMarkdownUrl(string id) =>
+    public string? GetUrl(string id) =>
         MarkdownUrl?.Replace("{id}", id.ToLowerInvariant());
 }

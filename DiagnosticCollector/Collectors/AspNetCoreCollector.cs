@@ -94,12 +94,14 @@ public class AspNetCoreCollector : ICollector
             
             if (foundIds.Add(id))
             {
+                var (url, errorUrl) = GetUrls(prefix, id);
                 result.Add(new DiagnosticInfo
                 {
                     Id = id,
                     Category = "Analyzer",
                     Name = name,
-                    HelpUrl = GetHelpUrl(prefix, id)
+                    Url = url,
+                    ErrorUrl = errorUrl
                 });
             }
         }
@@ -112,11 +114,13 @@ public class AspNetCoreCollector : ICollector
             
             if (foundIds.Add(id))
             {
+                var (url, errorUrl) = GetUrls(prefix, id);
                 result.Add(new DiagnosticInfo
                 {
                     Id = id,
                     Category = "Analyzer",
-                    HelpUrl = GetHelpUrl(prefix, id)
+                    Url = url,
+                    ErrorUrl = errorUrl
                 });
             }
         }
@@ -124,15 +128,19 @@ public class AspNetCoreCollector : ICollector
         return result;
     }
 
-    private static string? GetHelpUrl(string prefix, string id)
+    private static (string? Url, string? ErrorUrl) GetUrls(string prefix, string id)
     {
-        // Use per-diagnostic URLs where documentation exists
         return prefix switch
         {
-            "ASP" or "BL" or "MVC" => $"https://learn.microsoft.com/aspnet/core/diagnostics/{id.ToLowerInvariant()}",
-            "RDG" => $"https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/{id.ToLowerInvariant()}",
-            "API" => $"https://learn.microsoft.com/aspnet/core/diagnostics/{id.ToLowerInvariant()}",
-            _ => null
+            "ASP" or "BL" or "MVC" => (
+                $"https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/diagnostics/{id.ToLowerInvariant()}.md",
+                $"https://learn.microsoft.com/aspnet/core/diagnostics/{id.ToLowerInvariant()}"
+            ),
+            "RDG" => (
+                $"https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/{id.ToLowerInvariant()}.md",
+                $"https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/{id.ToLowerInvariant()}"
+            ),
+            _ => (null, null)
         };
     }
 }

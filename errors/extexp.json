@@ -2,79 +2,91 @@
   "prefix": "EXTEXP",
   "repo": "extensions",
   "description": "Extensions experimental APIs",
-  "generated_at": "2026-02-05T01:55:36.7284796Z",
+  "generated_at": "2026-02-05T02:04:58.7803623Z",
   "diagnostics": [
     {
       "id": "EXTEXP0001",
       "category": "Experimental",
       "name": "Resilience",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0001"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0001"
     },
     {
       "id": "EXTEXP0002",
       "category": "Experimental",
       "name": "Compliance",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0002"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0002"
     },
     {
       "id": "EXTEXP0003",
       "category": "Experimental",
       "name": "Telemetry",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0003"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0003"
     },
     {
       "id": "EXTEXP0004",
       "category": "Experimental",
       "name": "TimeProvider",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0004"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0004"
     },
     {
       "id": "EXTEXP0006",
       "category": "Experimental",
       "name": "AsyncState",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0006"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0006"
     },
     {
       "id": "EXTEXP0007",
       "category": "Experimental",
       "name": "HealthChecks",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0007"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0007"
     },
     {
       "id": "EXTEXP0008",
       "category": "Experimental",
       "name": "ResourceMonitoring",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0008"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0008"
     },
     {
       "id": "EXTEXP0009",
       "category": "Experimental",
       "name": "Hosting",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0009"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0009"
     },
     {
       "id": "EXTEXP0010",
       "category": "Experimental",
       "name": "ObjectPool",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0010"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0010"
     },
     {
       "id": "EXTEXP0011",
       "category": "Experimental",
       "name": "DocumentDb",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0011"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0011"
     },
     {
       "id": "EXTEXP0012",
       "category": "Experimental",
       "name": "AutoActivation",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0012"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0012"
     },
     {
       "id": "EXTEXP0013",
       "category": "Experimental",
       "name": "HttpLogging",
-      "help_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0013"
+      "url": "https://raw.githubusercontent.com/dotnet/extensions/main/docs/list-of-diagnostics.md",
+      "error_url": "https://aka.ms/dotnet-extensions-warnings/EXTEXP0013"
     }
   ]
 }

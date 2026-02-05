@@ -2,47 +2,55 @@
   "prefix": "ASPIRE",
   "repo": "aspire",
   "description": "Aspire hosting and configuration diagnostics",
-  "generated_at": "2026-02-05T01:55:36.7284796Z",
+  "generated_at": "2026-02-05T02:04:58.7803623Z",
   "diagnostics": [
     {
       "id": "ASPIRE006",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE006"
+      "url": "https://raw.githubusercontent.com/microsoft/aspire.dev/main/src/frontend/src/content/docs/diagnostics/aspire006.mdx",
+      "error_url": "https://aka.ms/aspire/diagnostics/ASPIRE006"
     },
     {
       "id": "ASPIRE007",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE007"
+      "url": "https://raw.githubusercontent.com/microsoft/aspire.dev/main/src/frontend/src/content/docs/diagnostics/aspire007.mdx",
+      "error_url": "https://aka.ms/aspire/diagnostics/ASPIRE007"
     },
     {
       "id": "ASPIRE008",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE008"
+      "url": "https://raw.githubusercontent.com/microsoft/aspire.dev/main/src/frontend/src/content/docs/diagnostics/aspire008.mdx",
+      "error_url": "https://aka.ms/aspire/diagnostics/ASPIRE008"
     },
     {
       "id": "ASPIRE009",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE009"
+      "url": "https://raw.githubusercontent.com/microsoft/aspire.dev/main/src/frontend/src/content/docs/diagnostics/aspire009.mdx",
+      "error_url": "https://aka.ms/aspire/diagnostics/ASPIRE009"
     },
     {
       "id": "ASPIRE010",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE010"
+      "url": "https://raw.githubusercontent.com/microsoft/aspire.dev/main/src/frontend/src/content/docs/diagnostics/aspire010.mdx",
+      "error_url": "https://aka.ms/aspire/diagnostics/ASPIRE010"
     },
     {
       "id": "ASPIRE011",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE011"
+      "url": "https://raw.githubusercontent.com/microsoft/aspire.dev/main/src/frontend/src/content/docs/diagnostics/aspire011.mdx",
+      "error_url": "https://aka.ms/aspire/diagnostics/ASPIRE011"
     },
     {
       "id": "ASPIRE012",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE012"
+      "url": "https://raw.githubusercontent.com/microsoft/aspire.dev/main/src/frontend/src/content/docs/diagnostics/aspire012.mdx",
+      "error_url": "https://aka.ms/aspire/diagnostics/ASPIRE012"
     },
     {
       "id": "ASPIRE013",
       "category": "Analyzer",
-      "help_url": "https://aka.ms/aspire/diagnostics/ASPIRE013"
+      "url": "https://raw.githubusercontent.com/microsoft/aspire.dev/main/src/frontend/src/content/docs/diagnostics/aspire013.mdx",
+      "error_url": "https://aka.ms/aspire/diagnostics/ASPIRE013"
     }
   ]
 }

@@ -6,6 +6,6 @@ public class DiagnosticInfo
     public string? Category { get; set; }
     public string? Name { get; set; }
     public string? Message { get; set; }
-    public string? HelpUrl { get; set; }
-    public string? LongUrl { get; set; }
+    public string? Url { get; set; }        // Raw markdown URL (best for LLM)
+    public string? ErrorUrl { get; set; }   // URL from error message (aka.ms, learn.microsoft.com)
 }

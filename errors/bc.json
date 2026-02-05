@@ -2,85 +2,98 @@
   "prefix": "BC",
   "repo": "msbuild",
   "description": "MSBuild BuildCheck diagnostics",
-  "generated_at": "2026-02-05T01:55:36.7284796Z",
+  "generated_at": "2026-02-05T02:04:58.7803623Z",
   "diagnostics": [
     {
       "id": "BC0101",
       "category": "BuildCheck",
       "name": "Shared output path.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0101"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0101.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0101"
     },
     {
       "id": "BC0102",
       "category": "BuildCheck",
       "name": "Double writes.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0102"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0102.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0102"
     },
     {
       "id": "BC0103",
       "category": "BuildCheck",
       "name": "Used environment variable.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0103"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0103.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0103"
     },
     {
       "id": "BC0104",
       "category": "BuildCheck",
       "name": "ProjectReference is preferred to Reference.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0104"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0104.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0104"
     },
     {
       "id": "BC0105",
       "category": "BuildCheck",
       "name": "EmbeddedResource should specify Culture metadata.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0105"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0105.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0105"
     },
     {
       "id": "BC0106",
       "category": "BuildCheck",
       "name": "CopyToOutputDirectory=\u0027Always\u0027 should be avoided.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0106"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0106.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0106"
     },
     {
       "id": "BC0107",
       "category": "BuildCheck",
       "name": "TargetFramework and TargetFrameworks specified together.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0107"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0107.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0107"
     },
     {
       "id": "BC0108",
       "category": "BuildCheck",
       "name": "TargetFramework or TargetFrameworks specified in SDK-less project.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0108"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0108.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0108"
     },
     {
       "id": "BC0201",
       "category": "BuildCheck",
       "name": "Usage of undefined property.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0201"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0201.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0201"
     },
     {
       "id": "BC0202",
       "category": "BuildCheck",
       "name": "Property first declared after it was used.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0202"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0202.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0202"
     },
     {
       "id": "BC0203",
       "category": "BuildCheck",
       "name": "Property declared but never used.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0203"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0203.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0203"
     },
     {
       "id": "BC0301",
       "category": "BuildCheck",
       "name": "Building from Downloads folder.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0301"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0301.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0301"
     },
     {
       "id": "BC0302",
       "category": "BuildCheck",
       "name": "Building using the Exec task.",
-      "help_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0302"
+      "url": "https://raw.githubusercontent.com/dotnet/docs/main/docs/core/tools/buildcheck-rules/bc0302.md",
+      "error_url": "https://learn.microsoft.com/dotnet/core/tools/buildcheck-rules/bc0302"
     }
   ]
 }

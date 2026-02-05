@@ -92,7 +92,8 @@ public class RuntimeCollector : ICollector
                 Id = id,
                 Category = category,
                 Message = description,
-                HelpUrl = $"https://aka.ms/dotnet-warnings/{id.ToLowerInvariant()}"
+                Url = $"https://raw.githubusercontent.com/dotnet/docs/main/docs/fundamentals/syslib-diagnostics/{id.ToLowerInvariant()}.md",
+                ErrorUrl = $"https://aka.ms/dotnet-warnings/{id.ToLowerInvariant()}"
             });
         }
 

@@ -44,7 +44,7 @@ public class MarkdownValidator : IDisposable
 
         foreach (var diag in diagnostics)
         {
-            var url = config.GetMarkdownUrl(diag.Id);
+            var url = config.GetUrl(diag.Id);
             if (url == null) continue;
 
             try

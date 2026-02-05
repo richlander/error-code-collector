@@ -2,7 +2,7 @@
   "prefix": "CS",
   "repo": "roslyn",
   "description": "C# compiler errors and warnings",
-  "generated_at": "2026-02-05T01:55:36.7284796Z",
+  "generated_at": "2026-02-05T02:04:58.7803623Z",
   "diagnostics": [
     {
       "id": "CS0006",

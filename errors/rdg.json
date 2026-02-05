@@ -2,77 +2,91 @@
   "prefix": "RDG",
   "repo": "aspnetcore",
   "description": "Request Delegate Generator diagnostics",
-  "generated_at": "2026-02-05T01:55:36.7284796Z",
+  "generated_at": "2026-02-05T02:04:58.7803623Z",
   "diagnostics": [
     {
       "id": "RDG001",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg001"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg001.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg001"
     },
     {
       "id": "RDG002",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg002"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg002.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg002"
     },
     {
       "id": "RDG003",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg003"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg003.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg003"
     },
     {
       "id": "RDG004",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg004"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg004.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg004"
     },
     {
       "id": "RDG005",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg005"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg005.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg005"
     },
     {
       "id": "RDG006",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg006"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg006.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg006"
     },
     {
       "id": "RDG007",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg007"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg007.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg007"
     },
     {
       "id": "RDG008",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg008"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg008.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg008"
     },
     {
       "id": "RDG009",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg009"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg009.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg009"
     },
     {
       "id": "RDG010",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg010"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg010.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg010"
     },
     {
       "id": "RDG011",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg011"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg011.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg011"
     },
     {
       "id": "RDG012",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg012"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg012.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg012"
     },
     {
       "id": "RDG013",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg013"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg013.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg013"
     },
     {
       "id": "RDG014",
       "category": "Analyzer",
-      "help_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg014"
+      "url": "https://raw.githubusercontent.com/dotnet/AspNetCore.Docs/main/aspnetcore/fundamentals/aot/request-delegate-generator/diagnostics/rdg014.md",
+      "error_url": "https://learn.microsoft.com/aspnet/core/fundamentals/aot/request-delegate-generator/diagnostics/rdg014"
     }
   ]
 }
